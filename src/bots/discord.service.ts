@@ -6,16 +6,22 @@ import { Logger } from 'winston';
 @Injectable()
 export class DiscordService implements OnModuleInit {
   private client: Client;
-  private channelId = '1124356972247011360'; // replace with your channel ID
+  private channelId = process.env.DISCORD_CHANNEL_ID; // replace with your channel ID
 
   constructor(
     @Inject(WINSTON_MODULE_PROVIDER) private readonly logger: Logger,
   ) {
-    logger.info('starting DiscordService');
+    this.logger.info('starting DiscordService');
   }
 
   async onModuleInit() {
-    this.client = new Client({
+    this.client = this.createClient();
+    this.registerEventListeners();
+    await this.loginBot();
+  }
+
+  createClient(): Client {
+    return new Client({
       intents: [
         'Guilds',
         'GuildMessages',
@@ -25,45 +31,35 @@ export class DiscordService implements OnModuleInit {
         'MessageContent',
       ],
     });
+  }
 
-    this.client.on('ready', () => {
+  registerEventListeners() {
+    this.client.once('ready', () => {
       this.logger.log('info', `Bot is ready as: ${this.client.user.tag}`);
-
-      const channel = this.client.channels.cache.get(this.channelId) as
-        | TextChannel
-        | NewsChannel;
-      if (channel) {
-        channel.send({ content: 'This is a message' });
-      } else {
-        this.logger.log('info', `No such channel: ${this.channelId}`);
-      }
     });
 
-    this.client.on('messageCreate', (msg: Message) => {
-      this.logger.log('info', `Received message: ${msg.content}`);
-      if (msg.content === '!ping') {
-        msg.reply('pong');
-      }
-    });
-    // const channel = this.client.channels.cache.get(this.channelId) as
-    //   | TextChannel
-    //   | NewsChannel;
-    // channel.send({ content: 'This is a message' });
+    this.client.on('messageCreate', this.handleMessageCreate.bind(this));
+  }
 
-    // this.client.channels
-    //   .fetch(this.channelId)
-    //   .then((channel) => channel.send('booyah!'));
-
+  async loginBot() {
     await this.client.login(process.env.DISCORD_TOKEN);
   }
 
-  // scheduleMessage() {
-  //   setInterval(() => {
-  //     const randomNum = Math.floor(Math.random() * 100);
-  //     const channel = this.client.channels.cache.get(this.channelId);
-  //     if (channel.isText()) {
-  //       channel.send(`Random number: ${randomNum}`);
-  //     }
-  //   }, 5000); // sends a message every 5 seconds
-  // }
+  handleMessageCreate(msg: Message) {
+    this.logger.log('info', `Received message: ${msg.content}`);
+    if (msg.content === '!ping') {
+      msg.reply('pong');
+    }
+  }
+
+  sendMessage(content: string) {
+    const channel = this.client.channels.cache.get(this.channelId) as
+      | TextChannel
+      | NewsChannel;
+    if (channel) {
+      channel.send({ content: content });
+    } else {
+      this.logger.log('info', `No such channel: ${this.channelId}`);
+    }
+  }
 }
