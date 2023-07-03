@@ -8,6 +8,7 @@ import {
 import * as winston from 'winston';
 import { ConfigModule } from '@nestjs/config';
 import { DiscordService } from './bots/discord.service';
+import { GatewayIntentBits } from 'discord.js';
 @Module({
   imports: [
     WinstonModule.forRoot({
