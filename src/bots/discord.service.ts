@@ -1,5 +1,13 @@
 import { Inject, Injectable, OnModuleInit } from '@nestjs/common';
-import { Client, Message, NewsChannel, TextChannel } from 'discord.js';
+import {
+  ActionRowBuilder,
+  ButtonBuilder,
+  ButtonStyle,
+  Client,
+  Message,
+  NewsChannel,
+  TextChannel,
+} from 'discord.js';
 import { WINSTON_MODULE_PROVIDER } from 'nest-winston';
 import { Logger } from 'winston';
 
@@ -45,10 +53,23 @@ export class DiscordService implements OnModuleInit {
     await this.client.login(process.env.DISCORD_TOKEN);
   }
 
-  handleMessageCreate(msg: Message) {
+  async handleMessageCreate(msg: Message) {
     this.logger.log('info', `Received message: ${msg.content}`);
     if (msg.content === '!ping') {
-      msg.reply('pong');
+      const row: any = new ActionRowBuilder().addComponents(
+        new ButtonBuilder()
+          .setCustomId('confirm')
+          .setLabel('Confirm Ban')
+          .setStyle(ButtonStyle.Danger),
+        new ButtonBuilder()
+          .setCustomId('cancel')
+          .setLabel('Cancel')
+          .setStyle(ButtonStyle.Secondary),
+      );
+      await msg.reply({
+        content: 'ping',
+        components: [row],
+      });
     }
   }
 
