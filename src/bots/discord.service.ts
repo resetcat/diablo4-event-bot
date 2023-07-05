@@ -17,6 +17,10 @@ export class DiscordService implements OnModuleInit {
   private client: Client;
   private channelId = process.env.DISCORD_CHANNEL_ID; // replace with your channel ID
   private toggleState = false;
+  private button = new ButtonBuilder()
+    .setCustomId('toggleButton')
+    .setLabel('Click me to toggle')
+    .setStyle(ButtonStyle.Primary);
 
   constructor(
     @Inject(WINSTON_MODULE_PROVIDER) private readonly logger: Logger,
@@ -62,15 +66,10 @@ export class DiscordService implements OnModuleInit {
   async handleMessageCreate(msg: Message) {
     this.logger.log('info', `Received message: ${msg.content}`);
     if (msg.content === '!button') {
-      const button = new ButtonBuilder()
-        .setCustomId('toggleButton') // Custom ID for the interactionCreate event
-        .setLabel('Click me to toggle')
-        .setStyle(ButtonStyle.Primary); // Initial button style
-
-      const row: any = new ActionRowBuilder().addComponents(button);
+      const row: any = new ActionRowBuilder().addComponents(this.button);
 
       msg.reply({
-        content: `Current state: ${this.toggleState ? 'On' : 'Off'}`,
+        content: `@here Event tracking: ${this.toggleState ? 'On' : 'Off'}`,
         components: [row],
       });
     }
@@ -89,16 +88,11 @@ export class DiscordService implements OnModuleInit {
         this.offFunction();
       }
 
-      const button = new ButtonBuilder()
-        .setCustomId('toggleButton')
-        .setLabel('Click me to toggle')
-        .setStyle(ButtonStyle.Primary);
-
-      const row: any = new ActionRowBuilder().addComponents(button);
+      const row: any = new ActionRowBuilder().addComponents(this.button);
 
       // Update the message
       await interaction.update({
-        content: `Current state: ${this.toggleState ? 'On' : 'Off'}`,
+        content: `@here Event tracking: ${this.toggleState ? 'On' : 'Off'}`,
         components: [row],
       });
     }

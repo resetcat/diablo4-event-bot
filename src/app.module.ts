@@ -8,6 +8,7 @@ import {
 import * as winston from 'winston';
 import { ConfigModule } from '@nestjs/config';
 import { DiscordService } from './bots/discord.service';
+import { HttpModule } from '@nestjs/axios';
 @Module({
   imports: [
     WinstonModule.forRoot({
@@ -50,6 +51,7 @@ import { DiscordService } from './bots/discord.service';
     ConfigModule.forRoot({
       envFilePath: '.env',
     }),
+    HttpModule,
   ],
   controllers: [AppController],
   providers: [AppService, DiscordService],
