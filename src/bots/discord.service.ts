@@ -2,6 +2,7 @@ import { Inject, Injectable, OnModuleInit } from '@nestjs/common';
 import {
   ActionRowBuilder,
   ButtonBuilder,
+  ButtonInteraction,
   ButtonStyle,
   Client,
   Message,
@@ -15,6 +16,7 @@ import { Logger } from 'winston';
 export class DiscordService implements OnModuleInit {
   private client: Client;
   private channelId = process.env.DISCORD_CHANNEL_ID; // replace with your channel ID
+  private toggleState = false;
 
   constructor(
     @Inject(WINSTON_MODULE_PROVIDER) private readonly logger: Logger,
@@ -47,6 +49,10 @@ export class DiscordService implements OnModuleInit {
     });
 
     this.client.on('messageCreate', this.handleMessageCreate.bind(this));
+    this.client.on(
+      'interactionCreate',
+      this.handleInteractionCreate.bind(this),
+    );
   }
 
   async loginBot() {
@@ -55,22 +61,57 @@ export class DiscordService implements OnModuleInit {
 
   async handleMessageCreate(msg: Message) {
     this.logger.log('info', `Received message: ${msg.content}`);
-    if (msg.content === '!ping') {
-      const row: any = new ActionRowBuilder().addComponents(
-        new ButtonBuilder()
-          .setCustomId('confirm')
-          .setLabel('Confirm Ban')
-          .setStyle(ButtonStyle.Danger),
-        new ButtonBuilder()
-          .setCustomId('cancel')
-          .setLabel('Cancel')
-          .setStyle(ButtonStyle.Secondary),
-      );
-      await msg.reply({
-        content: 'ping',
+    if (msg.content === '!button') {
+      const button = new ButtonBuilder()
+        .setCustomId('toggleButton') // Custom ID for the interactionCreate event
+        .setLabel('Click me to toggle')
+        .setStyle(ButtonStyle.Primary); // Initial button style
+
+      const row: any = new ActionRowBuilder().addComponents(button);
+
+      msg.reply({
+        content: `Current state: ${this.toggleState ? 'On' : 'Off'}`,
         components: [row],
       });
     }
+  }
+
+  async handleInteractionCreate(interaction: ButtonInteraction) {
+    if (!interaction.isButton()) return;
+    if (interaction.customId === 'toggleButton') {
+      // Toggle the state
+      this.toggleState = !this.toggleState;
+
+      // Trigger the function based on the new state
+      if (this.toggleState) {
+        this.onFunction();
+      } else {
+        this.offFunction();
+      }
+
+      const button = new ButtonBuilder()
+        .setCustomId('toggleButton')
+        .setLabel('Click me to toggle')
+        .setStyle(ButtonStyle.Primary);
+
+      const row: any = new ActionRowBuilder().addComponents(button);
+
+      // Update the message
+      await interaction.update({
+        content: `Current state: ${this.toggleState ? 'On' : 'Off'}`,
+        components: [row],
+      });
+    }
+  }
+
+  onFunction() {
+    // Code that should be executed when the function is turned on
+    this.logger.log('info', 'The function has been toggled on.');
+  }
+
+  offFunction() {
+    // Code that should be executed when the function is turned off
+    this.logger.log('info', 'The function has been toggled off.');
   }
 
   sendMessage(content: string) {
