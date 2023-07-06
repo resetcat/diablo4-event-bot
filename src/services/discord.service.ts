@@ -19,7 +19,7 @@ export class DiscordService implements OnModuleInit {
   private toggleState = false;
   private button = new ButtonBuilder()
     .setCustomId('toggleButton')
-    .setLabel('Click me to toggle')
+    .setLabel('Click to toggle')
     .setStyle(ButtonStyle.Primary);
 
   constructor(

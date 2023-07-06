@@ -7,8 +7,9 @@ import {
 } from 'nest-winston';
 import * as winston from 'winston';
 import { ConfigModule } from '@nestjs/config';
-import { DiscordService } from './bots/discord.service';
+import { DiscordService } from './services/discord.service';
 import { HttpModule } from '@nestjs/axios';
+import { EventsService } from './services/events.service';
 @Module({
   imports: [
     WinstonModule.forRoot({
@@ -54,6 +55,6 @@ import { HttpModule } from '@nestjs/axios';
     HttpModule,
   ],
   controllers: [AppController],
-  providers: [AppService, DiscordService],
+  providers: [AppService, DiscordService, EventsService],
 })
 export class AppModule {}
