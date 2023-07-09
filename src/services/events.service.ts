@@ -1,8 +1,7 @@
 import { HttpService } from '@nestjs/axios';
 import { Inject, Injectable } from '@nestjs/common';
-import { AxiosResponse } from 'axios';
 import { WINSTON_MODULE_PROVIDER } from 'nest-winston';
-import { Observable, firstValueFrom } from 'rxjs';
+import { firstValueFrom } from 'rxjs';
 import { BossDto, HelltideDto, LegionDto } from 'src/models/events.dto';
 import { Logger } from 'winston';
 
@@ -47,28 +46,9 @@ export class EventsService {
     const eventStartBuffer = eventTime - dto.eventTime * 60 * 1000;
     const eventEndBuffer = eventTime + dto.eventTime * 60 * 1000;
 
-    console.log(eventType);
-    console.log('oneMinuteAhead  ', oneMinuteAhead, new Date(oneMinuteAhead));
-    console.log('eventTime  ', eventTime, new Date(eventTime));
-    console.log(
-      'eventStartIn  ',
-      eventStartBuffer,
-      new Date(eventStartBuffer).getMinutes(),
-    );
-    console.log(
-      'eventEndIn  ',
-      eventEndBuffer,
-      new Date(now + eventEndBuffer).getMinutes(),
-    );
-    console.log('----------------');
-
-    // For Boss and Legion events
     if (eventType === 'boss' || eventType === 'legion') {
       return oneMinuteAhead >= eventStartBuffer && now <= eventTime;
-    }
-
-    // For Helltide events
-    else if (eventType === 'helltide') {
+    } else if (eventType === 'helltide') {
       return oneMinuteAhead <= eventEndBuffer;
     }
   }
@@ -83,7 +63,7 @@ export class EventsService {
       helltide: this.isEventStartSoon('helltide', events.helltide),
       legion: this.isEventStartSoon('legion', events.legion),
     };
-    console.log(areEventsStartingSoon);
+    this.logger.info(`event status : ${JSON.stringify(areEventsStartingSoon)}`);
 
     return areEventsStartingSoon;
   }
@@ -96,13 +76,11 @@ export class EventsService {
     const boss = new BossDto();
     boss.name = data.boss.name;
     boss.timestamp = data.boss.timestamp * 1000;
-    // boss.timestamp = Date.now() - 15 * 60 * 1000;
     boss.territory = data.boss.territory;
     boss.zone = data.boss.zone;
 
     const helltide = new HelltideDto();
     helltide.timestamp = data.helltide.timestamp * 1000;
-    // helltide.timestamp = Date.now() - 15 * 60 * 1000;
     helltide.zone = data.helltide.zone;
 
     const legion = new LegionDto();

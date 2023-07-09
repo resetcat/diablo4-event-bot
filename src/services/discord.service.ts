@@ -57,10 +57,30 @@ export class DiscordService implements OnModuleInit {
       'interactionCreate',
       this.handleInteractionCreate.bind(this),
     );
+    // 'disconnect' event listener
+    this.client.on('disconnect', () => {
+      this.logger.log(
+        'info',
+        `Bot has disconnected. Attempting to reconnect...`,
+      );
+      this.reconnectBot();
+    });
   }
 
   async loginBot() {
     await this.client.login(process.env.DISCORD_TOKEN);
+  }
+
+  async reconnectBot() {
+    try {
+      // Try to login again
+      await this.client.login(process.env.DISCORD_TOKEN);
+      this.logger.log('info', `Reconnected successfully!`);
+    } catch (error) {
+      this.logger.log('error', `Failed to reconnect: ${error}`);
+      // Wait for 5 seconds before attempting to reconnect again
+      setTimeout(() => this.reconnectBot(), 30000);
+    }
   }
 
   async handleMessageCreate(msg: Message) {
