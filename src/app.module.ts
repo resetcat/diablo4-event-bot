@@ -10,6 +10,7 @@ import { ConfigModule } from '@nestjs/config';
 import { DiscordService } from './services/discord.service';
 import { HttpModule } from '@nestjs/axios';
 import { EventsService } from './services/events.service';
+import { ScheduleModule } from '@nestjs/schedule';
 @Module({
   imports: [
     WinstonModule.forRoot({
@@ -53,6 +54,7 @@ import { EventsService } from './services/events.service';
       envFilePath: '.env',
     }),
     HttpModule,
+    ScheduleModule.forRoot(),
   ],
   controllers: [AppController],
   providers: [AppService, DiscordService, EventsService],
