@@ -111,7 +111,7 @@ export class EventsService {
       this.activeEvents[event] = events[event]
         ? events[event]
         : this.activeEvents[event];
-      this.logger.info(
+      this.logger.warn(
         `Event: ${event}, Status: ${this.activeEvents[event].status}`,
       );
     }
