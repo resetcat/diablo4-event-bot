@@ -6,6 +6,7 @@ import { type } from 'os';
 import { firstValueFrom } from 'rxjs';
 import { BossDto, HelltideDto, LegionDto } from 'src/models/events.dto';
 import { Logger } from 'winston';
+import { DiscordService } from './discord.service';
 
 @Injectable()
 export class EventsService {
@@ -17,10 +18,11 @@ export class EventsService {
   constructor(
     @Inject(WINSTON_MODULE_PROVIDER) private readonly logger: Logger,
     private httpService: HttpService,
+    private discordService: DiscordService,
   ) {
-    // setTimeout(() => {
-    //   this.handleCron();
-    // }, 200);
+    setTimeout(() => {
+      this.handleCron();
+    }, 5000);
   }
 
   async getRecentEvents() {
@@ -92,9 +94,11 @@ export class EventsService {
 
   @Cron(CronExpression.EVERY_MINUTE)
   async handleCron() {
+    // if (this.discordService.isToggleState) {
     this.logger.info('running chronEvent chronjob()');
     const events = await this.getRecentEvents();
     this.checkEventChanges(events);
+    // }
   }
 
   checkEventChanges(events: any) {
@@ -106,6 +110,8 @@ export class EventsService {
         this.logger.info(
           `${events[event].data.type} events has started! Event time: ${events[event].data.eventTime} minutes`,
         );
+        // console.log(events[event]);
+        this.discordService.sendEventsMessage(events[event]);
         // TODO: send to discrod
       }
       this.activeEvents[event] = events[event]

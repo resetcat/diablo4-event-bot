@@ -138,4 +138,37 @@ export class DiscordService implements OnModuleInit {
       this.logger.log('info', `No such channel: ${this.channelId}`);
     }
   }
+
+  sendEventsMessage(event: any) {
+    const channel = this.client.channels.cache.get(this.channelId) as
+      | TextChannel
+      | NewsChannel;
+    const eventName = event.data.type;
+    const eventTime = event.data.eventTime * 60 * 1000;
+    const isHelltide = eventName === 'helltide';
+    const eventTimestamp = Math.floor((Date.now() + eventTime) / 1000);
+    const content = `@here ${eventName} event will ${
+      isHelltide ? 'end' : 'start'
+    }  <t:${eventTimestamp}:R>`;
+    if (channel) {
+      channel
+        .send({ content: content })
+        .then((msg) => {
+          setTimeout(() => {
+            msg
+              .delete()
+              .catch((e) =>
+                this.logger.error(`Failed to delete message: ${e}`),
+              );
+          }, eventTime);
+        })
+        .catch((e) => this.logger.error(`Failed to send message: ${e}`));
+    } else {
+      this.logger.log('info', `No such channel: ${this.channelId}`);
+    }
+  }
+
+  get isToggleState(): boolean {
+    return this.toggleState;
+  }
 }
