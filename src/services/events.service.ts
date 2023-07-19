@@ -94,11 +94,11 @@ export class EventsService {
 
   @Cron(CronExpression.EVERY_MINUTE)
   async handleCron() {
-    // if (this.discordService.isToggleState) {
-    this.logger.info('running chronEvent chronjob()');
-    const events = await this.getRecentEvents();
-    this.checkEventChanges(events);
-    // }
+    if (this.discordService.isToggleState) {
+      this.logger.info('running chronEvent chronjob()');
+      const events = await this.getRecentEvents();
+      this.checkEventChanges(events);
+    }
   }
 
   checkEventChanges(events: any) {
@@ -110,9 +110,7 @@ export class EventsService {
         this.logger.info(
           `${events[event].data.type} events has started! Event time: ${events[event].data.eventTime} minutes`,
         );
-        // console.log(events[event]);
         this.discordService.sendEventsMessage(events[event]);
-        // TODO: send to discrod
       }
       this.activeEvents[event] = events[event]
         ? events[event]

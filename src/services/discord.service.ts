@@ -1,4 +1,5 @@
 import { Inject, Injectable, OnModuleInit } from '@nestjs/common';
+import { Cron } from '@nestjs/schedule';
 import {
   ActionRowBuilder,
   ButtonBuilder,
@@ -100,13 +101,7 @@ export class DiscordService implements OnModuleInit {
     if (interaction.customId === 'toggleButton') {
       // Toggle the state
       this.toggleState = !this.toggleState;
-
-      // Trigger the function based on the new state
-      if (this.toggleState) {
-        this.onFunction();
-      } else {
-        this.offFunction();
-      }
+      this.logger.info(`Event tracking: ${this.toggleState ? 'On' : 'Off'}`);
 
       const row: any = new ActionRowBuilder().addComponents(this.button);
 
@@ -118,27 +113,6 @@ export class DiscordService implements OnModuleInit {
     }
   }
 
-  onFunction() {
-    // Code that should be executed when the function is turned on
-    this.logger.log('info', 'The function has been toggled on.');
-  }
-
-  offFunction() {
-    // Code that should be executed when the function is turned off
-    this.logger.log('info', 'The function has been toggled off.');
-  }
-
-  sendMessage(content: string) {
-    const channel = this.client.channels.cache.get(this.channelId) as
-      | TextChannel
-      | NewsChannel;
-    if (channel) {
-      channel.send({ content: content });
-    } else {
-      this.logger.log('info', `No such channel: ${this.channelId}`);
-    }
-  }
-
   sendEventsMessage(event: any) {
     const channel = this.client.channels.cache.get(this.channelId) as
       | TextChannel
@@ -147,25 +121,44 @@ export class DiscordService implements OnModuleInit {
     const eventTime = event.data.eventTime * 60 * 1000;
     const isHelltide = eventName === 'helltide';
     const eventTimestamp = Math.floor((Date.now() + eventTime) / 1000);
-    const content = `@here ${eventName} event will ${
-      isHelltide ? 'end' : 'start'
-    }  <t:${eventTimestamp}:R>`;
+    let content = `@here ${
+      eventName.charAt(0).toUpperCase() + eventName.slice(1)
+    } event will ${isHelltide ? 'end' : 'start'} in zone: ${
+      event.data.zone
+    } <t:${eventTimestamp}:R>`;
+
+    if (event.data.territory) {
+      content += ` Territory: ${event.data.territory}`;
+    }
+    if (event.data.name) {
+      content += ` Name: ${event.data.name}`;
+    }
+
     if (channel) {
-      channel
-        .send({ content: content })
-        .then((msg) => {
-          setTimeout(() => {
-            msg
-              .delete()
-              .catch((e) =>
-                this.logger.error(`Failed to delete message: ${e}`),
-              );
-          }, eventTime);
-        })
-        .catch((e) => this.logger.error(`Failed to send message: ${e}`));
+      channel.send({ content: content }).then((msg) => {
+        setTimeout(() => {
+          msg
+            .delete()
+            .catch((e) => this.logger.error(`Failed to delete message: ${e}`));
+        }, eventTime);
+      });
     } else {
       this.logger.log('info', `No such channel: ${this.channelId}`);
     }
+  }
+
+  // Set to true at 10:00
+  @Cron('0 10 * * *')
+  enableTracking() {
+    this.toggleState = true;
+    this.logger.info('Event tracking: On');
+  }
+
+  // Set to false at 22:00
+  @Cron('0 22 * * *')
+  disableTracking() {
+    this.toggleState = false;
+    this.logger.info('Event tracking: Off');
   }
 
   get isToggleState(): boolean {
