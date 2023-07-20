@@ -101,13 +101,14 @@ export class DiscordService implements OnModuleInit {
     if (interaction.customId === 'toggleButton') {
       // Toggle the state
       this.toggleState = !this.toggleState;
-      this.logger.info(`Event tracking: ${this.toggleState ? 'On' : 'Off'}`);
+      const message = `Event tracking: ${this.toggleState ? 'On' : 'Off'}`;
+      this.logger.info(message);
 
       const row: any = new ActionRowBuilder().addComponents(this.button);
 
       // Update the message
       await interaction.update({
-        content: `@here Event tracking: ${this.toggleState ? 'On' : 'Off'}`,
+        content: `@here ${message}`,
         components: [row],
       });
     }
@@ -121,18 +122,16 @@ export class DiscordService implements OnModuleInit {
     const eventTime = event.data.eventTime * 60 * 1000;
     const isHelltide = eventName === 'helltide';
     const eventTimestamp = Math.floor((Date.now() + eventTime) / 1000);
-    let content = `@here ${
+
+    let content = `@here `;
+    if (event.data.name) {
+      content += `${event.data.name} `;
+    }
+    content = `${
       eventName.charAt(0).toUpperCase() + eventName.slice(1)
     } event will ${isHelltide ? 'end' : 'start'} in zone: ${
       event.data.zone
     } <t:${eventTimestamp}:R>`;
-
-    if (event.data.territory) {
-      content += ` Territory: ${event.data.territory}`;
-    }
-    if (event.data.name) {
-      content += ` Name: ${event.data.name}`;
-    }
 
     if (channel) {
       channel.send({ content: content }).then((msg) => {
