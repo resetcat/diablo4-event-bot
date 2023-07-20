@@ -2,7 +2,6 @@ import { HttpService } from '@nestjs/axios';
 import { Inject, Injectable } from '@nestjs/common';
 import { Cron, CronExpression } from '@nestjs/schedule';
 import { WINSTON_MODULE_PROVIDER } from 'nest-winston';
-import { type } from 'os';
 import { firstValueFrom } from 'rxjs';
 import { BossDto, HelltideDto, LegionDto } from 'src/models/events.dto';
 import { Logger } from 'winston';

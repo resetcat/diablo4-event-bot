@@ -79,9 +79,13 @@ export class DiscordService implements OnModuleInit {
       this.logger.log('info', `Reconnected successfully!`);
     } catch (error) {
       this.logger.log('error', `Failed to reconnect: ${error}`);
-      // Wait for 5 seconds before attempting to reconnect again
+      // Wait for 30 seconds before attempting to reconnect again
       setTimeout(() => this.reconnectBot(), 30000);
     }
+  }
+
+  getToggleStateMessage() {
+    return `Event tracking: ${this.toggleState ? '**✅ On**' : '**❌ Off**'}`;
   }
 
   async handleMessageCreate(msg: Message) {
@@ -90,7 +94,7 @@ export class DiscordService implements OnModuleInit {
       const row: any = new ActionRowBuilder().addComponents(this.button);
 
       msg.reply({
-        content: `@here Event tracking: ${this.toggleState ? 'On' : 'Off'}`,
+        content: `@here ${this.getToggleStateMessage()}`,
         components: [row],
       });
     }
@@ -101,7 +105,7 @@ export class DiscordService implements OnModuleInit {
     if (interaction.customId === 'toggleButton') {
       // Toggle the state
       this.toggleState = !this.toggleState;
-      const message = `Event tracking: ${this.toggleState ? 'On' : 'Off'}`;
+      const message = this.getToggleStateMessage();
       this.logger.info(message);
 
       const row: any = new ActionRowBuilder().addComponents(this.button);
@@ -127,7 +131,7 @@ export class DiscordService implements OnModuleInit {
     if (event.data.name) {
       content += `${event.data.name} `;
     }
-    content = `${
+    content += `${
       eventName.charAt(0).toUpperCase() + eventName.slice(1)
     } event will ${isHelltide ? 'end' : 'start'} in zone: ${
       event.data.zone
