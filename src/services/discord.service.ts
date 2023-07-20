@@ -123,9 +123,9 @@ export class DiscordService implements OnModuleInit {
       | TextChannel
       | NewsChannel;
     const eventName = event.data.type;
-    const eventTime = event.data.eventTime * 60 * 1000;
+    const remainingEventTime = this.calcRemainingEventTime(event);
     const isHelltide = eventName === 'helltide';
-    const eventTimestamp = Math.floor((Date.now() + eventTime) / 1000);
+    const eventTimestamp = Math.floor((Date.now() + remainingEventTime) / 1000);
 
     let content = `@here `;
     if (event.data.name) {
@@ -143,11 +143,27 @@ export class DiscordService implements OnModuleInit {
           msg
             .delete()
             .catch((e) => this.logger.error(`Failed to delete message: ${e}`));
-        }, eventTime);
+        }, remainingEventTime);
       });
     } else {
       this.logger.log('info', `No such channel: ${this.channelId}`);
     }
+  }
+
+  calcRemainingEventTime(event: any): number {
+    const now = Date.now();
+    let remainingEventTime: number;
+
+    if (event.data.type === 'helltide') {
+      remainingEventTime = Math.max(
+        0,
+        event.data.timestamp + event.data.eventTime * 60 * 1000 - now,
+      );
+    } else {
+      remainingEventTime = Math.max(0, event.data.timestamp - now);
+    }
+
+    return remainingEventTime;
   }
 
   // Set to true at 10:00
