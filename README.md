@@ -8,7 +8,7 @@
 
 ## Description
 
-[Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
+This is simple discord bot that track three diablo 4 events and displays them on your selected channel. It has aoption to turn it off and on by calling command `!button`, it will display a button by pressing which toggles event tracking. Also there is automatic sleep timer that starts at 22:00 and ends at 10:00, but you can disable it by pressing toggle button.
 
 ## Installation
 
