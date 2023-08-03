@@ -19,22 +19,28 @@ This is simple discord bot that track three diablo 4 events and displays them on
 
 ## Installation
 
+1. Copy this project
 ```bash
-$ npm install
+git clone https://github.com/resetcat/diablo4-event-bot.git
+```
+
+2. Navigate to this project folder and install dependencies
+```bash
+npm install
+```
+
+3. Set enviromental variables. Ether in main folder in .env file or run these commands:
+```bash
+set DISCORD_TOKEN=your_token_here
+set DISCORD_CHANNEL_ID=your_channel_id_here
 ```
 
 ## Running the app
-
+a) Just type this command in your console
 ```bash
-# development
 $ npm run start
-
-# watch mode
-$ npm run start:dev
-
-# production mode
-$ npm run start:prod
 ```
+b) alternativly you can launch it using `docker`
 
 ## Test
 
