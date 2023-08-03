@@ -10,6 +10,13 @@
 
 This is simple discord bot that track three diablo 4 events and displays them on your selected channel. It has aoption to turn it off and on by calling command `!button`, it will display a button by pressing which toggles event tracking. Also there is automatic sleep timer that starts at 22:00 and ends at 10:00, but you can disable it by pressing toggle button.
 
+## Requirements:
+- [Node.js](https://nodejs.org/en/) (v14.17.0 or higher)
+- [npm](https://www.npmjs.com/) (v7.16.0 or higher)
+- [Docker](https://www.docker.com/) (optional)
+- create your bot [token](https://discordgsm.com/guide/how-to-get-a-discord-bot-token) (optional)
+- get a copy of your channel. You can find how to do this [here](https://support.discord.com/hc/en-us/articles/206346498-Where-can-I-find-my-User-Server-Message-ID-)
+
 ## Installation
 
 ```bash
