@@ -56,5 +56,12 @@ docker run -e DISCORD_CHANNEL_ID=your_new_value DISCORD_CHANNEL_ID=your_channel_
 ps. you can change name d4event to nay other you want.
 
 ## Commands and examples
+While app is running you can toggle it using commnd `!button`
+<img src="https://i.imgur.com/V3C1OKr.png" alt="logo" />
 
+
+example of message:
+
+
+<img src="https://i.imgur.com/rZkv4LD.png" alt="logo" />
 
