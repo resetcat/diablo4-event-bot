@@ -14,8 +14,8 @@ This is simple discord bot that track three diablo 4 events and displays them on
 - [Node.js](https://nodejs.org/en/) (v14.17.0 or higher)
 - [npm](https://www.npmjs.com/) (v7.16.0 or higher)
 - [Docker](https://www.docker.com/) (optional)
-- create your bot [token](https://discordgsm.com/guide/how-to-get-a-discord-bot-token) (optional)
-- get a copy of your channel. You can find how to do this [here](https://support.discord.com/hc/en-us/articles/206346498-Where-can-I-find-my-User-Server-Message-ID-)
+- create your bot [token](https://discordgsm.com/guide/how-to-get-a-discord-bot-token) 
+- get a copy of your channel ID. You can find how to do this [here](https://support.discord.com/hc/en-us/articles/206346498-Where-can-I-find-my-User-Server-Message-ID-)
 
 ## Installation
 
