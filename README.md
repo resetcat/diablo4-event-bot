@@ -40,31 +40,21 @@ a) Just type this command in your console
 ```bash
 $ npm run start
 ```
-b) alternativly you can launch it using `docker`
-
-## Test
-
+b) alternativly you can launch it using `docker`:
+1. Build your docker container using this command:
 ```bash
-# unit tests
-$ npm run test
-
-# e2e tests
-$ npm run test:e2e
-
-# test coverage
-$ npm run test:cov
+docker build -t d4event .
 ```
+2. Run docker container using command:
+```bash
+docker run d4event
+```
+2b. You can launch while changing enviromental variables(bot token and channel Id):
+```bash
+docker run -e DISCORD_CHANNEL_ID=your_new_value DISCORD_CHANNEL_ID=your_channel_id_here -p 3000:3000 -d d4event
+```
+ps. you can change name d4event to nay other you want.
 
-## Support
+## Commands and examples
 
-Nest is an MIT-licensed open source project. It can grow thanks to the sponsors and support by the amazing backers. If you'd like to join them, please [read more here](https://docs.nestjs.com/support).
 
-## Stay in touch
-
-- Author - [Kamil Myśliwiec](https://kamilmysliwiec.com)
-- Website - [https://nestjs.com](https://nestjs.com/)
-- Twitter - [@nestframework](https://twitter.com/nestframework)
-
-## License
-
-Nest is [MIT licensed](LICENSE).
