@@ -50,10 +50,10 @@ docker build -t d4event .
 docker run d4event
 ```
 2b. You can launch while changing enviromental variables(bot token and channel Id):
-```bash
+```sh
 docker run -e DISCORD_CHANNEL_ID=your_new_value DISCORD_CHANNEL_ID=your_channel_id_here -p 3000:3000 -d d4event
 ```
-ps. you can change name d4event to nay other you want.
+ps. you can change name `d4event` to nay other you want.
 
 ## Commands and examples
 While app is running you can toggle it using commnd `!button`
