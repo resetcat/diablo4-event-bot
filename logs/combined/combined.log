@@ -1,0 +1,1707 @@
+{"level":"info","message":"starting DiscordService","timestamp":"2023-07-18T10:59:39.758Z"}
+{"level":"info","message":"event status : {\"boss\":false,\"helltide\":true,\"legion\":false}","timestamp":"2023-07-18T10:59:40.168Z"}
+{"level":"info","message":"Bot is ready as: diablo4-events#5025","timestamp":"2023-07-18T10:59:46.217Z"}
+{"level":"info","message":"The function has been toggled on.","timestamp":"2023-07-18T11:00:06.885Z"}
+{"level":"info","message":"The function has been toggled off.","timestamp":"2023-07-18T11:00:17.626Z"}
+{"level":"info","message":"starting DiscordService","timestamp":"2023-07-18T11:21:08.199Z"}
+{"level":"info","message":"event status : {\"boss\":false,\"helltide\":true,\"legion\":false}","timestamp":"2023-07-18T11:21:08.543Z"}
+{"level":"info","message":"Bot is ready as: diablo4-events#5025","timestamp":"2023-07-18T11:21:09.185Z"}
+{"level":"info","message":"starting DiscordService","timestamp":"2023-07-18T11:34:46.188Z"}
+{"level":"info","message":"Bot is ready as: diablo4-events#5025","timestamp":"2023-07-18T11:34:47.016Z"}
+{"level":"info","message":"running chronEvent chronjob()","timestamp":"2023-07-18T11:35:00.005Z"}
+{"level":"info","message":"event status : {\"boss\":false,\"helltide\":true,\"legion\":true}","timestamp":"2023-07-18T11:35:01.507Z"}
+{"level":"info","message":"starting DiscordService","timestamp":"2023-07-18T11:36:13.011Z"}
+{"level":"info","message":"Bot is ready as: diablo4-events#5025","timestamp":"2023-07-18T11:36:13.785Z"}
+{"level":"info","message":"running chronEvent chronjob()","timestamp":"2023-07-18T11:37:00.017Z"}
+{"level":"info","message":"event status : {\"boss\":false,\"helltide\":true,\"legion\":false}","timestamp":"2023-07-18T11:37:00.299Z"}
+{"level":"info","message":"starting DiscordService","timestamp":"2023-07-18T11:52:06.633Z"}
+{"level":"info","message":"Bot is ready as: diablo4-events#5025","timestamp":"2023-07-18T11:52:07.716Z"}
+{"level":"info","message":"running chronEvent chronjob()","timestamp":"2023-07-18T11:53:00.020Z"}
+{"level":"info","message":"event status : {\"boss\":true,\"helltide\":false,\"legion\":false}","timestamp":"2023-07-18T11:53:00.312Z"}
+{"level":"info","message":"boss events has started!","timestamp":"2023-07-18T11:53:00.314Z"}
+{"level":"info","message":"starting DiscordService","timestamp":"2023-07-18T12:18:21.238Z"}
+{"level":"info","message":"Bot is ready as: diablo4-events#5025","timestamp":"2023-07-18T12:18:22.024Z"}
+{"level":"info","message":"running chronEvent chronjob()","timestamp":"2023-07-18T12:19:00.016Z"}
+{"level":"info","message":"starting DiscordService","timestamp":"2023-07-18T12:21:24.033Z"}
+{"level":"info","message":"running chronEvent chronjob()","timestamp":"2023-07-18T12:21:24.034Z"}
+{"date":"Tue Jul 18 2023 15:21:24 GMT+0300 (Eastern European Summer Time)","error":{},"exception":true,"level":"error","message":"uncaughtException: Cannot read properties of undefined (reading 'status')\nTypeError: Cannot read properties of undefined (reading 'status')\n    at EventsService.checkEventChanges (/home/user/Downloads/diablo4-event-bot/src/services/events.service.ts:120:59)\n    at EventsService.handleCron (/home/user/Downloads/diablo4-event-bot/src/services/events.service.ts:114:10)\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)","os":{"loadavg":[0.67,0.71,0.75],"uptime":29262.79},"process":{"argv":["/usr/local/bin/node","/home/user/Downloads/diablo4-event-bot/dist/main"],"cwd":"/home/user/Downloads/diablo4-event-bot","execPath":"/usr/local/bin/node","gid":1000,"memoryUsage":{"arrayBuffers":907024,"external":2133229,"heapTotal":59318272,"heapUsed":38231176,"rss":119848960},"pid":35805,"uid":1000,"version":"v17.9.1"},"stack":"TypeError: Cannot read properties of undefined (reading 'status')\n    at EventsService.checkEventChanges (/home/user/Downloads/diablo4-event-bot/src/services/events.service.ts:120:59)\n    at EventsService.handleCron (/home/user/Downloads/diablo4-event-bot/src/services/events.service.ts:114:10)\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)","timestamp":"2023-07-18T12:21:24.410Z","trace":[{"column":59,"file":"/home/user/Downloads/diablo4-event-bot/src/services/events.service.ts","function":"EventsService.checkEventChanges","line":120,"method":"checkEventChanges","native":false},{"column":10,"file":"/home/user/Downloads/diablo4-event-bot/src/services/events.service.ts","function":"EventsService.handleCron","line":114,"method":"handleCron","native":false},{"column":5,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":96,"method":null,"native":false}]}
+{"level":"info","message":"starting DiscordService","timestamp":"2023-07-18T12:22:08.134Z"}
+{"level":"info","message":"running chronEvent chronjob()","timestamp":"2023-07-18T12:22:08.337Z"}
+{"date":"Tue Jul 18 2023 15:22:08 GMT+0300 (Eastern European Summer Time)","error":{},"exception":true,"level":"error","message":"uncaughtException: Cannot read properties of undefined (reading 'status')\nTypeError: Cannot read properties of undefined (reading 'status')\n    at EventsService.checkEventChanges (/home/user/Downloads/diablo4-event-bot/src/services/events.service.ts:122:59)\n    at EventsService.handleCron (/home/user/Downloads/diablo4-event-bot/src/services/events.service.ts:116:10)\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)","os":{"loadavg":[0.82,0.75,0.76],"uptime":29307.01},"process":{"argv":["/usr/local/bin/node","/home/user/Downloads/diablo4-event-bot/dist/main"],"cwd":"/home/user/Downloads/diablo4-event-bot","execPath":"/usr/local/bin/node","gid":1000,"memoryUsage":{"arrayBuffers":912147,"external":2138352,"heapTotal":59318272,"heapUsed":38687320,"rss":103899136},"pid":35906,"uid":1000,"version":"v17.9.1"},"stack":"TypeError: Cannot read properties of undefined (reading 'status')\n    at EventsService.checkEventChanges (/home/user/Downloads/diablo4-event-bot/src/services/events.service.ts:122:59)\n    at EventsService.handleCron (/home/user/Downloads/diablo4-event-bot/src/services/events.service.ts:116:10)\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)","timestamp":"2023-07-18T12:22:08.626Z","trace":[{"column":59,"file":"/home/user/Downloads/diablo4-event-bot/src/services/events.service.ts","function":"EventsService.checkEventChanges","line":122,"method":"checkEventChanges","native":false},{"column":10,"file":"/home/user/Downloads/diablo4-event-bot/src/services/events.service.ts","function":"EventsService.handleCron","line":116,"method":"handleCron","native":false},{"column":5,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":96,"method":null,"native":false}]}
+{"level":"info","message":"starting DiscordService","timestamp":"2023-07-18T12:23:42.328Z"}
+{"level":"info","message":"running chronEvent chronjob()","timestamp":"2023-07-18T12:23:42.531Z"}
+{"date":"Tue Jul 18 2023 15:23:42 GMT+0300 (Eastern European Summer Time)","error":{},"exception":true,"level":"error","message":"uncaughtException: Cannot read properties of undefined (reading 'status')\nTypeError: Cannot read properties of undefined (reading 'status')\n    at EventsService.checkEventChanges (/home/user/Downloads/diablo4-event-bot/src/services/events.service.ts:122:59)\n    at EventsService.handleCron (/home/user/Downloads/diablo4-event-bot/src/services/events.service.ts:116:10)\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)","os":{"loadavg":[1.77,1.05,0.86],"uptime":29401.18},"process":{"argv":["/usr/local/bin/node","/home/user/Downloads/diablo4-event-bot/dist/main"],"cwd":"/home/user/Downloads/diablo4-event-bot","execPath":"/usr/local/bin/node","gid":1000,"memoryUsage":{"arrayBuffers":925397,"external":2151602,"heapTotal":59318272,"heapUsed":38500656,"rss":120209408},"pid":36043,"uid":1000,"version":"v17.9.1"},"stack":"TypeError: Cannot read properties of undefined (reading 'status')\n    at EventsService.checkEventChanges (/home/user/Downloads/diablo4-event-bot/src/services/events.service.ts:122:59)\n    at EventsService.handleCron (/home/user/Downloads/diablo4-event-bot/src/services/events.service.ts:116:10)\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)","timestamp":"2023-07-18T12:23:42.799Z","trace":[{"column":59,"file":"/home/user/Downloads/diablo4-event-bot/src/services/events.service.ts","function":"EventsService.checkEventChanges","line":122,"method":"checkEventChanges","native":false},{"column":10,"file":"/home/user/Downloads/diablo4-event-bot/src/services/events.service.ts","function":"EventsService.handleCron","line":116,"method":"handleCron","native":false},{"column":5,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":96,"method":null,"native":false}]}
+{"level":"info","message":"starting DiscordService","timestamp":"2023-07-18T12:24:37.849Z"}
+{"level":"info","message":"running chronEvent chronjob()","timestamp":"2023-07-18T12:24:38.052Z"}
+{"level":"info","message":"Bot is ready as: diablo4-events#5025","timestamp":"2023-07-18T12:24:38.867Z"}
+{"level":"info","message":"event status : {\"boss\":{\"status\":false,\"data\":{\"eventTime\":30,\"name\":\"The Wandering Death\",\"timestamp\":1689682154000,\"territory\":\"Saraan Caldera\",\"zone\":\"Dry Steppes\"}},\"helltide\":{\"status\":false,\"data\":{\"eventTime\":60,\"timestamp\":1689677100000,\"zone\":\"step\"}},\"legion\":{\"status\":false,\"data\":{\"eventTime\":5,\"timestamp\":1689681992000,\"territory\":\"Dilapidated Aqueducts\",\"zone\":\"Kehjistan\"}}}","timestamp":"2023-07-18T12:24:38.995Z"}
+{"level":"info","message":"starting DiscordService","timestamp":"2023-07-18T12:25:22.255Z"}
+{"level":"info","message":"running chronEvent chronjob()","timestamp":"2023-07-18T12:25:22.457Z"}
+{"level":"info","message":"event status : \"boss\"","timestamp":"2023-07-18T12:25:22.742Z"}
+{"level":"info","message":"starting DiscordService","timestamp":"2023-07-18T12:27:30.520Z"}
+{"level":"info","message":"running chronEvent chronjob()","timestamp":"2023-07-18T12:27:30.722Z"}
+{"level":"info","message":"event status : \"boss\"","timestamp":"2023-07-18T12:27:31.035Z"}
+{"level":"info","message":"starting DiscordService","timestamp":"2023-07-18T12:28:14.054Z"}
+{"level":"info","message":"running chronEvent chronjob()","timestamp":"2023-07-18T12:28:14.256Z"}
+{"date":"Tue Jul 18 2023 15:28:14 GMT+0300 (Eastern European Summer Time)","error":{},"exception":true,"level":"error","message":"uncaughtException: Cannot read properties of undefined (reading 'status')\nTypeError: Cannot read properties of undefined (reading 'status')\n    at EventsService.checkEventChanges (/home/user/Downloads/diablo4-event-bot/src/services/events.service.ts:124:59)\n    at EventsService.handleCron (/home/user/Downloads/diablo4-event-bot/src/services/events.service.ts:116:10)\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)","os":{"loadavg":[1.02,1.05,0.92],"uptime":29672.94},"process":{"argv":["/usr/local/bin/node","/home/user/Downloads/diablo4-event-bot/dist/main"],"cwd":"/home/user/Downloads/diablo4-event-bot","execPath":"/usr/local/bin/node","gid":1000,"memoryUsage":{"arrayBuffers":865744,"external":2090683,"heapTotal":59580416,"heapUsed":37962704,"rss":120250368},"pid":36560,"uid":1000,"version":"v17.9.1"},"stack":"TypeError: Cannot read properties of undefined (reading 'status')\n    at EventsService.checkEventChanges (/home/user/Downloads/diablo4-event-bot/src/services/events.service.ts:124:59)\n    at EventsService.handleCron (/home/user/Downloads/diablo4-event-bot/src/services/events.service.ts:116:10)\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)","timestamp":"2023-07-18T12:28:14.560Z","trace":[{"column":59,"file":"/home/user/Downloads/diablo4-event-bot/src/services/events.service.ts","function":"EventsService.checkEventChanges","line":124,"method":"checkEventChanges","native":false},{"column":10,"file":"/home/user/Downloads/diablo4-event-bot/src/services/events.service.ts","function":"EventsService.handleCron","line":116,"method":"handleCron","native":false},{"column":5,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":96,"method":null,"native":false}]}
+{"level":"info","message":"starting DiscordService","timestamp":"2023-07-18T12:29:14.087Z"}
+{"level":"info","message":"running chronEvent chronjob()","timestamp":"2023-07-18T12:29:14.289Z"}
+{"date":"Tue Jul 18 2023 15:29:14 GMT+0300 (Eastern European Summer Time)","error":{},"exception":true,"level":"error","message":"uncaughtException: Cannot read properties of undefined (reading 'status')\nTypeError: Cannot read properties of undefined (reading 'status')\n    at EventsService.checkEventChanges (/home/user/Downloads/diablo4-event-bot/src/services/events.service.ts:124:59)\n    at EventsService.handleCron (/home/user/Downloads/diablo4-event-bot/src/services/events.service.ts:116:10)\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)","os":{"loadavg":[1.05,1.07,0.93],"uptime":29732.96},"process":{"argv":["/usr/local/bin/node","/home/user/Downloads/diablo4-event-bot/dist/main"],"cwd":"/home/user/Downloads/diablo4-event-bot","execPath":"/usr/local/bin/node","gid":1000,"memoryUsage":{"arrayBuffers":852036,"external":2076975,"heapTotal":59580416,"heapUsed":37845960,"rss":119492608},"pid":36665,"uid":1000,"version":"v17.9.1"},"stack":"TypeError: Cannot read properties of undefined (reading 'status')\n    at EventsService.checkEventChanges (/home/user/Downloads/diablo4-event-bot/src/services/events.service.ts:124:59)\n    at EventsService.handleCron (/home/user/Downloads/diablo4-event-bot/src/services/events.service.ts:116:10)\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)","timestamp":"2023-07-18T12:29:14.582Z","trace":[{"column":59,"file":"/home/user/Downloads/diablo4-event-bot/src/services/events.service.ts","function":"EventsService.checkEventChanges","line":124,"method":"checkEventChanges","native":false},{"column":10,"file":"/home/user/Downloads/diablo4-event-bot/src/services/events.service.ts","function":"EventsService.handleCron","line":116,"method":"handleCron","native":false},{"column":5,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":96,"method":null,"native":false}]}
+{"level":"info","message":"starting DiscordService","timestamp":"2023-07-18T12:29:30.293Z"}
+{"level":"info","message":"running chronEvent chronjob()","timestamp":"2023-07-18T12:29:30.496Z"}
+{"date":"Tue Jul 18 2023 15:29:30 GMT+0300 (Eastern European Summer Time)","error":{},"exception":true,"level":"error","message":"uncaughtException: Cannot read properties of undefined (reading 'status')\nTypeError: Cannot read properties of undefined (reading 'status')\n    at EventsService.checkEventChanges (/home/user/Downloads/diablo4-event-bot/src/services/events.service.ts:124:59)\n    at EventsService.handleCron (/home/user/Downloads/diablo4-event-bot/src/services/events.service.ts:116:10)\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)","os":{"loadavg":[0.9,1.03,0.92],"uptime":29749.18},"process":{"argv":["/usr/local/bin/node","/home/user/Downloads/diablo4-event-bot/dist/main"],"cwd":"/home/user/Downloads/diablo4-event-bot","execPath":"/usr/local/bin/node","gid":1000,"memoryUsage":{"arrayBuffers":916655,"external":2142860,"heapTotal":59580416,"heapUsed":38296632,"rss":119836672},"pid":36739,"uid":1000,"version":"v17.9.1"},"stack":"TypeError: Cannot read properties of undefined (reading 'status')\n    at EventsService.checkEventChanges (/home/user/Downloads/diablo4-event-bot/src/services/events.service.ts:124:59)\n    at EventsService.handleCron (/home/user/Downloads/diablo4-event-bot/src/services/events.service.ts:116:10)\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)","timestamp":"2023-07-18T12:29:30.798Z","trace":[{"column":59,"file":"/home/user/Downloads/diablo4-event-bot/src/services/events.service.ts","function":"EventsService.checkEventChanges","line":124,"method":"checkEventChanges","native":false},{"column":10,"file":"/home/user/Downloads/diablo4-event-bot/src/services/events.service.ts","function":"EventsService.handleCron","line":116,"method":"handleCron","native":false},{"column":5,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":96,"method":null,"native":false}]}
+{"level":"info","message":"starting DiscordService","timestamp":"2023-07-19T10:11:12.906Z"}
+{"level":"info","message":"Bot is ready as: diablo4-events#5025","timestamp":"2023-07-19T10:11:13.886Z"}
+{"level":"info","message":"The function has been toggled on.","timestamp":"2023-07-19T10:11:17.569Z"}
+{"level":"info","message":"The function has been toggled off.","timestamp":"2023-07-19T10:11:18.913Z"}
+{"level":"info","message":"The function has been toggled on.","timestamp":"2023-07-19T10:11:20.937Z"}
+{"level":"info","message":"The function has been toggled off.","timestamp":"2023-07-19T10:11:22.840Z"}
+{"level":"info","message":"The function has been toggled on.","timestamp":"2023-07-19T10:11:53.458Z"}
+{"level":"info","message":"running chronEvent chronjob()","timestamp":"2023-07-19T10:12:00.008Z"}
+{"level":"warn","message":"Event: boss, Status: false","timestamp":"2023-07-19T10:12:00.451Z"}
+{"level":"info","message":"helltide events has started! Event time: 60 minutes","timestamp":"2023-07-19T10:12:00.453Z"}
+{"level":"warn","message":"Event: helltide, Status: true","timestamp":"2023-07-19T10:12:00.455Z"}
+{"level":"warn","message":"Event: legion, Status: false","timestamp":"2023-07-19T10:12:00.458Z"}
+{"level":"info","message":"The function has been toggled off.","timestamp":"2023-07-19T10:12:29.061Z"}
+{"level":"info","message":"The function has been toggled on.","timestamp":"2023-07-19T10:12:50.899Z"}
+{"level":"info","message":"The function has been toggled off.","timestamp":"2023-07-19T10:12:51.929Z"}
+{"level":"info","message":"running chronEvent chronjob()","timestamp":"2023-07-19T10:13:00.004Z"}
+{"level":"warn","message":"Event: boss, Status: false","timestamp":"2023-07-19T10:13:00.260Z"}
+{"level":"warn","message":"Event: helltide, Status: true","timestamp":"2023-07-19T10:13:00.264Z"}
+{"level":"warn","message":"Event: legion, Status: false","timestamp":"2023-07-19T10:13:00.265Z"}
+{"level":"info","message":"running chronEvent chronjob()","timestamp":"2023-07-19T10:14:00.021Z"}
+{"level":"warn","message":"Event: boss, Status: false","timestamp":"2023-07-19T10:14:00.266Z"}
+{"level":"warn","message":"Event: helltide, Status: false","timestamp":"2023-07-19T10:14:00.268Z"}
+{"level":"warn","message":"Event: legion, Status: false","timestamp":"2023-07-19T10:14:00.269Z"}
+{"level":"info","message":"running chronEvent chronjob()","timestamp":"2023-07-19T10:15:00.041Z"}
+{"level":"warn","message":"Event: boss, Status: false","timestamp":"2023-07-19T10:15:00.459Z"}
+{"level":"warn","message":"Event: helltide, Status: false","timestamp":"2023-07-19T10:15:00.460Z"}
+{"level":"warn","message":"Event: legion, Status: false","timestamp":"2023-07-19T10:15:00.461Z"}
+{"level":"info","message":"running chronEvent chronjob()","timestamp":"2023-07-19T10:16:00.024Z"}
+{"level":"warn","message":"Event: boss, Status: false","timestamp":"2023-07-19T10:16:00.276Z"}
+{"level":"warn","message":"Event: helltide, Status: false","timestamp":"2023-07-19T10:16:00.276Z"}
+{"level":"warn","message":"Event: legion, Status: false","timestamp":"2023-07-19T10:16:00.277Z"}
+{"level":"info","message":"running chronEvent chronjob()","timestamp":"2023-07-19T10:17:00.034Z"}
+{"level":"info","message":"boss events has started! Event time: 30 minutes","timestamp":"2023-07-19T10:17:00.296Z"}
+{"level":"warn","message":"Event: boss, Status: true","timestamp":"2023-07-19T10:17:00.296Z"}
+{"level":"warn","message":"Event: helltide, Status: false","timestamp":"2023-07-19T10:17:00.297Z"}
+{"level":"warn","message":"Event: legion, Status: false","timestamp":"2023-07-19T10:17:00.297Z"}
+{"level":"info","message":"running chronEvent chronjob()","timestamp":"2023-07-19T10:18:00.006Z"}
+{"level":"warn","message":"Event: boss, Status: true","timestamp":"2023-07-19T10:18:00.296Z"}
+{"level":"warn","message":"Event: helltide, Status: false","timestamp":"2023-07-19T10:18:00.297Z"}
+{"level":"warn","message":"Event: legion, Status: false","timestamp":"2023-07-19T10:18:00.298Z"}
+{"level":"info","message":"running chronEvent chronjob()","timestamp":"2023-07-19T10:19:00.039Z"}
+{"level":"warn","message":"Event: boss, Status: true","timestamp":"2023-07-19T10:19:00.297Z"}
+{"level":"warn","message":"Event: helltide, Status: false","timestamp":"2023-07-19T10:19:00.298Z"}
+{"level":"warn","message":"Event: legion, Status: false","timestamp":"2023-07-19T10:19:00.299Z"}
+{"level":"info","message":"starting DiscordService","timestamp":"2023-07-19T11:43:36.319Z"}
+{"level":"info","message":"Bot is ready as: diablo4-events#5025","timestamp":"2023-07-19T11:43:42.779Z"}
+{"level":"info","message":"The function has been toggled on.","timestamp":"2023-07-19T11:44:49.966Z"}
+{"level":"info","message":"running chronEvent chronjob()","timestamp":"2023-07-19T11:45:00.007Z"}
+{"level":"warn","message":"Event: boss, Status: false","timestamp":"2023-07-19T11:45:00.488Z"}
+{"level":"info","message":"helltide events has started! Event time: 60 minutes","timestamp":"2023-07-19T11:45:00.490Z"}
+{"level":"warn","message":"Event: helltide, Status: true","timestamp":"2023-07-19T11:45:00.491Z"}
+{"level":"warn","message":"Event: legion, Status: false","timestamp":"2023-07-19T11:45:00.492Z"}
+{"level":"info","message":"running chronEvent chronjob()","timestamp":"2023-07-19T11:46:00.006Z"}
+{"level":"warn","message":"Event: boss, Status: false","timestamp":"2023-07-19T11:46:00.256Z"}
+{"level":"warn","message":"Event: helltide, Status: true","timestamp":"2023-07-19T11:46:00.256Z"}
+{"level":"warn","message":"Event: legion, Status: false","timestamp":"2023-07-19T11:46:00.257Z"}
+{"level":"info","message":"The function has been toggled off.","timestamp":"2023-07-19T11:46:13.133Z"}
+{"level":"info","message":"The function has been toggled on.","timestamp":"2023-07-19T11:47:19.382Z"}
+{"level":"info","message":"running chronEvent chronjob()","timestamp":"2023-07-19T11:48:00.008Z"}
+{"level":"warn","message":"Event: boss, Status: false","timestamp":"2023-07-19T11:48:00.266Z"}
+{"level":"warn","message":"Event: helltide, Status: true","timestamp":"2023-07-19T11:48:00.267Z"}
+{"level":"warn","message":"Event: legion, Status: false","timestamp":"2023-07-19T11:48:00.268Z"}
+{"level":"info","message":"The function has been toggled off.","timestamp":"2023-07-19T11:48:10.305Z"}
+{"level":"info","message":"starting DiscordService","timestamp":"2023-07-19T11:51:57.711Z"}
+{"level":"info","message":"Bot is ready as: diablo4-events#5025","timestamp":"2023-07-19T11:51:58.507Z"}
+{"level":"info","message":"starting DiscordService","timestamp":"2023-07-19T11:52:08.140Z"}
+{"level":"info","message":"Bot is ready as: diablo4-events#5025","timestamp":"2023-07-19T11:52:09.002Z"}
+{"level":"info","message":"starting DiscordService","timestamp":"2023-07-19T11:52:38.477Z"}
+{"level":"info","message":"running chronEvent chronjob()","timestamp":"2023-07-19T11:52:38.681Z"}
+{"level":"warn","message":"Event: boss, Status: false","timestamp":"2023-07-19T11:52:38.948Z"}
+{"level":"info","message":"helltide events has started! Event time: 60 minutes","timestamp":"2023-07-19T11:52:38.949Z"}
+{"level":"warn","message":"Event: helltide, Status: true","timestamp":"2023-07-19T11:52:38.952Z"}
+{"level":"warn","message":"Event: legion, Status: false","timestamp":"2023-07-19T11:52:38.953Z"}
+{"level":"info","message":"Bot is ready as: diablo4-events#5025","timestamp":"2023-07-19T11:52:39.255Z"}
+{"level":"info","message":"running chronEvent chronjob()","timestamp":"2023-07-19T11:53:00.009Z"}
+{"level":"warn","message":"Event: boss, Status: false","timestamp":"2023-07-19T11:53:00.264Z"}
+{"level":"warn","message":"Event: helltide, Status: true","timestamp":"2023-07-19T11:53:00.266Z"}
+{"level":"warn","message":"Event: legion, Status: false","timestamp":"2023-07-19T11:53:00.268Z"}
+{"level":"info","message":"running chronEvent chronjob()","timestamp":"2023-07-19T11:54:00.021Z"}
+{"level":"warn","message":"Event: boss, Status: false","timestamp":"2023-07-19T11:54:00.273Z"}
+{"level":"warn","message":"Event: helltide, Status: true","timestamp":"2023-07-19T11:54:00.274Z"}
+{"level":"warn","message":"Event: legion, Status: false","timestamp":"2023-07-19T11:54:00.275Z"}
+{"level":"info","message":"starting DiscordService","timestamp":"2023-07-19T11:54:41.808Z"}
+{"level":"info","message":"running chronEvent chronjob()","timestamp":"2023-07-19T11:54:42.012Z"}
+{"level":"warn","message":"Event: boss, Status: false","timestamp":"2023-07-19T11:54:42.287Z"}
+{"level":"info","message":"helltide events has started! Event time: 60 minutes","timestamp":"2023-07-19T11:54:42.289Z"}
+{"level":"warn","message":"Event: helltide, Status: true","timestamp":"2023-07-19T11:54:42.293Z"}
+{"level":"warn","message":"Event: legion, Status: false","timestamp":"2023-07-19T11:54:42.295Z"}
+{"level":"info","message":"Bot is ready as: diablo4-events#5025","timestamp":"2023-07-19T11:54:42.845Z"}
+{"level":"info","message":"starting DiscordService","timestamp":"2023-07-19T12:02:00.198Z"}
+{"level":"info","message":"running chronEvent chronjob()","timestamp":"2023-07-19T12:02:00.401Z"}
+{"level":"warn","message":"Event: boss, Status: false","timestamp":"2023-07-19T12:02:00.685Z"}
+{"level":"info","message":"helltide events has started! Event time: 60 minutes","timestamp":"2023-07-19T12:02:00.687Z"}
+{"level":"info","message":"No such channel: 1124356972247011360","timestamp":"2023-07-19T12:02:00.692Z"}
+{"level":"warn","message":"Event: helltide, Status: true","timestamp":"2023-07-19T12:02:00.693Z"}
+{"level":"warn","message":"Event: legion, Status: false","timestamp":"2023-07-19T12:02:00.693Z"}
+{"level":"info","message":"Bot is ready as: diablo4-events#5025","timestamp":"2023-07-19T12:02:00.975Z"}
+{"level":"info","message":"starting DiscordService","timestamp":"2023-07-19T12:02:04.513Z"}
+{"level":"info","message":"running chronEvent chronjob()","timestamp":"2023-07-19T12:02:04.716Z"}
+{"level":"warn","message":"Event: boss, Status: false","timestamp":"2023-07-19T12:02:04.974Z"}
+{"level":"info","message":"helltide events has started! Event time: 60 minutes","timestamp":"2023-07-19T12:02:04.975Z"}
+{"level":"warn","message":"Event: helltide, Status: true","timestamp":"2023-07-19T12:02:04.977Z"}
+{"level":"info","message":"legion events has started! Event time: 5 minutes","timestamp":"2023-07-19T12:02:04.977Z"}
+{"level":"warn","message":"Event: legion, Status: true","timestamp":"2023-07-19T12:02:04.978Z"}
+{"level":"info","message":"Bot is ready as: diablo4-events#5025","timestamp":"2023-07-19T12:02:05.421Z"}
+{"level":"info","message":"starting DiscordService","timestamp":"2023-07-19T12:08:14.945Z"}
+{"level":"info","message":"running chronEvent chronjob()","timestamp":"2023-07-19T12:08:15.147Z"}
+{"level":"warn","message":"Event: boss, Status: false","timestamp":"2023-07-19T12:08:15.421Z"}
+{"level":"info","message":"helltide events has started! Event time: 60 minutes","timestamp":"2023-07-19T12:08:15.423Z"}
+{"level":"warn","message":"Event: helltide, Status: true","timestamp":"2023-07-19T12:08:15.431Z"}
+{"level":"warn","message":"Event: legion, Status: false","timestamp":"2023-07-19T12:08:15.433Z"}
+{"level":"info","message":"Bot is ready as: diablo4-events#5025","timestamp":"2023-07-19T12:08:15.820Z"}
+{"level":"info","message":"starting DiscordService","timestamp":"2023-07-19T12:08:24.732Z"}
+{"level":"info","message":"running chronEvent chronjob()","timestamp":"2023-07-19T12:08:24.934Z"}
+{"level":"warn","message":"Event: boss, Status: false","timestamp":"2023-07-19T12:08:25.201Z"}
+{"level":"info","message":"helltide events has started! Event time: 60 minutes","timestamp":"2023-07-19T12:08:25.203Z"}
+{"level":"info","message":"No such channel: 1124356972247011360","timestamp":"2023-07-19T12:08:25.205Z"}
+{"level":"warn","message":"Event: helltide, Status: true","timestamp":"2023-07-19T12:08:25.207Z"}
+{"level":"warn","message":"Event: legion, Status: false","timestamp":"2023-07-19T12:08:25.209Z"}
+{"level":"info","message":"Bot is ready as: diablo4-events#5025","timestamp":"2023-07-19T12:08:25.549Z"}
+{"level":"info","message":"The function has been toggled on.","timestamp":"2023-07-19T12:08:31.928Z"}
+{"level":"info","message":"running chronEvent chronjob()","timestamp":"2023-07-19T12:09:00.029Z"}
+{"level":"warn","message":"Event: boss, Status: false","timestamp":"2023-07-19T12:09:00.287Z"}
+{"level":"warn","message":"Event: helltide, Status: true","timestamp":"2023-07-19T12:09:00.289Z"}
+{"level":"warn","message":"Event: legion, Status: false","timestamp":"2023-07-19T12:09:00.290Z"}
+{"level":"info","message":"running chronEvent chronjob()","timestamp":"2023-07-19T12:10:00.014Z"}
+{"level":"warn","message":"Event: boss, Status: false","timestamp":"2023-07-19T12:10:00.263Z"}
+{"level":"warn","message":"Event: helltide, Status: true","timestamp":"2023-07-19T12:10:00.265Z"}
+{"level":"warn","message":"Event: legion, Status: false","timestamp":"2023-07-19T12:10:00.266Z"}
+{"level":"info","message":"starting DiscordService","timestamp":"2023-07-19T12:10:10.192Z"}
+{"level":"info","message":"running chronEvent chronjob()","timestamp":"2023-07-19T12:10:10.396Z"}
+{"level":"warn","message":"Event: boss, Status: false","timestamp":"2023-07-19T12:10:10.675Z"}
+{"level":"info","message":"helltide events has started! Event time: 60 minutes","timestamp":"2023-07-19T12:10:10.678Z"}
+{"level":"info","message":"No such channel: 1124356972247011360","timestamp":"2023-07-19T12:10:10.681Z"}
+{"level":"warn","message":"Event: helltide, Status: true","timestamp":"2023-07-19T12:10:10.683Z"}
+{"level":"warn","message":"Event: legion, Status: false","timestamp":"2023-07-19T12:10:10.685Z"}
+{"level":"info","message":"Bot is ready as: diablo4-events#5025","timestamp":"2023-07-19T12:10:11.007Z"}
+{"level":"info","message":"starting DiscordService","timestamp":"2023-07-19T12:10:33.451Z"}
+{"level":"info","message":"Bot is ready as: diablo4-events#5025","timestamp":"2023-07-19T12:10:34.724Z"}
+{"level":"info","message":"running chronEvent chronjob()","timestamp":"2023-07-19T12:10:38.456Z"}
+{"level":"warn","message":"Event: boss, Status: false","timestamp":"2023-07-19T12:10:38.733Z"}
+{"level":"info","message":"helltide events has started! Event time: 60 minutes","timestamp":"2023-07-19T12:10:38.734Z"}
+{"level":"warn","message":"Event: helltide, Status: true","timestamp":"2023-07-19T12:10:38.735Z"}
+{"level":"warn","message":"Event: legion, Status: false","timestamp":"2023-07-19T12:10:38.736Z"}
+{"level":"info","message":"Received message: @here helltide event will start in 60","timestamp":"2023-07-19T12:10:38.980Z"}
+{"level":"info","message":"running chronEvent chronjob()","timestamp":"2023-07-19T12:11:00.017Z"}
+{"level":"warn","message":"Event: boss, Status: false","timestamp":"2023-07-19T12:11:00.265Z"}
+{"level":"warn","message":"Event: helltide, Status: true","timestamp":"2023-07-19T12:11:00.267Z"}
+{"level":"warn","message":"Event: legion, Status: false","timestamp":"2023-07-19T12:11:00.268Z"}
+{"level":"info","message":"starting DiscordService","timestamp":"2023-07-19T12:18:27.767Z"}
+{"level":"info","message":"Bot is ready as: diablo4-events#5025","timestamp":"2023-07-19T12:18:28.557Z"}
+{"level":"info","message":"running chronEvent chronjob()","timestamp":"2023-07-19T12:18:32.772Z"}
+{"level":"warn","message":"Event: boss, Status: false","timestamp":"2023-07-19T12:18:33.066Z"}
+{"level":"info","message":"helltide events has started! Event time: 60 minutes","timestamp":"2023-07-19T12:18:33.067Z"}
+{"level":"warn","message":"Event: helltide, Status: true","timestamp":"2023-07-19T12:18:33.072Z"}
+{"level":"warn","message":"Event: legion, Status: false","timestamp":"2023-07-19T12:18:33.074Z"}
+{"level":"info","message":"Received message: @here helltide event will start in <t:1689772713:R>","timestamp":"2023-07-19T12:18:33.387Z"}
+{"level":"info","message":"starting DiscordService","timestamp":"2023-07-19T12:18:57.255Z"}
+{"level":"info","message":"Bot is ready as: diablo4-events#5025","timestamp":"2023-07-19T12:18:58.174Z"}
+{"level":"info","message":"running chronEvent chronjob()","timestamp":"2023-07-19T12:19:00.012Z"}
+{"level":"warn","message":"Event: boss, Status: false","timestamp":"2023-07-19T12:19:00.295Z"}
+{"level":"info","message":"helltide events has started! Event time: 60 minutes","timestamp":"2023-07-19T12:19:00.297Z"}
+{"level":"warn","message":"Event: helltide, Status: true","timestamp":"2023-07-19T12:19:00.301Z"}
+{"level":"warn","message":"Event: legion, Status: false","timestamp":"2023-07-19T12:19:00.303Z"}
+{"level":"info","message":"Received message: @here helltide event will end in <t:1689772740:R>","timestamp":"2023-07-19T12:19:00.561Z"}
+{"level":"info","message":"running chronEvent chronjob()","timestamp":"2023-07-19T12:19:02.260Z"}
+{"level":"warn","message":"Event: boss, Status: false","timestamp":"2023-07-19T12:19:02.524Z"}
+{"level":"warn","message":"Event: helltide, Status: true","timestamp":"2023-07-19T12:19:02.526Z"}
+{"level":"warn","message":"Event: legion, Status: false","timestamp":"2023-07-19T12:19:02.527Z"}
+{"level":"info","message":"running chronEvent chronjob()","timestamp":"2023-07-19T12:20:00.005Z"}
+{"level":"warn","message":"Event: boss, Status: false","timestamp":"2023-07-19T12:20:00.254Z"}
+{"level":"warn","message":"Event: helltide, Status: true","timestamp":"2023-07-19T12:20:00.255Z"}
+{"level":"warn","message":"Event: legion, Status: false","timestamp":"2023-07-19T12:20:00.257Z"}
+{"level":"info","message":"starting DiscordService","timestamp":"2023-07-19T12:20:13.661Z"}
+{"level":"info","message":"Bot is ready as: diablo4-events#5025","timestamp":"2023-07-19T12:20:14.429Z"}
+{"level":"info","message":"running chronEvent chronjob()","timestamp":"2023-07-19T12:20:18.667Z"}
+{"level":"warn","message":"Event: boss, Status: false","timestamp":"2023-07-19T12:20:18.958Z"}
+{"level":"info","message":"helltide events has started! Event time: 60 minutes","timestamp":"2023-07-19T12:20:18.960Z"}
+{"level":"warn","message":"Event: helltide, Status: true","timestamp":"2023-07-19T12:20:18.966Z"}
+{"level":"warn","message":"Event: legion, Status: false","timestamp":"2023-07-19T12:20:18.968Z"}
+{"level":"info","message":"Received message: @here helltide event will end in <t:1689772818:R>","timestamp":"2023-07-19T12:20:19.269Z"}
+{"level":"info","message":"running chronEvent chronjob()","timestamp":"2023-07-19T12:21:00.015Z"}
+{"level":"warn","message":"Event: boss, Status: false","timestamp":"2023-07-19T12:21:00.272Z"}
+{"level":"warn","message":"Event: helltide, Status: true","timestamp":"2023-07-19T12:21:00.273Z"}
+{"level":"warn","message":"Event: legion, Status: false","timestamp":"2023-07-19T12:21:00.274Z"}
+{"level":"info","message":"running chronEvent chronjob()","timestamp":"2023-07-19T12:22:00.009Z"}
+{"level":"warn","message":"Event: boss, Status: false","timestamp":"2023-07-19T12:22:00.271Z"}
+{"level":"warn","message":"Event: helltide, Status: true","timestamp":"2023-07-19T12:22:00.271Z"}
+{"level":"warn","message":"Event: legion, Status: false","timestamp":"2023-07-19T12:22:00.272Z"}
+{"level":"info","message":"starting DiscordService","timestamp":"2023-07-19T12:22:55.704Z"}
+{"level":"info","message":"Bot is ready as: diablo4-events#5025","timestamp":"2023-07-19T12:22:56.490Z"}
+{"level":"info","message":"running chronEvent chronjob()","timestamp":"2023-07-19T12:23:00.009Z"}
+{"level":"warn","message":"Event: boss, Status: false","timestamp":"2023-07-19T12:23:00.289Z"}
+{"level":"info","message":"helltide events has started! Event time: 60 minutes","timestamp":"2023-07-19T12:23:00.290Z"}
+{"level":"warn","message":"Event: helltide, Status: true","timestamp":"2023-07-19T12:23:00.297Z"}
+{"level":"warn","message":"Event: legion, Status: false","timestamp":"2023-07-19T12:23:00.299Z"}
+{"level":"info","message":"Received message: @here helltide event will end in <t:1689772980:R>","timestamp":"2023-07-19T12:23:00.538Z"}
+{"level":"info","message":"running chronEvent chronjob()","timestamp":"2023-07-19T12:23:00.707Z"}
+{"level":"warn","message":"Event: boss, Status: false","timestamp":"2023-07-19T12:23:00.950Z"}
+{"level":"warn","message":"Event: helltide, Status: true","timestamp":"2023-07-19T12:23:00.951Z"}
+{"level":"warn","message":"Event: legion, Status: false","timestamp":"2023-07-19T12:23:00.952Z"}
+{"level":"info","message":"running chronEvent chronjob()","timestamp":"2023-07-19T12:24:00.006Z"}
+{"level":"warn","message":"Event: boss, Status: false","timestamp":"2023-07-19T12:24:00.251Z"}
+{"level":"warn","message":"Event: helltide, Status: true","timestamp":"2023-07-19T12:24:00.252Z"}
+{"level":"warn","message":"Event: legion, Status: false","timestamp":"2023-07-19T12:24:00.252Z"}
+{"level":"info","message":"running chronEvent chronjob()","timestamp":"2023-07-19T12:25:00.029Z"}
+{"level":"warn","message":"Event: boss, Status: false","timestamp":"2023-07-19T12:25:00.286Z"}
+{"level":"warn","message":"Event: helltide, Status: true","timestamp":"2023-07-19T12:25:00.286Z"}
+{"level":"warn","message":"Event: legion, Status: false","timestamp":"2023-07-19T12:25:00.287Z"}
+{"level":"info","message":"running chronEvent chronjob()","timestamp":"2023-07-19T12:26:00.011Z"}
+{"level":"warn","message":"Event: boss, Status: false","timestamp":"2023-07-19T12:26:00.278Z"}
+{"level":"warn","message":"Event: helltide, Status: true","timestamp":"2023-07-19T12:26:00.279Z"}
+{"level":"warn","message":"Event: legion, Status: false","timestamp":"2023-07-19T12:26:00.280Z"}
+{"level":"info","message":"running chronEvent chronjob()","timestamp":"2023-07-19T12:27:00.026Z"}
+{"level":"warn","message":"Event: boss, Status: false","timestamp":"2023-07-19T12:27:00.279Z"}
+{"level":"warn","message":"Event: helltide, Status: true","timestamp":"2023-07-19T12:27:00.280Z"}
+{"level":"warn","message":"Event: legion, Status: false","timestamp":"2023-07-19T12:27:00.281Z"}
+{"level":"info","message":"starting DiscordService","timestamp":"2023-07-19T12:30:34.547Z"}
+{"level":"info","message":"Bot is ready as: diablo4-events#5025","timestamp":"2023-07-19T12:30:35.464Z"}
+{"level":"info","message":"running chronEvent chronjob()","timestamp":"2023-07-19T12:30:39.550Z"}
+{"level":"warn","message":"Event: boss, Status: false","timestamp":"2023-07-19T12:30:39.966Z"}
+{"level":"warn","message":"Event: helltide, Status: false","timestamp":"2023-07-19T12:30:39.968Z"}
+{"level":"info","message":"legion events has started! Event time: 5 minutes","timestamp":"2023-07-19T12:30:39.969Z"}
+{"level":"warn","message":"Event: legion, Status: true","timestamp":"2023-07-19T12:30:39.973Z"}
+{"level":"info","message":"Received message: @here legion event will start  <t:1689770139:R>","timestamp":"2023-07-19T12:30:40.226Z"}
+{"level":"info","message":"running chronEvent chronjob()","timestamp":"2023-07-19T12:31:00.012Z"}
+{"level":"warn","message":"Event: boss, Status: false","timestamp":"2023-07-19T12:31:00.266Z"}
+{"level":"warn","message":"Event: helltide, Status: false","timestamp":"2023-07-19T12:31:00.268Z"}
+{"level":"warn","message":"Event: legion, Status: true","timestamp":"2023-07-19T12:31:00.269Z"}
+{"level":"info","message":"running chronEvent chronjob()","timestamp":"2023-07-19T12:32:00.006Z"}
+{"level":"warn","message":"Event: boss, Status: false","timestamp":"2023-07-19T12:32:00.266Z"}
+{"level":"warn","message":"Event: helltide, Status: false","timestamp":"2023-07-19T12:32:00.266Z"}
+{"level":"warn","message":"Event: legion, Status: true","timestamp":"2023-07-19T12:32:00.267Z"}
+{"level":"info","message":"running chronEvent chronjob()","timestamp":"2023-07-19T12:33:00.022Z"}
+{"level":"warn","message":"Event: boss, Status: false","timestamp":"2023-07-19T12:33:00.269Z"}
+{"level":"warn","message":"Event: helltide, Status: false","timestamp":"2023-07-19T12:33:00.269Z"}
+{"level":"warn","message":"Event: legion, Status: true","timestamp":"2023-07-19T12:33:00.269Z"}
+{"level":"info","message":"running chronEvent chronjob()","timestamp":"2023-07-19T12:34:00.042Z"}
+{"level":"warn","message":"Event: boss, Status: false","timestamp":"2023-07-19T12:34:00.522Z"}
+{"level":"warn","message":"Event: helltide, Status: false","timestamp":"2023-07-19T12:34:00.522Z"}
+{"level":"warn","message":"Event: legion, Status: true","timestamp":"2023-07-19T12:34:00.523Z"}
+{"level":"info","message":"running chronEvent chronjob()","timestamp":"2023-07-19T12:35:00.019Z"}
+{"level":"warn","message":"Event: boss, Status: false","timestamp":"2023-07-19T12:35:00.272Z"}
+{"level":"warn","message":"Event: helltide, Status: false","timestamp":"2023-07-19T12:35:00.273Z"}
+{"level":"warn","message":"Event: legion, Status: true","timestamp":"2023-07-19T12:35:00.274Z"}
+{"level":"info","message":"starting DiscordService","timestamp":"2023-07-21T05:49:35.514Z"}
+{"level":"info","message":"Bot is ready as: diablo4-events#5025","timestamp":"2023-07-21T05:49:36.382Z"}
+{"level":"info","message":"Event tracking: On","timestamp":"2023-07-21T07:00:00.028Z"}
+{"level":"info","message":"running chronEvent chronjob()","timestamp":"2023-07-21T07:01:00.041Z"}
+{"level":"warn","message":"Event: boss, Status: false","timestamp":"2023-07-21T07:01:00.330Z"}
+{"level":"info","message":"helltide events has started! Event time: 60 minutes","timestamp":"2023-07-21T07:01:00.331Z"}
+{"level":"warn","message":"Event: helltide, Status: true","timestamp":"2023-07-21T07:01:00.334Z"}
+{"level":"warn","message":"Event: legion, Status: false","timestamp":"2023-07-21T07:01:00.335Z"}
+{"level":"info","message":"Received message: @here Helltide event will end in zone: step <t:1689923700:R>","timestamp":"2023-07-21T07:01:00.559Z"}
+{"level":"info","message":"running chronEvent chronjob()","timestamp":"2023-07-21T07:02:00.017Z"}
+{"level":"warn","message":"Event: boss, Status: false","timestamp":"2023-07-21T07:02:00.273Z"}
+{"level":"warn","message":"Event: helltide, Status: true","timestamp":"2023-07-21T07:02:00.274Z"}
+{"level":"warn","message":"Event: legion, Status: false","timestamp":"2023-07-21T07:02:00.275Z"}
+{"level":"info","message":"running chronEvent chronjob()","timestamp":"2023-07-21T07:03:00.032Z"}
+{"level":"warn","message":"Event: boss, Status: false","timestamp":"2023-07-21T07:03:00.274Z"}
+{"level":"warn","message":"Event: helltide, Status: true","timestamp":"2023-07-21T07:03:00.275Z"}
+{"level":"info","message":"legion events has started! Event time: 5 minutes","timestamp":"2023-07-21T07:03:00.275Z"}
+{"level":"warn","message":"Event: legion, Status: true","timestamp":"2023-07-21T07:03:00.276Z"}
+{"level":"info","message":"Received message: @here Legion event will start in zone: Scosglen <t:1689923270:R>","timestamp":"2023-07-21T07:03:00.556Z"}
+{"level":"info","message":"running chronEvent chronjob()","timestamp":"2023-07-21T07:04:00.013Z"}
+{"level":"warn","message":"Event: boss, Status: false","timestamp":"2023-07-21T07:04:00.283Z"}
+{"level":"warn","message":"Event: helltide, Status: true","timestamp":"2023-07-21T07:04:00.284Z"}
+{"level":"warn","message":"Event: legion, Status: true","timestamp":"2023-07-21T07:04:00.285Z"}
+{"level":"info","message":"running chronEvent chronjob()","timestamp":"2023-07-21T07:05:00.031Z"}
+{"level":"warn","message":"Event: boss, Status: false","timestamp":"2023-07-21T07:05:00.287Z"}
+{"level":"warn","message":"Event: helltide, Status: true","timestamp":"2023-07-21T07:05:00.291Z"}
+{"level":"warn","message":"Event: legion, Status: true","timestamp":"2023-07-21T07:05:00.292Z"}
+{"level":"info","message":"running chronEvent chronjob()","timestamp":"2023-07-21T07:06:00.008Z"}
+{"level":"warn","message":"Event: boss, Status: false","timestamp":"2023-07-21T07:06:00.263Z"}
+{"level":"warn","message":"Event: helltide, Status: true","timestamp":"2023-07-21T07:06:00.264Z"}
+{"level":"warn","message":"Event: legion, Status: true","timestamp":"2023-07-21T07:06:00.264Z"}
+{"level":"info","message":"running chronEvent chronjob()","timestamp":"2023-07-21T07:07:00.026Z"}
+{"level":"warn","message":"Event: boss, Status: false","timestamp":"2023-07-21T07:07:00.279Z"}
+{"level":"warn","message":"Event: helltide, Status: true","timestamp":"2023-07-21T07:07:00.279Z"}
+{"level":"warn","message":"Event: legion, Status: true","timestamp":"2023-07-21T07:07:00.280Z"}
+{"level":"info","message":"running chronEvent chronjob()","timestamp":"2023-07-21T07:08:00.006Z"}
+{"level":"warn","message":"Event: boss, Status: false","timestamp":"2023-07-21T07:08:00.247Z"}
+{"level":"warn","message":"Event: helltide, Status: true","timestamp":"2023-07-21T07:08:00.248Z"}
+{"level":"warn","message":"Event: legion, Status: false","timestamp":"2023-07-21T07:08:00.249Z"}
+{"level":"info","message":"running chronEvent chronjob()","timestamp":"2023-07-21T07:09:00.027Z"}
+{"level":"warn","message":"Event: boss, Status: false","timestamp":"2023-07-21T07:09:00.279Z"}
+{"level":"warn","message":"Event: helltide, Status: true","timestamp":"2023-07-21T07:09:00.280Z"}
+{"level":"warn","message":"Event: legion, Status: false","timestamp":"2023-07-21T07:09:00.281Z"}
+{"level":"info","message":"running chronEvent chronjob()","timestamp":"2023-07-21T07:10:00.020Z"}
+{"level":"warn","message":"Event: boss, Status: false","timestamp":"2023-07-21T07:10:00.275Z"}
+{"level":"warn","message":"Event: helltide, Status: true","timestamp":"2023-07-21T07:10:00.275Z"}
+{"level":"warn","message":"Event: legion, Status: false","timestamp":"2023-07-21T07:10:00.275Z"}
+{"level":"info","message":"running chronEvent chronjob()","timestamp":"2023-07-21T07:11:00.011Z"}
+{"level":"warn","message":"Event: boss, Status: false","timestamp":"2023-07-21T07:11:00.269Z"}
+{"level":"warn","message":"Event: helltide, Status: true","timestamp":"2023-07-21T07:11:00.270Z"}
+{"level":"warn","message":"Event: legion, Status: false","timestamp":"2023-07-21T07:11:00.271Z"}
+{"level":"info","message":"running chronEvent chronjob()","timestamp":"2023-07-21T07:12:00.031Z"}
+{"level":"warn","message":"Event: boss, Status: false","timestamp":"2023-07-21T07:12:00.288Z"}
+{"level":"warn","message":"Event: helltide, Status: true","timestamp":"2023-07-21T07:12:00.289Z"}
+{"level":"warn","message":"Event: legion, Status: false","timestamp":"2023-07-21T07:12:00.290Z"}
+{"level":"info","message":"running chronEvent chronjob()","timestamp":"2023-07-21T07:13:00.013Z"}
+{"level":"warn","message":"Event: boss, Status: false","timestamp":"2023-07-21T07:13:00.262Z"}
+{"level":"warn","message":"Event: helltide, Status: true","timestamp":"2023-07-21T07:13:00.263Z"}
+{"level":"warn","message":"Event: legion, Status: false","timestamp":"2023-07-21T07:13:00.264Z"}
+{"level":"info","message":"running chronEvent chronjob()","timestamp":"2023-07-21T07:14:00.026Z"}
+{"level":"warn","message":"Event: boss, Status: false","timestamp":"2023-07-21T07:14:00.291Z"}
+{"level":"warn","message":"Event: helltide, Status: false","timestamp":"2023-07-21T07:14:00.292Z"}
+{"level":"warn","message":"Event: legion, Status: false","timestamp":"2023-07-21T07:14:00.293Z"}
+{"level":"info","message":"running chronEvent chronjob()","timestamp":"2023-07-21T07:15:00.006Z"}
+{"level":"warn","message":"Event: boss, Status: false","timestamp":"2023-07-21T07:15:00.258Z"}
+{"level":"warn","message":"Event: helltide, Status: false","timestamp":"2023-07-21T07:15:00.259Z"}
+{"level":"warn","message":"Event: legion, Status: false","timestamp":"2023-07-21T07:15:00.260Z"}
+{"level":"info","message":"running chronEvent chronjob()","timestamp":"2023-07-21T07:16:00.022Z"}
+{"level":"warn","message":"Event: boss, Status: false","timestamp":"2023-07-21T07:16:00.278Z"}
+{"level":"warn","message":"Event: helltide, Status: false","timestamp":"2023-07-21T07:16:00.279Z"}
+{"level":"warn","message":"Event: legion, Status: false","timestamp":"2023-07-21T07:16:00.280Z"}
+{"level":"info","message":"running chronEvent chronjob()","timestamp":"2023-07-21T07:17:00.040Z"}
+{"level":"warn","message":"Event: boss, Status: false","timestamp":"2023-07-21T07:17:00.285Z"}
+{"level":"warn","message":"Event: helltide, Status: false","timestamp":"2023-07-21T07:17:00.285Z"}
+{"level":"warn","message":"Event: legion, Status: false","timestamp":"2023-07-21T07:17:00.285Z"}
+{"level":"info","message":"running chronEvent chronjob()","timestamp":"2023-07-21T07:18:00.016Z"}
+{"level":"warn","message":"Event: boss, Status: false","timestamp":"2023-07-21T07:18:00.263Z"}
+{"level":"warn","message":"Event: helltide, Status: false","timestamp":"2023-07-21T07:18:00.264Z"}
+{"level":"warn","message":"Event: legion, Status: false","timestamp":"2023-07-21T07:18:00.264Z"}
+{"level":"info","message":"running chronEvent chronjob()","timestamp":"2023-07-21T07:19:00.038Z"}
+{"level":"warn","message":"Event: boss, Status: false","timestamp":"2023-07-21T07:19:00.300Z"}
+{"level":"warn","message":"Event: helltide, Status: false","timestamp":"2023-07-21T07:19:00.301Z"}
+{"level":"warn","message":"Event: legion, Status: false","timestamp":"2023-07-21T07:19:00.301Z"}
+{"level":"info","message":"running chronEvent chronjob()","timestamp":"2023-07-21T07:20:00.014Z"}
+{"level":"warn","message":"Event: boss, Status: false","timestamp":"2023-07-21T07:20:00.284Z"}
+{"level":"warn","message":"Event: helltide, Status: false","timestamp":"2023-07-21T07:20:00.284Z"}
+{"level":"warn","message":"Event: legion, Status: false","timestamp":"2023-07-21T07:20:00.284Z"}
+{"level":"info","message":"Event tracking: **❌ Off**","timestamp":"2023-07-21T07:20:49.608Z"}
+{"level":"info","message":"Event tracking: **✅ On**","timestamp":"2023-07-21T07:20:50.859Z"}
+{"level":"info","message":"running chronEvent chronjob()","timestamp":"2023-07-21T07:21:00.005Z"}
+{"level":"warn","message":"Event: boss, Status: false","timestamp":"2023-07-21T07:21:00.253Z"}
+{"level":"warn","message":"Event: helltide, Status: false","timestamp":"2023-07-21T07:21:00.254Z"}
+{"level":"warn","message":"Event: legion, Status: false","timestamp":"2023-07-21T07:21:00.255Z"}
+{"level":"info","message":"running chronEvent chronjob()","timestamp":"2023-07-21T07:22:00.010Z"}
+{"level":"warn","message":"Event: boss, Status: false","timestamp":"2023-07-21T07:22:00.268Z"}
+{"level":"warn","message":"Event: helltide, Status: false","timestamp":"2023-07-21T07:22:00.268Z"}
+{"level":"warn","message":"Event: legion, Status: false","timestamp":"2023-07-21T07:22:00.269Z"}
+{"level":"info","message":"running chronEvent chronjob()","timestamp":"2023-07-21T07:23:00.030Z"}
+{"level":"warn","message":"Event: boss, Status: false","timestamp":"2023-07-21T07:23:00.285Z"}
+{"level":"warn","message":"Event: helltide, Status: false","timestamp":"2023-07-21T07:23:00.286Z"}
+{"level":"warn","message":"Event: legion, Status: false","timestamp":"2023-07-21T07:23:00.287Z"}
+{"level":"info","message":"running chronEvent chronjob()","timestamp":"2023-07-21T07:24:00.004Z"}
+{"level":"warn","message":"Event: boss, Status: false","timestamp":"2023-07-21T07:24:00.244Z"}
+{"level":"warn","message":"Event: helltide, Status: false","timestamp":"2023-07-21T07:24:00.244Z"}
+{"level":"warn","message":"Event: legion, Status: false","timestamp":"2023-07-21T07:24:00.244Z"}
+{"level":"info","message":"running chronEvent chronjob()","timestamp":"2023-07-21T07:25:00.026Z"}
+{"level":"warn","message":"Event: boss, Status: false","timestamp":"2023-07-21T07:25:00.276Z"}
+{"level":"warn","message":"Event: helltide, Status: false","timestamp":"2023-07-21T07:25:00.277Z"}
+{"level":"warn","message":"Event: legion, Status: false","timestamp":"2023-07-21T07:25:00.278Z"}
+{"level":"info","message":"running chronEvent chronjob()","timestamp":"2023-07-21T07:26:00.003Z"}
+{"level":"warn","message":"Event: boss, Status: false","timestamp":"2023-07-21T07:26:00.245Z"}
+{"level":"warn","message":"Event: helltide, Status: false","timestamp":"2023-07-21T07:26:00.246Z"}
+{"level":"warn","message":"Event: legion, Status: false","timestamp":"2023-07-21T07:26:00.247Z"}
+{"level":"info","message":"running chronEvent chronjob()","timestamp":"2023-07-21T07:27:00.020Z"}
+{"level":"warn","message":"Event: boss, Status: false","timestamp":"2023-07-21T07:27:00.266Z"}
+{"level":"warn","message":"Event: helltide, Status: false","timestamp":"2023-07-21T07:27:00.267Z"}
+{"level":"warn","message":"Event: legion, Status: false","timestamp":"2023-07-21T07:27:00.268Z"}
+{"level":"info","message":"running chronEvent chronjob()","timestamp":"2023-07-21T07:28:00.039Z"}
+{"level":"warn","message":"Event: boss, Status: false","timestamp":"2023-07-21T07:28:00.286Z"}
+{"level":"warn","message":"Event: helltide, Status: false","timestamp":"2023-07-21T07:28:00.287Z"}
+{"level":"warn","message":"Event: legion, Status: false","timestamp":"2023-07-21T07:28:00.287Z"}
+{"level":"info","message":"running chronEvent chronjob()","timestamp":"2023-07-21T07:29:00.019Z"}
+{"level":"warn","message":"Event: boss, Status: false","timestamp":"2023-07-21T07:29:00.272Z"}
+{"level":"warn","message":"Event: helltide, Status: false","timestamp":"2023-07-21T07:29:00.272Z"}
+{"level":"warn","message":"Event: legion, Status: false","timestamp":"2023-07-21T07:29:00.273Z"}
+{"level":"info","message":"running chronEvent chronjob()","timestamp":"2023-07-21T07:30:00.035Z"}
+{"level":"warn","message":"Event: boss, Status: false","timestamp":"2023-07-21T07:30:00.304Z"}
+{"level":"warn","message":"Event: helltide, Status: false","timestamp":"2023-07-21T07:30:00.305Z"}
+{"level":"warn","message":"Event: legion, Status: false","timestamp":"2023-07-21T07:30:00.306Z"}
+{"level":"info","message":"running chronEvent chronjob()","timestamp":"2023-07-21T07:31:00.014Z"}
+{"level":"warn","message":"Event: boss, Status: false","timestamp":"2023-07-21T07:31:00.271Z"}
+{"level":"warn","message":"Event: helltide, Status: false","timestamp":"2023-07-21T07:31:00.272Z"}
+{"level":"warn","message":"Event: legion, Status: false","timestamp":"2023-07-21T07:31:00.273Z"}
+{"level":"info","message":"running chronEvent chronjob()","timestamp":"2023-07-21T07:32:00.035Z"}
+{"level":"warn","message":"Event: boss, Status: false","timestamp":"2023-07-21T07:32:00.289Z"}
+{"level":"warn","message":"Event: helltide, Status: false","timestamp":"2023-07-21T07:32:00.290Z"}
+{"level":"info","message":"legion events has started! Event time: 5 minutes","timestamp":"2023-07-21T07:32:00.291Z"}
+{"level":"warn","message":"Event: legion, Status: true","timestamp":"2023-07-21T07:32:00.293Z"}
+{"level":"info","message":"Received message: @here Legion event will start in zone: Dry Steppes <t:1689924979:R>","timestamp":"2023-07-21T07:32:00.570Z"}
+{"level":"info","message":"running chronEvent chronjob()","timestamp":"2023-07-21T07:33:00.010Z"}
+{"level":"warn","message":"Event: boss, Status: false","timestamp":"2023-07-21T07:33:00.265Z"}
+{"level":"warn","message":"Event: helltide, Status: false","timestamp":"2023-07-21T07:33:00.266Z"}
+{"level":"warn","message":"Event: legion, Status: true","timestamp":"2023-07-21T07:33:00.267Z"}
+{"level":"info","message":"running chronEvent chronjob()","timestamp":"2023-07-21T07:34:00.027Z"}
+{"level":"warn","message":"Event: boss, Status: false","timestamp":"2023-07-21T07:34:00.289Z"}
+{"level":"warn","message":"Event: helltide, Status: false","timestamp":"2023-07-21T07:34:00.290Z"}
+{"level":"warn","message":"Event: legion, Status: true","timestamp":"2023-07-21T07:34:00.291Z"}
+{"level":"info","message":"running chronEvent chronjob()","timestamp":"2023-07-21T07:35:00.004Z"}
+{"level":"warn","message":"Event: boss, Status: false","timestamp":"2023-07-21T07:35:00.259Z"}
+{"level":"warn","message":"Event: helltide, Status: false","timestamp":"2023-07-21T07:35:00.260Z"}
+{"level":"warn","message":"Event: legion, Status: true","timestamp":"2023-07-21T07:35:00.260Z"}
+{"level":"info","message":"running chronEvent chronjob()","timestamp":"2023-07-21T07:36:00.025Z"}
+{"level":"warn","message":"Event: boss, Status: false","timestamp":"2023-07-21T07:36:00.271Z"}
+{"level":"warn","message":"Event: helltide, Status: false","timestamp":"2023-07-21T07:36:00.271Z"}
+{"level":"warn","message":"Event: legion, Status: true","timestamp":"2023-07-21T07:36:00.271Z"}
+{"level":"info","message":"running chronEvent chronjob()","timestamp":"2023-07-21T07:37:00.007Z"}
+{"level":"warn","message":"Event: boss, Status: false","timestamp":"2023-07-21T07:37:00.256Z"}
+{"level":"warn","message":"Event: helltide, Status: false","timestamp":"2023-07-21T07:37:00.256Z"}
+{"level":"warn","message":"Event: legion, Status: false","timestamp":"2023-07-21T07:37:00.257Z"}
+{"level":"info","message":"running chronEvent chronjob()","timestamp":"2023-07-21T07:38:00.021Z"}
+{"level":"warn","message":"Event: boss, Status: false","timestamp":"2023-07-21T07:38:00.269Z"}
+{"level":"warn","message":"Event: helltide, Status: false","timestamp":"2023-07-21T07:38:00.269Z"}
+{"level":"warn","message":"Event: legion, Status: false","timestamp":"2023-07-21T07:38:00.270Z"}
+{"level":"info","message":"running chronEvent chronjob()","timestamp":"2023-07-21T07:39:00.041Z"}
+{"level":"warn","message":"Event: boss, Status: false","timestamp":"2023-07-21T07:39:00.291Z"}
+{"level":"warn","message":"Event: helltide, Status: false","timestamp":"2023-07-21T07:39:00.292Z"}
+{"level":"warn","message":"Event: legion, Status: false","timestamp":"2023-07-21T07:39:00.292Z"}
+{"level":"info","message":"running chronEvent chronjob()","timestamp":"2023-07-21T07:40:00.019Z"}
+{"level":"warn","message":"Event: boss, Status: false","timestamp":"2023-07-21T07:40:00.324Z"}
+{"level":"warn","message":"Event: helltide, Status: false","timestamp":"2023-07-21T07:40:00.324Z"}
+{"level":"warn","message":"Event: legion, Status: false","timestamp":"2023-07-21T07:40:00.325Z"}
+{"level":"info","message":"running chronEvent chronjob()","timestamp":"2023-07-21T07:41:00.037Z"}
+{"level":"warn","message":"Event: boss, Status: false","timestamp":"2023-07-21T07:41:00.314Z"}
+{"level":"warn","message":"Event: helltide, Status: false","timestamp":"2023-07-21T07:41:00.315Z"}
+{"level":"warn","message":"Event: legion, Status: false","timestamp":"2023-07-21T07:41:00.316Z"}
+{"level":"info","message":"running chronEvent chronjob()","timestamp":"2023-07-21T07:42:00.013Z"}
+{"level":"warn","message":"Event: boss, Status: false","timestamp":"2023-07-21T07:42:00.288Z"}
+{"level":"warn","message":"Event: helltide, Status: false","timestamp":"2023-07-21T07:42:00.289Z"}
+{"level":"warn","message":"Event: legion, Status: false","timestamp":"2023-07-21T07:42:00.290Z"}
+{"level":"info","message":"running chronEvent chronjob()","timestamp":"2023-07-21T07:43:00.032Z"}
+{"level":"warn","message":"Event: boss, Status: false","timestamp":"2023-07-21T07:43:00.644Z"}
+{"level":"warn","message":"Event: helltide, Status: false","timestamp":"2023-07-21T07:43:00.645Z"}
+{"level":"warn","message":"Event: legion, Status: false","timestamp":"2023-07-21T07:43:00.645Z"}
+{"level":"info","message":"running chronEvent chronjob()","timestamp":"2023-07-21T07:44:00.009Z"}
+{"level":"warn","message":"Event: boss, Status: false","timestamp":"2023-07-21T07:44:00.284Z"}
+{"level":"warn","message":"Event: helltide, Status: false","timestamp":"2023-07-21T07:44:00.284Z"}
+{"level":"warn","message":"Event: legion, Status: false","timestamp":"2023-07-21T07:44:00.285Z"}
+{"level":"info","message":"running chronEvent chronjob()","timestamp":"2023-07-21T07:45:00.029Z"}
+{"level":"warn","message":"Event: boss, Status: false","timestamp":"2023-07-21T07:45:00.300Z"}
+{"level":"warn","message":"Event: helltide, Status: false","timestamp":"2023-07-21T07:45:00.301Z"}
+{"level":"warn","message":"Event: legion, Status: false","timestamp":"2023-07-21T07:45:00.302Z"}
+{"level":"info","message":"running chronEvent chronjob()","timestamp":"2023-07-21T07:46:00.005Z"}
+{"level":"warn","message":"Event: boss, Status: false","timestamp":"2023-07-21T07:46:00.276Z"}
+{"level":"warn","message":"Event: helltide, Status: false","timestamp":"2023-07-21T07:46:00.277Z"}
+{"level":"warn","message":"Event: legion, Status: false","timestamp":"2023-07-21T07:46:00.277Z"}
+{"level":"info","message":"running chronEvent chronjob()","timestamp":"2023-07-21T07:47:00.021Z"}
+{"level":"warn","message":"Event: boss, Status: false","timestamp":"2023-07-21T07:47:00.306Z"}
+{"level":"warn","message":"Event: helltide, Status: false","timestamp":"2023-07-21T07:47:00.307Z"}
+{"level":"warn","message":"Event: legion, Status: false","timestamp":"2023-07-21T07:47:00.307Z"}
+{"level":"info","message":"running chronEvent chronjob()","timestamp":"2023-07-21T07:48:00.002Z"}
+{"level":"warn","message":"Event: boss, Status: false","timestamp":"2023-07-21T07:48:00.273Z"}
+{"level":"warn","message":"Event: helltide, Status: false","timestamp":"2023-07-21T07:48:00.273Z"}
+{"level":"warn","message":"Event: legion, Status: false","timestamp":"2023-07-21T07:48:00.273Z"}
+{"level":"info","message":"running chronEvent chronjob()","timestamp":"2023-07-21T07:49:00.022Z"}
+{"level":"warn","message":"Event: boss, Status: false","timestamp":"2023-07-21T07:49:00.290Z"}
+{"level":"warn","message":"Event: helltide, Status: false","timestamp":"2023-07-21T07:49:00.291Z"}
+{"level":"warn","message":"Event: legion, Status: false","timestamp":"2023-07-21T07:49:00.292Z"}
+{"level":"info","message":"running chronEvent chronjob()","timestamp":"2023-07-21T07:50:00.024Z"}
+{"level":"warn","message":"Event: boss, Status: false","timestamp":"2023-07-21T07:50:03.365Z"}
+{"level":"warn","message":"Event: helltide, Status: false","timestamp":"2023-07-21T07:50:03.365Z"}
+{"level":"warn","message":"Event: legion, Status: false","timestamp":"2023-07-21T07:50:03.366Z"}
+{"level":"info","message":"running chronEvent chronjob()","timestamp":"2023-07-21T07:51:00.015Z"}
+{"level":"warn","message":"Event: boss, Status: false","timestamp":"2023-07-21T07:51:00.334Z"}
+{"level":"warn","message":"Event: helltide, Status: false","timestamp":"2023-07-21T07:51:00.334Z"}
+{"level":"warn","message":"Event: legion, Status: false","timestamp":"2023-07-21T07:51:00.334Z"}
+{"level":"info","message":"running chronEvent chronjob()","timestamp":"2023-07-21T07:52:00.036Z"}
+{"level":"warn","message":"Event: boss, Status: false","timestamp":"2023-07-21T07:52:00.326Z"}
+{"level":"warn","message":"Event: helltide, Status: false","timestamp":"2023-07-21T07:52:00.326Z"}
+{"level":"warn","message":"Event: legion, Status: false","timestamp":"2023-07-21T07:52:00.326Z"}
+{"level":"info","message":"running chronEvent chronjob()","timestamp":"2023-07-21T07:53:00.015Z"}
+{"level":"warn","message":"Event: boss, Status: false","timestamp":"2023-07-21T07:53:00.303Z"}
+{"level":"warn","message":"Event: helltide, Status: false","timestamp":"2023-07-21T07:53:00.304Z"}
+{"level":"warn","message":"Event: legion, Status: false","timestamp":"2023-07-21T07:53:00.305Z"}
+{"level":"info","message":"running chronEvent chronjob()","timestamp":"2023-07-21T07:54:00.020Z"}
+{"level":"warn","message":"Event: boss, Status: false","timestamp":"2023-07-21T07:54:00.330Z"}
+{"level":"warn","message":"Event: helltide, Status: false","timestamp":"2023-07-21T07:54:00.331Z"}
+{"level":"warn","message":"Event: legion, Status: false","timestamp":"2023-07-21T07:54:00.332Z"}
+{"level":"info","message":"running chronEvent chronjob()","timestamp":"2023-07-21T07:55:00.009Z"}
+{"level":"warn","message":"Event: boss, Status: false","timestamp":"2023-07-21T07:55:00.283Z"}
+{"level":"warn","message":"Event: helltide, Status: false","timestamp":"2023-07-21T07:55:00.283Z"}
+{"level":"warn","message":"Event: legion, Status: false","timestamp":"2023-07-21T07:55:00.284Z"}
+{"level":"info","message":"running chronEvent chronjob()","timestamp":"2023-07-21T07:56:00.027Z"}
+{"level":"warn","message":"Event: boss, Status: false","timestamp":"2023-07-21T07:56:00.308Z"}
+{"level":"warn","message":"Event: helltide, Status: false","timestamp":"2023-07-21T07:56:00.309Z"}
+{"level":"warn","message":"Event: legion, Status: false","timestamp":"2023-07-21T07:56:00.309Z"}
+{"level":"info","message":"running chronEvent chronjob()","timestamp":"2023-07-21T07:57:00.004Z"}
+{"level":"warn","message":"Event: boss, Status: false","timestamp":"2023-07-21T07:57:00.276Z"}
+{"level":"warn","message":"Event: helltide, Status: false","timestamp":"2023-07-21T07:57:00.276Z"}
+{"level":"warn","message":"Event: legion, Status: false","timestamp":"2023-07-21T07:57:00.276Z"}
+{"level":"info","message":"running chronEvent chronjob()","timestamp":"2023-07-21T07:58:00.025Z"}
+{"level":"warn","message":"Event: boss, Status: false","timestamp":"2023-07-21T07:58:01.558Z"}
+{"level":"warn","message":"Event: helltide, Status: false","timestamp":"2023-07-21T07:58:01.559Z"}
+{"level":"warn","message":"Event: legion, Status: false","timestamp":"2023-07-21T07:58:01.560Z"}
+{"level":"info","message":"running chronEvent chronjob()","timestamp":"2023-07-21T07:59:00.004Z"}
+{"level":"warn","message":"Event: boss, Status: false","timestamp":"2023-07-21T07:59:00.802Z"}
+{"level":"warn","message":"Event: helltide, Status: false","timestamp":"2023-07-21T07:59:00.803Z"}
+{"level":"warn","message":"Event: legion, Status: false","timestamp":"2023-07-21T07:59:00.804Z"}
+{"level":"info","message":"running chronEvent chronjob()","timestamp":"2023-07-21T08:00:00.020Z"}
+{"level":"warn","message":"Event: boss, Status: false","timestamp":"2023-07-21T08:00:00.289Z"}
+{"level":"warn","message":"Event: helltide, Status: false","timestamp":"2023-07-21T08:00:00.290Z"}
+{"level":"warn","message":"Event: legion, Status: false","timestamp":"2023-07-21T08:00:00.291Z"}
+{"level":"info","message":"running chronEvent chronjob()","timestamp":"2023-07-21T08:01:00.035Z"}
+{"level":"warn","message":"Event: boss, Status: false","timestamp":"2023-07-21T08:01:00.302Z"}
+{"level":"warn","message":"Event: helltide, Status: false","timestamp":"2023-07-21T08:01:00.303Z"}
+{"level":"warn","message":"Event: legion, Status: false","timestamp":"2023-07-21T08:01:00.303Z"}
+{"level":"info","message":"running chronEvent chronjob()","timestamp":"2023-07-21T08:02:00.017Z"}
+{"level":"warn","message":"Event: boss, Status: false","timestamp":"2023-07-21T08:02:00.431Z"}
+{"level":"warn","message":"Event: helltide, Status: false","timestamp":"2023-07-21T08:02:00.432Z"}
+{"level":"warn","message":"Event: legion, Status: false","timestamp":"2023-07-21T08:02:00.433Z"}
+{"level":"info","message":"running chronEvent chronjob()","timestamp":"2023-07-21T08:03:00.039Z"}
+{"level":"warn","message":"Event: boss, Status: false","timestamp":"2023-07-21T08:03:01.755Z"}
+{"level":"warn","message":"Event: helltide, Status: false","timestamp":"2023-07-21T08:03:01.755Z"}
+{"level":"warn","message":"Event: legion, Status: false","timestamp":"2023-07-21T08:03:01.756Z"}
+{"level":"info","message":"running chronEvent chronjob()","timestamp":"2023-07-21T08:04:00.011Z"}
+{"level":"warn","message":"Event: boss, Status: false","timestamp":"2023-07-21T08:04:00.319Z"}
+{"level":"warn","message":"Event: helltide, Status: false","timestamp":"2023-07-21T08:04:00.319Z"}
+{"level":"warn","message":"Event: legion, Status: false","timestamp":"2023-07-21T08:04:00.319Z"}
+{"level":"info","message":"running chronEvent chronjob()","timestamp":"2023-07-21T08:05:00.028Z"}
+{"level":"warn","message":"Event: boss, Status: false","timestamp":"2023-07-21T08:05:00.296Z"}
+{"level":"warn","message":"Event: helltide, Status: false","timestamp":"2023-07-21T08:05:00.296Z"}
+{"level":"info","message":"legion events has started! Event time: 5 minutes","timestamp":"2023-07-21T08:05:00.297Z"}
+{"level":"warn","message":"Event: legion, Status: true","timestamp":"2023-07-21T08:05:00.297Z"}
+{"level":"info","message":"Received message: @here Legion event will start in zone: Scosglen <t:1689926989:R>","timestamp":"2023-07-21T08:05:00.590Z"}
+{"level":"info","message":"running chronEvent chronjob()","timestamp":"2023-07-21T08:06:00.009Z"}
+{"level":"warn","message":"Event: boss, Status: false","timestamp":"2023-07-21T08:06:00.273Z"}
+{"level":"warn","message":"Event: helltide, Status: false","timestamp":"2023-07-21T08:06:00.274Z"}
+{"level":"warn","message":"Event: legion, Status: true","timestamp":"2023-07-21T08:06:00.275Z"}
+{"level":"info","message":"running chronEvent chronjob()","timestamp":"2023-07-21T08:07:00.029Z"}
+{"level":"warn","message":"Event: boss, Status: false","timestamp":"2023-07-21T08:07:00.311Z"}
+{"level":"warn","message":"Event: helltide, Status: false","timestamp":"2023-07-21T08:07:00.312Z"}
+{"level":"warn","message":"Event: legion, Status: true","timestamp":"2023-07-21T08:07:00.313Z"}
+{"level":"info","message":"running chronEvent chronjob()","timestamp":"2023-07-21T08:08:00.005Z"}
+{"level":"warn","message":"Event: boss, Status: false","timestamp":"2023-07-21T08:08:00.286Z"}
+{"level":"warn","message":"Event: helltide, Status: false","timestamp":"2023-07-21T08:08:00.289Z"}
+{"level":"warn","message":"Event: legion, Status: true","timestamp":"2023-07-21T08:08:00.290Z"}
+{"level":"info","message":"running chronEvent chronjob()","timestamp":"2023-07-21T08:09:00.023Z"}
+{"level":"warn","message":"Event: boss, Status: false","timestamp":"2023-07-21T08:09:00.296Z"}
+{"level":"warn","message":"Event: helltide, Status: false","timestamp":"2023-07-21T08:09:00.297Z"}
+{"level":"warn","message":"Event: legion, Status: true","timestamp":"2023-07-21T08:09:00.297Z"}
+{"level":"info","message":"Event tracking: **❌ Off**","timestamp":"2023-07-21T08:09:54.222Z"}
+{"level":"info","message":"Event tracking: **✅ On**","timestamp":"2023-07-21T08:10:07.205Z"}
+{"level":"info","message":"running chronEvent chronjob()","timestamp":"2023-07-21T08:11:00.020Z"}
+{"level":"warn","message":"Event: boss, Status: false","timestamp":"2023-07-21T08:11:00.292Z"}
+{"level":"warn","message":"Event: helltide, Status: false","timestamp":"2023-07-21T08:11:00.293Z"}
+{"level":"warn","message":"Event: legion, Status: false","timestamp":"2023-07-21T08:11:00.294Z"}
+{"level":"info","message":"running chronEvent chronjob()","timestamp":"2023-07-21T08:12:00.036Z"}
+{"level":"warn","message":"Event: boss, Status: false","timestamp":"2023-07-21T08:12:00.311Z"}
+{"level":"warn","message":"Event: helltide, Status: false","timestamp":"2023-07-21T08:12:00.312Z"}
+{"level":"warn","message":"Event: legion, Status: false","timestamp":"2023-07-21T08:12:00.313Z"}
+{"level":"info","message":"running chronEvent chronjob()","timestamp":"2023-07-21T08:13:00.017Z"}
+{"level":"warn","message":"Event: boss, Status: false","timestamp":"2023-07-21T08:13:00.299Z"}
+{"level":"warn","message":"Event: helltide, Status: false","timestamp":"2023-07-21T08:13:00.299Z"}
+{"level":"warn","message":"Event: legion, Status: false","timestamp":"2023-07-21T08:13:00.299Z"}
+{"level":"info","message":"running chronEvent chronjob()","timestamp":"2023-07-21T08:14:00.035Z"}
+{"level":"warn","message":"Event: boss, Status: false","timestamp":"2023-07-21T08:14:00.307Z"}
+{"level":"warn","message":"Event: helltide, Status: false","timestamp":"2023-07-21T08:14:00.308Z"}
+{"level":"warn","message":"Event: legion, Status: false","timestamp":"2023-07-21T08:14:00.309Z"}
+{"level":"info","message":"running chronEvent chronjob()","timestamp":"2023-07-21T08:15:00.012Z"}
+{"level":"warn","message":"Event: boss, Status: false","timestamp":"2023-07-21T08:15:00.297Z"}
+{"level":"warn","message":"Event: helltide, Status: false","timestamp":"2023-07-21T08:15:00.298Z"}
+{"level":"warn","message":"Event: legion, Status: false","timestamp":"2023-07-21T08:15:00.299Z"}
+{"level":"info","message":"running chronEvent chronjob()","timestamp":"2023-07-21T08:16:00.028Z"}
+{"level":"warn","message":"Event: boss, Status: false","timestamp":"2023-07-21T08:16:00.454Z"}
+{"level":"warn","message":"Event: helltide, Status: false","timestamp":"2023-07-21T08:16:00.455Z"}
+{"level":"warn","message":"Event: legion, Status: false","timestamp":"2023-07-21T08:16:00.455Z"}
+{"level":"info","message":"running chronEvent chronjob()","timestamp":"2023-07-21T08:17:00.009Z"}
+{"level":"warn","message":"Event: boss, Status: false","timestamp":"2023-07-21T08:17:00.291Z"}
+{"level":"warn","message":"Event: helltide, Status: false","timestamp":"2023-07-21T08:17:00.291Z"}
+{"level":"warn","message":"Event: legion, Status: false","timestamp":"2023-07-21T08:17:00.292Z"}
+{"level":"info","message":"running chronEvent chronjob()","timestamp":"2023-07-21T08:18:00.029Z"}
+{"level":"warn","message":"Event: boss, Status: false","timestamp":"2023-07-21T08:18:00.341Z"}
+{"level":"warn","message":"Event: helltide, Status: false","timestamp":"2023-07-21T08:18:00.342Z"}
+{"level":"warn","message":"Event: legion, Status: false","timestamp":"2023-07-21T08:18:00.343Z"}
+{"level":"info","message":"running chronEvent chronjob()","timestamp":"2023-07-21T08:19:00.004Z"}
+{"level":"warn","message":"Event: boss, Status: false","timestamp":"2023-07-21T08:19:00.281Z"}
+{"level":"warn","message":"Event: helltide, Status: false","timestamp":"2023-07-21T08:19:00.282Z"}
+{"level":"warn","message":"Event: legion, Status: false","timestamp":"2023-07-21T08:19:00.282Z"}
+{"level":"info","message":"running chronEvent chronjob()","timestamp":"2023-07-21T08:20:00.019Z"}
+{"level":"warn","message":"Event: boss, Status: false","timestamp":"2023-07-21T08:20:00.307Z"}
+{"level":"warn","message":"Event: helltide, Status: false","timestamp":"2023-07-21T08:20:00.307Z"}
+{"level":"warn","message":"Event: legion, Status: false","timestamp":"2023-07-21T08:20:00.308Z"}
+{"level":"info","message":"running chronEvent chronjob()","timestamp":"2023-07-21T08:21:00.001Z"}
+{"level":"warn","message":"Event: boss, Status: false","timestamp":"2023-07-21T08:21:00.309Z"}
+{"level":"warn","message":"Event: helltide, Status: false","timestamp":"2023-07-21T08:21:00.309Z"}
+{"level":"warn","message":"Event: legion, Status: false","timestamp":"2023-07-21T08:21:00.310Z"}
+{"level":"info","message":"running chronEvent chronjob()","timestamp":"2023-07-21T08:22:00.019Z"}
+{"level":"warn","message":"Event: boss, Status: false","timestamp":"2023-07-21T08:22:00.295Z"}
+{"level":"warn","message":"Event: helltide, Status: false","timestamp":"2023-07-21T08:22:00.295Z"}
+{"level":"warn","message":"Event: legion, Status: false","timestamp":"2023-07-21T08:22:00.295Z"}
+{"level":"info","message":"running chronEvent chronjob()","timestamp":"2023-07-21T08:23:00.037Z"}
+{"level":"warn","message":"Event: boss, Status: false","timestamp":"2023-07-21T08:23:00.316Z"}
+{"level":"warn","message":"Event: helltide, Status: false","timestamp":"2023-07-21T08:23:00.316Z"}
+{"level":"warn","message":"Event: legion, Status: false","timestamp":"2023-07-21T08:23:00.317Z"}
+{"level":"info","message":"running chronEvent chronjob()","timestamp":"2023-07-21T08:24:00.019Z"}
+{"level":"warn","message":"Event: boss, Status: false","timestamp":"2023-07-21T08:24:00.286Z"}
+{"level":"warn","message":"Event: helltide, Status: false","timestamp":"2023-07-21T08:24:00.286Z"}
+{"level":"warn","message":"Event: legion, Status: false","timestamp":"2023-07-21T08:24:00.287Z"}
+{"level":"info","message":"running chronEvent chronjob()","timestamp":"2023-07-21T08:25:00.033Z"}
+{"level":"warn","message":"Event: boss, Status: false","timestamp":"2023-07-21T08:25:00.308Z"}
+{"level":"warn","message":"Event: helltide, Status: false","timestamp":"2023-07-21T08:25:00.309Z"}
+{"level":"warn","message":"Event: legion, Status: false","timestamp":"2023-07-21T08:25:00.310Z"}
+{"level":"info","message":"running chronEvent chronjob()","timestamp":"2023-07-21T08:26:00.013Z"}
+{"level":"warn","message":"Event: boss, Status: false","timestamp":"2023-07-21T08:26:00.279Z"}
+{"level":"warn","message":"Event: helltide, Status: false","timestamp":"2023-07-21T08:26:00.280Z"}
+{"level":"warn","message":"Event: legion, Status: false","timestamp":"2023-07-21T08:26:00.281Z"}
+{"level":"info","message":"running chronEvent chronjob()","timestamp":"2023-07-21T08:27:00.028Z"}
+{"level":"warn","message":"Event: boss, Status: false","timestamp":"2023-07-21T08:27:00.294Z"}
+{"level":"warn","message":"Event: helltide, Status: false","timestamp":"2023-07-21T08:27:00.294Z"}
+{"level":"warn","message":"Event: legion, Status: false","timestamp":"2023-07-21T08:27:00.295Z"}
+{"level":"info","message":"running chronEvent chronjob()","timestamp":"2023-07-21T08:28:00.010Z"}
+{"level":"warn","message":"Event: boss, Status: false","timestamp":"2023-07-21T08:28:00.314Z"}
+{"level":"warn","message":"Event: helltide, Status: false","timestamp":"2023-07-21T08:28:00.314Z"}
+{"level":"warn","message":"Event: legion, Status: false","timestamp":"2023-07-21T08:28:00.315Z"}
+{"level":"info","message":"running chronEvent chronjob()","timestamp":"2023-07-21T08:29:00.025Z"}
+{"level":"warn","message":"Event: boss, Status: false","timestamp":"2023-07-21T08:29:00.301Z"}
+{"level":"warn","message":"Event: helltide, Status: false","timestamp":"2023-07-21T08:29:00.301Z"}
+{"level":"warn","message":"Event: legion, Status: false","timestamp":"2023-07-21T08:29:00.302Z"}
+{"level":"info","message":"running chronEvent chronjob()","timestamp":"2023-07-21T08:30:00.006Z"}
+{"level":"warn","message":"Event: boss, Status: false","timestamp":"2023-07-21T08:30:00.289Z"}
+{"level":"info","message":"helltide events has started! Event time: 60 minutes","timestamp":"2023-07-21T08:30:00.289Z"}
+{"level":"warn","message":"Event: helltide, Status: true","timestamp":"2023-07-21T08:30:00.290Z"}
+{"level":"warn","message":"Event: legion, Status: false","timestamp":"2023-07-21T08:30:00.291Z"}
+{"level":"info","message":"Received message: @here Helltide event will end in zone: step <t:1689931800:R>","timestamp":"2023-07-21T08:30:00.533Z"}
+{"level":"info","message":"running chronEvent chronjob()","timestamp":"2023-07-21T08:31:00.021Z"}
+{"level":"warn","message":"Event: boss, Status: false","timestamp":"2023-07-21T08:31:00.301Z"}
+{"level":"warn","message":"Event: helltide, Status: true","timestamp":"2023-07-21T08:31:00.302Z"}
+{"level":"info","message":"legion events has started! Event time: 5 minutes","timestamp":"2023-07-21T08:31:00.303Z"}
+{"level":"warn","message":"Event: legion, Status: true","timestamp":"2023-07-21T08:31:00.304Z"}
+{"level":"info","message":"Received message: @here Legion event will start in zone: Hawezar <t:1689928502:R>","timestamp":"2023-07-21T08:31:00.577Z"}
+{"level":"info","message":"running chronEvent chronjob()","timestamp":"2023-07-21T08:32:00.041Z"}
+{"level":"warn","message":"Event: boss, Status: false","timestamp":"2023-07-21T08:32:00.318Z"}
+{"level":"warn","message":"Event: helltide, Status: true","timestamp":"2023-07-21T08:32:00.319Z"}
+{"level":"warn","message":"Event: legion, Status: true","timestamp":"2023-07-21T08:32:00.320Z"}
+{"level":"info","message":"running chronEvent chronjob()","timestamp":"2023-07-21T08:33:00.017Z"}
+{"level":"warn","message":"Event: boss, Status: false","timestamp":"2023-07-21T08:33:00.307Z"}
+{"level":"warn","message":"Event: helltide, Status: true","timestamp":"2023-07-21T08:33:00.308Z"}
+{"level":"warn","message":"Event: legion, Status: true","timestamp":"2023-07-21T08:33:00.309Z"}
+{"level":"info","message":"running chronEvent chronjob()","timestamp":"2023-07-21T08:34:00.037Z"}
+{"level":"warn","message":"Event: boss, Status: false","timestamp":"2023-07-21T08:34:00.315Z"}
+{"level":"warn","message":"Event: helltide, Status: true","timestamp":"2023-07-21T08:34:00.316Z"}
+{"level":"warn","message":"Event: legion, Status: true","timestamp":"2023-07-21T08:34:00.317Z"}
+{"level":"info","message":"running chronEvent chronjob()","timestamp":"2023-07-21T08:35:00.013Z"}
+{"level":"warn","message":"Event: boss, Status: false","timestamp":"2023-07-21T08:35:00.298Z"}
+{"level":"warn","message":"Event: helltide, Status: true","timestamp":"2023-07-21T08:35:00.298Z"}
+{"level":"warn","message":"Event: legion, Status: true","timestamp":"2023-07-21T08:35:00.299Z"}
+{"level":"info","message":"running chronEvent chronjob()","timestamp":"2023-07-21T08:36:00.033Z"}
+{"level":"warn","message":"Event: boss, Status: false","timestamp":"2023-07-21T08:36:00.300Z"}
+{"level":"warn","message":"Event: helltide, Status: true","timestamp":"2023-07-21T08:36:00.301Z"}
+{"level":"warn","message":"Event: legion, Status: false","timestamp":"2023-07-21T08:36:00.302Z"}
+{"level":"info","message":"running chronEvent chronjob()","timestamp":"2023-07-21T08:37:00.011Z"}
+{"level":"warn","message":"Event: boss, Status: false","timestamp":"2023-07-21T08:37:00.298Z"}
+{"level":"warn","message":"Event: helltide, Status: true","timestamp":"2023-07-21T08:37:00.299Z"}
+{"level":"warn","message":"Event: legion, Status: false","timestamp":"2023-07-21T08:37:00.300Z"}
+{"level":"info","message":"running chronEvent chronjob()","timestamp":"2023-07-21T08:38:00.031Z"}
+{"level":"warn","message":"Event: boss, Status: false","timestamp":"2023-07-21T08:38:00.309Z"}
+{"level":"warn","message":"Event: helltide, Status: true","timestamp":"2023-07-21T08:38:00.310Z"}
+{"level":"warn","message":"Event: legion, Status: false","timestamp":"2023-07-21T08:38:00.310Z"}
+{"level":"info","message":"running chronEvent chronjob()","timestamp":"2023-07-21T08:39:00.007Z"}
+{"level":"warn","message":"Event: boss, Status: false","timestamp":"2023-07-21T08:39:00.274Z"}
+{"level":"warn","message":"Event: helltide, Status: true","timestamp":"2023-07-21T08:39:00.274Z"}
+{"level":"warn","message":"Event: legion, Status: false","timestamp":"2023-07-21T08:39:00.274Z"}
+{"level":"info","message":"running chronEvent chronjob()","timestamp":"2023-07-21T08:40:00.025Z"}
+{"level":"warn","message":"Event: boss, Status: false","timestamp":"2023-07-21T08:40:00.301Z"}
+{"level":"warn","message":"Event: helltide, Status: true","timestamp":"2023-07-21T08:40:00.301Z"}
+{"level":"warn","message":"Event: legion, Status: false","timestamp":"2023-07-21T08:40:00.302Z"}
+{"level":"info","message":"running chronEvent chronjob()","timestamp":"2023-07-21T08:41:00.003Z"}
+{"level":"warn","message":"Event: boss, Status: false","timestamp":"2023-07-21T08:41:00.262Z"}
+{"level":"warn","message":"Event: helltide, Status: true","timestamp":"2023-07-21T08:41:00.263Z"}
+{"level":"warn","message":"Event: legion, Status: false","timestamp":"2023-07-21T08:41:00.264Z"}
+{"level":"info","message":"running chronEvent chronjob()","timestamp":"2023-07-21T08:42:00.019Z"}
+{"level":"warn","message":"Event: boss, Status: false","timestamp":"2023-07-21T08:42:00.282Z"}
+{"level":"warn","message":"Event: helltide, Status: true","timestamp":"2023-07-21T08:42:00.283Z"}
+{"level":"warn","message":"Event: legion, Status: false","timestamp":"2023-07-21T08:42:00.283Z"}
+{"level":"info","message":"running chronEvent chronjob()","timestamp":"2023-07-21T08:43:00.039Z"}
+{"level":"warn","message":"Event: boss, Status: false","timestamp":"2023-07-21T08:43:00.310Z"}
+{"level":"warn","message":"Event: helltide, Status: true","timestamp":"2023-07-21T08:43:00.311Z"}
+{"level":"warn","message":"Event: legion, Status: false","timestamp":"2023-07-21T08:43:00.311Z"}
+{"level":"info","message":"running chronEvent chronjob()","timestamp":"2023-07-21T08:44:00.015Z"}
+{"level":"warn","message":"Event: boss, Status: false","timestamp":"2023-07-21T08:44:00.274Z"}
+{"level":"warn","message":"Event: helltide, Status: true","timestamp":"2023-07-21T08:44:00.275Z"}
+{"level":"warn","message":"Event: legion, Status: false","timestamp":"2023-07-21T08:44:00.275Z"}
+{"level":"info","message":"running chronEvent chronjob()","timestamp":"2023-07-21T08:45:00.035Z"}
+{"level":"warn","message":"Event: boss, Status: false","timestamp":"2023-07-21T08:45:00.316Z"}
+{"level":"warn","message":"Event: helltide, Status: true","timestamp":"2023-07-21T08:45:00.317Z"}
+{"level":"warn","message":"Event: legion, Status: false","timestamp":"2023-07-21T08:45:00.317Z"}
+{"level":"info","message":"running chronEvent chronjob()","timestamp":"2023-07-21T08:46:00.015Z"}
+{"level":"warn","message":"Event: boss, Status: false","timestamp":"2023-07-21T08:46:00.303Z"}
+{"level":"warn","message":"Event: helltide, Status: true","timestamp":"2023-07-21T08:46:00.304Z"}
+{"level":"warn","message":"Event: legion, Status: false","timestamp":"2023-07-21T08:46:00.305Z"}
+{"level":"info","message":"running chronEvent chronjob()","timestamp":"2023-07-21T08:47:00.034Z"}
+{"level":"warn","message":"Event: boss, Status: false","timestamp":"2023-07-21T08:47:00.302Z"}
+{"level":"warn","message":"Event: helltide, Status: true","timestamp":"2023-07-21T08:47:00.303Z"}
+{"level":"warn","message":"Event: legion, Status: false","timestamp":"2023-07-21T08:47:00.303Z"}
+{"level":"info","message":"running chronEvent chronjob()","timestamp":"2023-07-21T08:48:00.013Z"}
+{"level":"warn","message":"Event: boss, Status: false","timestamp":"2023-07-21T08:48:00.299Z"}
+{"level":"warn","message":"Event: helltide, Status: true","timestamp":"2023-07-21T08:48:00.299Z"}
+{"level":"warn","message":"Event: legion, Status: false","timestamp":"2023-07-21T08:48:00.299Z"}
+{"level":"info","message":"running chronEvent chronjob()","timestamp":"2023-07-21T08:49:00.029Z"}
+{"level":"warn","message":"Event: boss, Status: false","timestamp":"2023-07-21T08:49:00.296Z"}
+{"level":"warn","message":"Event: helltide, Status: true","timestamp":"2023-07-21T08:49:00.297Z"}
+{"level":"warn","message":"Event: legion, Status: false","timestamp":"2023-07-21T08:49:00.298Z"}
+{"level":"info","message":"running chronEvent chronjob()","timestamp":"2023-07-21T08:50:00.011Z"}
+{"level":"warn","message":"Event: boss, Status: false","timestamp":"2023-07-21T08:50:00.278Z"}
+{"level":"warn","message":"Event: helltide, Status: true","timestamp":"2023-07-21T08:50:00.279Z"}
+{"level":"warn","message":"Event: legion, Status: false","timestamp":"2023-07-21T08:50:00.280Z"}
+{"level":"info","message":"running chronEvent chronjob()","timestamp":"2023-07-21T08:51:00.025Z"}
+{"level":"warn","message":"Event: boss, Status: false","timestamp":"2023-07-21T08:51:00.305Z"}
+{"level":"warn","message":"Event: helltide, Status: true","timestamp":"2023-07-21T08:51:00.306Z"}
+{"level":"warn","message":"Event: legion, Status: false","timestamp":"2023-07-21T08:51:00.306Z"}
+{"level":"info","message":"running chronEvent chronjob()","timestamp":"2023-07-21T08:52:00.002Z"}
+{"level":"warn","message":"Event: boss, Status: false","timestamp":"2023-07-21T08:52:00.288Z"}
+{"level":"warn","message":"Event: helltide, Status: true","timestamp":"2023-07-21T08:52:00.288Z"}
+{"level":"warn","message":"Event: legion, Status: false","timestamp":"2023-07-21T08:52:00.288Z"}
+{"level":"info","message":"running chronEvent chronjob()","timestamp":"2023-07-21T08:53:00.021Z"}
+{"level":"warn","message":"Event: boss, Status: false","timestamp":"2023-07-21T08:53:00.289Z"}
+{"level":"warn","message":"Event: helltide, Status: true","timestamp":"2023-07-21T08:53:00.290Z"}
+{"level":"warn","message":"Event: legion, Status: false","timestamp":"2023-07-21T08:53:00.291Z"}
+{"level":"info","message":"running chronEvent chronjob()","timestamp":"2023-07-21T08:54:00.028Z"}
+{"level":"warn","message":"Event: boss, Status: false","timestamp":"2023-07-21T08:54:00.315Z"}
+{"level":"warn","message":"Event: helltide, Status: true","timestamp":"2023-07-21T08:54:00.315Z"}
+{"level":"warn","message":"Event: legion, Status: false","timestamp":"2023-07-21T08:54:00.316Z"}
+{"level":"info","message":"running chronEvent chronjob()","timestamp":"2023-07-21T08:55:00.015Z"}
+{"level":"warn","message":"Event: boss, Status: false","timestamp":"2023-07-21T08:55:00.281Z"}
+{"level":"warn","message":"Event: helltide, Status: true","timestamp":"2023-07-21T08:55:00.282Z"}
+{"level":"warn","message":"Event: legion, Status: false","timestamp":"2023-07-21T08:55:00.283Z"}
+{"level":"info","message":"running chronEvent chronjob()","timestamp":"2023-07-21T08:56:00.018Z"}
+{"level":"warn","message":"Event: boss, Status: false","timestamp":"2023-07-21T08:56:00.290Z"}
+{"level":"warn","message":"Event: helltide, Status: true","timestamp":"2023-07-21T08:56:00.290Z"}
+{"level":"warn","message":"Event: legion, Status: false","timestamp":"2023-07-21T08:56:00.291Z"}
+{"level":"info","message":"running chronEvent chronjob()","timestamp":"2023-07-21T08:57:00.035Z"}
+{"level":"warn","message":"Event: boss, Status: false","timestamp":"2023-07-21T08:57:00.340Z"}
+{"level":"warn","message":"Event: helltide, Status: true","timestamp":"2023-07-21T08:57:00.341Z"}
+{"level":"warn","message":"Event: legion, Status: false","timestamp":"2023-07-21T08:57:00.341Z"}
+{"level":"info","message":"running chronEvent chronjob()","timestamp":"2023-07-21T08:58:00.009Z"}
+{"level":"warn","message":"Event: boss, Status: false","timestamp":"2023-07-21T08:58:00.281Z"}
+{"level":"warn","message":"Event: helltide, Status: true","timestamp":"2023-07-21T08:58:00.282Z"}
+{"level":"warn","message":"Event: legion, Status: false","timestamp":"2023-07-21T08:58:00.282Z"}
+{"level":"info","message":"running chronEvent chronjob()","timestamp":"2023-07-21T08:59:00.020Z"}
+{"level":"warn","message":"Event: boss, Status: false","timestamp":"2023-07-21T08:59:00.294Z"}
+{"level":"warn","message":"Event: helltide, Status: true","timestamp":"2023-07-21T08:59:00.295Z"}
+{"level":"warn","message":"Event: legion, Status: false","timestamp":"2023-07-21T08:59:00.296Z"}
+{"level":"info","message":"running chronEvent chronjob()","timestamp":"2023-07-21T09:00:00.005Z"}
+{"level":"warn","message":"Event: boss, Status: false","timestamp":"2023-07-21T09:00:00.274Z"}
+{"level":"warn","message":"Event: helltide, Status: true","timestamp":"2023-07-21T09:00:00.275Z"}
+{"level":"warn","message":"Event: legion, Status: false","timestamp":"2023-07-21T09:00:00.276Z"}
+{"level":"info","message":"running chronEvent chronjob()","timestamp":"2023-07-21T09:01:00.026Z"}
+{"level":"warn","message":"Event: boss, Status: false","timestamp":"2023-07-21T09:01:00.294Z"}
+{"level":"warn","message":"Event: helltide, Status: true","timestamp":"2023-07-21T09:01:00.295Z"}
+{"level":"warn","message":"Event: legion, Status: false","timestamp":"2023-07-21T09:01:00.296Z"}
+{"level":"info","message":"running chronEvent chronjob()","timestamp":"2023-07-21T09:02:00.005Z"}
+{"level":"warn","message":"Event: boss, Status: false","timestamp":"2023-07-21T09:02:00.288Z"}
+{"level":"warn","message":"Event: helltide, Status: true","timestamp":"2023-07-21T09:02:00.288Z"}
+{"level":"warn","message":"Event: legion, Status: false","timestamp":"2023-07-21T09:02:00.289Z"}
+{"level":"info","message":"running chronEvent chronjob()","timestamp":"2023-07-21T09:03:00.021Z"}
+{"level":"warn","message":"Event: boss, Status: false","timestamp":"2023-07-21T09:03:00.305Z"}
+{"level":"warn","message":"Event: helltide, Status: true","timestamp":"2023-07-21T09:03:00.305Z"}
+{"level":"warn","message":"Event: legion, Status: false","timestamp":"2023-07-21T09:03:00.306Z"}
+{"level":"info","message":"running chronEvent chronjob()","timestamp":"2023-07-21T09:04:00.039Z"}
+{"level":"warn","message":"Event: boss, Status: false","timestamp":"2023-07-21T09:04:00.321Z"}
+{"level":"warn","message":"Event: helltide, Status: true","timestamp":"2023-07-21T09:04:00.321Z"}
+{"level":"info","message":"legion events has started! Event time: 5 minutes","timestamp":"2023-07-21T09:04:00.321Z"}
+{"level":"warn","message":"Event: legion, Status: true","timestamp":"2023-07-21T09:04:00.322Z"}
+{"level":"info","message":"Received message: @here Legion event will start in zone: Fractured Peaks <t:1689930511:R>","timestamp":"2023-07-21T09:04:00.549Z"}
+{"level":"info","message":"running chronEvent chronjob()","timestamp":"2023-07-21T09:05:00.020Z"}
+{"level":"warn","message":"Event: boss, Status: false","timestamp":"2023-07-21T09:05:00.300Z"}
+{"level":"warn","message":"Event: helltide, Status: true","timestamp":"2023-07-21T09:05:00.300Z"}
+{"level":"warn","message":"Event: legion, Status: true","timestamp":"2023-07-21T09:05:00.301Z"}
+{"level":"info","message":"running chronEvent chronjob()","timestamp":"2023-07-21T09:06:00.036Z"}
+{"level":"warn","message":"Event: boss, Status: false","timestamp":"2023-07-21T09:06:00.306Z"}
+{"level":"warn","message":"Event: helltide, Status: true","timestamp":"2023-07-21T09:06:00.306Z"}
+{"level":"warn","message":"Event: legion, Status: true","timestamp":"2023-07-21T09:06:00.307Z"}
+{"level":"info","message":"running chronEvent chronjob()","timestamp":"2023-07-21T09:07:00.013Z"}
+{"level":"warn","message":"Event: boss, Status: false","timestamp":"2023-07-21T09:07:00.278Z"}
+{"level":"warn","message":"Event: helltide, Status: true","timestamp":"2023-07-21T09:07:00.279Z"}
+{"level":"warn","message":"Event: legion, Status: true","timestamp":"2023-07-21T09:07:00.279Z"}
+{"level":"info","message":"running chronEvent chronjob()","timestamp":"2023-07-21T09:08:00.032Z"}
+{"level":"warn","message":"Event: boss, Status: false","timestamp":"2023-07-21T09:08:00.307Z"}
+{"level":"warn","message":"Event: helltide, Status: true","timestamp":"2023-07-21T09:08:00.308Z"}
+{"level":"warn","message":"Event: legion, Status: true","timestamp":"2023-07-21T09:08:00.308Z"}
+{"level":"info","message":"running chronEvent chronjob()","timestamp":"2023-07-21T09:09:00.009Z"}
+{"level":"warn","message":"Event: boss, Status: false","timestamp":"2023-07-21T09:09:00.276Z"}
+{"level":"warn","message":"Event: helltide, Status: true","timestamp":"2023-07-21T09:09:00.277Z"}
+{"level":"warn","message":"Event: legion, Status: false","timestamp":"2023-07-21T09:09:00.278Z"}
+{"level":"info","message":"running chronEvent chronjob()","timestamp":"2023-07-21T09:10:00.029Z"}
+{"level":"warn","message":"Event: boss, Status: false","timestamp":"2023-07-21T09:10:00.315Z"}
+{"level":"warn","message":"Event: helltide, Status: true","timestamp":"2023-07-21T09:10:00.316Z"}
+{"level":"warn","message":"Event: legion, Status: false","timestamp":"2023-07-21T09:10:00.319Z"}
+{"level":"info","message":"running chronEvent chronjob()","timestamp":"2023-07-21T09:11:00.005Z"}
+{"level":"warn","message":"Event: boss, Status: false","timestamp":"2023-07-21T09:11:00.292Z"}
+{"level":"warn","message":"Event: helltide, Status: true","timestamp":"2023-07-21T09:11:00.293Z"}
+{"level":"warn","message":"Event: legion, Status: false","timestamp":"2023-07-21T09:11:00.293Z"}
+{"level":"info","message":"running chronEvent chronjob()","timestamp":"2023-07-21T09:12:00.025Z"}
+{"level":"warn","message":"Event: boss, Status: false","timestamp":"2023-07-21T09:12:00.299Z"}
+{"level":"warn","message":"Event: helltide, Status: true","timestamp":"2023-07-21T09:12:00.299Z"}
+{"level":"warn","message":"Event: legion, Status: false","timestamp":"2023-07-21T09:12:00.300Z"}
+{"level":"info","message":"running chronEvent chronjob()","timestamp":"2023-07-21T09:13:00.004Z"}
+{"level":"warn","message":"Event: boss, Status: false","timestamp":"2023-07-21T09:13:00.273Z"}
+{"level":"warn","message":"Event: helltide, Status: true","timestamp":"2023-07-21T09:13:00.274Z"}
+{"level":"warn","message":"Event: legion, Status: false","timestamp":"2023-07-21T09:13:00.274Z"}
+{"level":"info","message":"running chronEvent chronjob()","timestamp":"2023-07-21T09:14:00.023Z"}
+{"level":"warn","message":"Event: boss, Status: false","timestamp":"2023-07-21T09:14:00.304Z"}
+{"level":"warn","message":"Event: helltide, Status: true","timestamp":"2023-07-21T09:14:00.305Z"}
+{"level":"warn","message":"Event: legion, Status: false","timestamp":"2023-07-21T09:14:00.306Z"}
+{"level":"info","message":"running chronEvent chronjob()","timestamp":"2023-07-21T09:15:00.041Z"}
+{"level":"warn","message":"Event: boss, Status: false","timestamp":"2023-07-21T09:15:00.308Z"}
+{"level":"warn","message":"Event: helltide, Status: true","timestamp":"2023-07-21T09:15:00.308Z"}
+{"level":"warn","message":"Event: legion, Status: false","timestamp":"2023-07-21T09:15:00.308Z"}
+{"level":"info","message":"running chronEvent chronjob()","timestamp":"2023-07-21T09:16:00.017Z"}
+{"level":"warn","message":"Event: boss, Status: false","timestamp":"2023-07-21T09:16:00.312Z"}
+{"level":"warn","message":"Event: helltide, Status: true","timestamp":"2023-07-21T09:16:00.312Z"}
+{"level":"warn","message":"Event: legion, Status: false","timestamp":"2023-07-21T09:16:00.313Z"}
+{"level":"info","message":"running chronEvent chronjob()","timestamp":"2023-07-21T09:17:00.036Z"}
+{"level":"warn","message":"Event: boss, Status: false","timestamp":"2023-07-21T09:17:00.309Z"}
+{"level":"warn","message":"Event: helltide, Status: true","timestamp":"2023-07-21T09:17:00.309Z"}
+{"level":"warn","message":"Event: legion, Status: false","timestamp":"2023-07-21T09:17:00.310Z"}
+{"level":"info","message":"running chronEvent chronjob()","timestamp":"2023-07-21T09:18:00.014Z"}
+{"level":"warn","message":"Event: boss, Status: false","timestamp":"2023-07-21T09:18:00.280Z"}
+{"level":"warn","message":"Event: helltide, Status: true","timestamp":"2023-07-21T09:18:00.280Z"}
+{"level":"warn","message":"Event: legion, Status: false","timestamp":"2023-07-21T09:18:00.281Z"}
+{"level":"info","message":"running chronEvent chronjob()","timestamp":"2023-07-21T09:19:00.006Z"}
+{"level":"warn","message":"Event: boss, Status: false","timestamp":"2023-07-21T09:19:00.266Z"}
+{"level":"warn","message":"Event: helltide, Status: true","timestamp":"2023-07-21T09:19:00.266Z"}
+{"level":"warn","message":"Event: legion, Status: false","timestamp":"2023-07-21T09:19:00.267Z"}
+{"level":"info","message":"running chronEvent chronjob()","timestamp":"2023-07-21T09:20:00.009Z"}
+{"level":"warn","message":"Event: boss, Status: false","timestamp":"2023-07-21T09:20:00.512Z"}
+{"level":"warn","message":"Event: helltide, Status: true","timestamp":"2023-07-21T09:20:00.513Z"}
+{"level":"warn","message":"Event: legion, Status: false","timestamp":"2023-07-21T09:20:00.513Z"}
+{"level":"info","message":"running chronEvent chronjob()","timestamp":"2023-07-21T09:21:00.030Z"}
+{"level":"warn","message":"Event: boss, Status: false","timestamp":"2023-07-21T09:21:00.305Z"}
+{"level":"warn","message":"Event: helltide, Status: true","timestamp":"2023-07-21T09:21:00.305Z"}
+{"level":"warn","message":"Event: legion, Status: false","timestamp":"2023-07-21T09:21:00.306Z"}
+{"level":"info","message":"running chronEvent chronjob()","timestamp":"2023-07-21T09:22:00.008Z"}
+{"level":"warn","message":"Event: boss, Status: false","timestamp":"2023-07-21T09:22:00.277Z"}
+{"level":"warn","message":"Event: helltide, Status: true","timestamp":"2023-07-21T09:22:00.278Z"}
+{"level":"warn","message":"Event: legion, Status: false","timestamp":"2023-07-21T09:22:00.278Z"}
+{"level":"info","message":"running chronEvent chronjob()","timestamp":"2023-07-21T09:23:00.025Z"}
+{"level":"warn","message":"Event: boss, Status: false","timestamp":"2023-07-21T09:23:00.310Z"}
+{"level":"warn","message":"Event: helltide, Status: true","timestamp":"2023-07-21T09:23:00.311Z"}
+{"level":"warn","message":"Event: legion, Status: false","timestamp":"2023-07-21T09:23:00.311Z"}
+{"level":"info","message":"running chronEvent chronjob()","timestamp":"2023-07-21T09:24:00.004Z"}
+{"level":"warn","message":"Event: boss, Status: false","timestamp":"2023-07-21T09:24:00.276Z"}
+{"level":"warn","message":"Event: helltide, Status: true","timestamp":"2023-07-21T09:24:00.277Z"}
+{"level":"warn","message":"Event: legion, Status: false","timestamp":"2023-07-21T09:24:00.278Z"}
+{"level":"info","message":"running chronEvent chronjob()","timestamp":"2023-07-21T09:25:00.019Z"}
+{"level":"warn","message":"Event: boss, Status: false","timestamp":"2023-07-21T09:25:00.290Z"}
+{"level":"warn","message":"Event: helltide, Status: true","timestamp":"2023-07-21T09:25:00.291Z"}
+{"level":"warn","message":"Event: legion, Status: false","timestamp":"2023-07-21T09:25:00.291Z"}
+{"level":"info","message":"running chronEvent chronjob()","timestamp":"2023-07-21T09:26:00.039Z"}
+{"level":"warn","message":"Event: boss, Status: false","timestamp":"2023-07-21T09:26:00.304Z"}
+{"level":"warn","message":"Event: helltide, Status: true","timestamp":"2023-07-21T09:26:00.305Z"}
+{"level":"warn","message":"Event: legion, Status: false","timestamp":"2023-07-21T09:26:00.306Z"}
+{"level":"info","message":"running chronEvent chronjob()","timestamp":"2023-07-21T09:27:00.019Z"}
+{"level":"warn","message":"Event: boss, Status: false","timestamp":"2023-07-21T09:27:00.304Z"}
+{"level":"warn","message":"Event: helltide, Status: true","timestamp":"2023-07-21T09:27:00.305Z"}
+{"level":"warn","message":"Event: legion, Status: false","timestamp":"2023-07-21T09:27:00.306Z"}
+{"level":"info","message":"running chronEvent chronjob()","timestamp":"2023-07-21T09:28:00.037Z"}
+{"level":"warn","message":"Event: boss, Status: false","timestamp":"2023-07-21T09:28:00.321Z"}
+{"level":"warn","message":"Event: helltide, Status: true","timestamp":"2023-07-21T09:28:00.322Z"}
+{"level":"warn","message":"Event: legion, Status: false","timestamp":"2023-07-21T09:28:00.323Z"}
+{"level":"info","message":"running chronEvent chronjob()","timestamp":"2023-07-21T09:29:00.011Z"}
+{"level":"warn","message":"Event: boss, Status: false","timestamp":"2023-07-21T09:29:00.293Z"}
+{"level":"warn","message":"Event: helltide, Status: false","timestamp":"2023-07-21T09:29:00.294Z"}
+{"level":"warn","message":"Event: legion, Status: false","timestamp":"2023-07-21T09:29:00.294Z"}
+{"level":"info","message":"running chronEvent chronjob()","timestamp":"2023-07-21T09:30:00.031Z"}
+{"level":"warn","message":"Event: boss, Status: false","timestamp":"2023-07-21T09:30:00.287Z"}
+{"level":"warn","message":"Event: helltide, Status: false","timestamp":"2023-07-21T09:30:00.288Z"}
+{"level":"warn","message":"Event: legion, Status: false","timestamp":"2023-07-21T09:30:00.289Z"}
+{"level":"info","message":"running chronEvent chronjob()","timestamp":"2023-07-21T09:31:00.009Z"}
+{"level":"warn","message":"Event: boss, Status: false","timestamp":"2023-07-21T09:31:00.273Z"}
+{"level":"warn","message":"Event: helltide, Status: false","timestamp":"2023-07-21T09:31:00.274Z"}
+{"level":"warn","message":"Event: legion, Status: false","timestamp":"2023-07-21T09:31:00.275Z"}
+{"level":"info","message":"running chronEvent chronjob()","timestamp":"2023-07-21T09:32:00.028Z"}
+{"level":"warn","message":"Event: boss, Status: false","timestamp":"2023-07-21T09:32:00.321Z"}
+{"level":"warn","message":"Event: helltide, Status: false","timestamp":"2023-07-21T09:32:00.322Z"}
+{"level":"warn","message":"Event: legion, Status: false","timestamp":"2023-07-21T09:32:00.323Z"}
+{"level":"info","message":"running chronEvent chronjob()","timestamp":"2023-07-21T09:33:00.005Z"}
+{"level":"warn","message":"Event: boss, Status: false","timestamp":"2023-07-21T09:33:00.287Z"}
+{"level":"warn","message":"Event: helltide, Status: false","timestamp":"2023-07-21T09:33:00.288Z"}
+{"level":"warn","message":"Event: legion, Status: false","timestamp":"2023-07-21T09:33:00.288Z"}
+{"level":"info","message":"running chronEvent chronjob()","timestamp":"2023-07-21T09:34:00.021Z"}
+{"level":"warn","message":"Event: boss, Status: false","timestamp":"2023-07-21T09:34:00.297Z"}
+{"level":"warn","message":"Event: helltide, Status: false","timestamp":"2023-07-21T09:34:00.298Z"}
+{"level":"info","message":"legion events has started! Event time: 5 minutes","timestamp":"2023-07-21T09:34:00.298Z"}
+{"level":"warn","message":"Event: legion, Status: true","timestamp":"2023-07-21T09:34:00.300Z"}
+{"level":"info","message":"Received message: @here Legion event will start in zone: Dry Steppes <t:1689932325:R>","timestamp":"2023-07-21T09:34:00.573Z"}
+{"level":"info","message":"running chronEvent chronjob()","timestamp":"2023-07-21T09:35:00.005Z"}
+{"level":"warn","message":"Event: boss, Status: false","timestamp":"2023-07-21T09:35:00.294Z"}
+{"level":"warn","message":"Event: helltide, Status: false","timestamp":"2023-07-21T09:35:00.294Z"}
+{"level":"warn","message":"Event: legion, Status: true","timestamp":"2023-07-21T09:35:00.294Z"}
+{"level":"info","message":"running chronEvent chronjob()","timestamp":"2023-07-21T09:36:00.017Z"}
+{"level":"warn","message":"Event: boss, Status: false","timestamp":"2023-07-21T09:36:00.290Z"}
+{"level":"warn","message":"Event: helltide, Status: false","timestamp":"2023-07-21T09:36:00.291Z"}
+{"level":"warn","message":"Event: legion, Status: true","timestamp":"2023-07-21T09:36:00.292Z"}
+{"level":"info","message":"running chronEvent chronjob()","timestamp":"2023-07-21T09:37:00.036Z"}
+{"level":"warn","message":"Event: boss, Status: false","timestamp":"2023-07-21T09:37:00.295Z"}
+{"level":"warn","message":"Event: helltide, Status: false","timestamp":"2023-07-21T09:37:00.296Z"}
+{"level":"warn","message":"Event: legion, Status: true","timestamp":"2023-07-21T09:37:00.297Z"}
+{"level":"info","message":"running chronEvent chronjob()","timestamp":"2023-07-21T09:38:00.016Z"}
+{"level":"warn","message":"Event: boss, Status: false","timestamp":"2023-07-21T09:38:00.282Z"}
+{"level":"warn","message":"Event: helltide, Status: false","timestamp":"2023-07-21T09:38:00.282Z"}
+{"level":"warn","message":"Event: legion, Status: true","timestamp":"2023-07-21T09:38:00.283Z"}
+{"level":"info","message":"running chronEvent chronjob()","timestamp":"2023-07-21T09:39:00.008Z"}
+{"level":"warn","message":"Event: boss, Status: false","timestamp":"2023-07-21T09:39:00.282Z"}
+{"level":"warn","message":"Event: helltide, Status: false","timestamp":"2023-07-21T09:39:00.283Z"}
+{"level":"warn","message":"Event: legion, Status: false","timestamp":"2023-07-21T09:39:00.284Z"}
+{"level":"info","message":"running chronEvent chronjob()","timestamp":"2023-07-21T09:40:00.013Z"}
+{"level":"warn","message":"Event: boss, Status: false","timestamp":"2023-07-21T09:40:00.305Z"}
+{"level":"warn","message":"Event: helltide, Status: false","timestamp":"2023-07-21T09:40:00.306Z"}
+{"level":"warn","message":"Event: legion, Status: false","timestamp":"2023-07-21T09:40:00.307Z"}
+{"level":"info","message":"running chronEvent chronjob()","timestamp":"2023-07-21T09:41:00.036Z"}
+{"level":"warn","message":"Event: boss, Status: false","timestamp":"2023-07-21T09:41:00.310Z"}
+{"level":"warn","message":"Event: helltide, Status: false","timestamp":"2023-07-21T09:41:00.311Z"}
+{"level":"warn","message":"Event: legion, Status: false","timestamp":"2023-07-21T09:41:00.312Z"}
+{"level":"info","message":"running chronEvent chronjob()","timestamp":"2023-07-21T09:42:00.009Z"}
+{"level":"warn","message":"Event: boss, Status: false","timestamp":"2023-07-21T09:42:00.281Z"}
+{"level":"warn","message":"Event: helltide, Status: false","timestamp":"2023-07-21T09:42:00.282Z"}
+{"level":"warn","message":"Event: legion, Status: false","timestamp":"2023-07-21T09:42:00.283Z"}
+{"level":"info","message":"running chronEvent chronjob()","timestamp":"2023-07-21T09:43:00.023Z"}
+{"level":"warn","message":"Event: boss, Status: false","timestamp":"2023-07-21T09:43:00.291Z"}
+{"level":"warn","message":"Event: helltide, Status: false","timestamp":"2023-07-21T09:43:00.292Z"}
+{"level":"warn","message":"Event: legion, Status: false","timestamp":"2023-07-21T09:43:00.293Z"}
+{"level":"info","message":"running chronEvent chronjob()","timestamp":"2023-07-21T09:44:00.005Z"}
+{"level":"warn","message":"Event: boss, Status: false","timestamp":"2023-07-21T09:44:00.273Z"}
+{"level":"warn","message":"Event: helltide, Status: false","timestamp":"2023-07-21T09:44:00.273Z"}
+{"level":"warn","message":"Event: legion, Status: false","timestamp":"2023-07-21T09:44:00.274Z"}
+{"level":"info","message":"running chronEvent chronjob()","timestamp":"2023-07-21T09:45:00.022Z"}
+{"level":"warn","message":"Event: boss, Status: false","timestamp":"2023-07-21T09:45:00.293Z"}
+{"level":"warn","message":"Event: helltide, Status: false","timestamp":"2023-07-21T09:45:00.294Z"}
+{"level":"warn","message":"Event: legion, Status: false","timestamp":"2023-07-21T09:45:00.295Z"}
+{"level":"info","message":"running chronEvent chronjob()","timestamp":"2023-07-21T09:46:00.003Z"}
+{"level":"warn","message":"Event: boss, Status: false","timestamp":"2023-07-21T09:46:00.292Z"}
+{"level":"warn","message":"Event: helltide, Status: false","timestamp":"2023-07-21T09:46:00.293Z"}
+{"level":"warn","message":"Event: legion, Status: false","timestamp":"2023-07-21T09:46:00.294Z"}
+{"level":"info","message":"running chronEvent chronjob()","timestamp":"2023-07-21T09:47:00.020Z"}
+{"level":"warn","message":"Event: boss, Status: false","timestamp":"2023-07-21T09:47:00.285Z"}
+{"level":"warn","message":"Event: helltide, Status: false","timestamp":"2023-07-21T09:47:00.286Z"}
+{"level":"warn","message":"Event: legion, Status: false","timestamp":"2023-07-21T09:47:00.287Z"}
+{"level":"info","message":"running chronEvent chronjob()","timestamp":"2023-07-21T09:48:00.036Z"}
+{"level":"warn","message":"Event: boss, Status: false","timestamp":"2023-07-21T09:48:00.312Z"}
+{"level":"warn","message":"Event: helltide, Status: false","timestamp":"2023-07-21T09:48:00.312Z"}
+{"level":"warn","message":"Event: legion, Status: false","timestamp":"2023-07-21T09:48:00.312Z"}
+{"level":"info","message":"running chronEvent chronjob()","timestamp":"2023-07-21T09:49:00.016Z"}
+{"level":"warn","message":"Event: boss, Status: false","timestamp":"2023-07-21T09:49:00.288Z"}
+{"level":"warn","message":"Event: helltide, Status: false","timestamp":"2023-07-21T09:49:00.289Z"}
+{"level":"warn","message":"Event: legion, Status: false","timestamp":"2023-07-21T09:49:00.290Z"}
+{"level":"info","message":"running chronEvent chronjob()","timestamp":"2023-07-21T09:50:00.026Z"}
+{"level":"warn","message":"Event: boss, Status: false","timestamp":"2023-07-21T09:50:00.299Z"}
+{"level":"warn","message":"Event: helltide, Status: false","timestamp":"2023-07-21T09:50:00.300Z"}
+{"level":"warn","message":"Event: legion, Status: false","timestamp":"2023-07-21T09:50:00.301Z"}
+{"level":"info","message":"running chronEvent chronjob()","timestamp":"2023-07-21T09:51:00.012Z"}
+{"level":"warn","message":"Event: boss, Status: false","timestamp":"2023-07-21T09:51:00.278Z"}
+{"level":"warn","message":"Event: helltide, Status: false","timestamp":"2023-07-21T09:51:00.278Z"}
+{"level":"warn","message":"Event: legion, Status: false","timestamp":"2023-07-21T09:51:00.279Z"}
+{"level":"info","message":"running chronEvent chronjob()","timestamp":"2023-07-21T09:52:00.034Z"}
+{"level":"warn","message":"Event: boss, Status: false","timestamp":"2023-07-21T09:52:00.307Z"}
+{"level":"warn","message":"Event: helltide, Status: false","timestamp":"2023-07-21T09:52:00.308Z"}
+{"level":"warn","message":"Event: legion, Status: false","timestamp":"2023-07-21T09:52:00.308Z"}
+{"level":"info","message":"running chronEvent chronjob()","timestamp":"2023-07-21T09:53:00.007Z"}
+{"level":"warn","message":"Event: boss, Status: false","timestamp":"2023-07-21T09:53:00.277Z"}
+{"level":"warn","message":"Event: helltide, Status: false","timestamp":"2023-07-21T09:53:00.277Z"}
+{"level":"warn","message":"Event: legion, Status: false","timestamp":"2023-07-21T09:53:00.278Z"}
+{"level":"info","message":"running chronEvent chronjob()","timestamp":"2023-07-21T09:54:00.027Z"}
+{"level":"warn","message":"Event: boss, Status: false","timestamp":"2023-07-21T09:54:00.291Z"}
+{"level":"warn","message":"Event: helltide, Status: false","timestamp":"2023-07-21T09:54:00.291Z"}
+{"level":"warn","message":"Event: legion, Status: false","timestamp":"2023-07-21T09:54:00.292Z"}
+{"level":"info","message":"running chronEvent chronjob()","timestamp":"2023-07-21T09:55:00.006Z"}
+{"level":"warn","message":"Event: boss, Status: false","timestamp":"2023-07-21T09:55:00.285Z"}
+{"level":"warn","message":"Event: helltide, Status: false","timestamp":"2023-07-21T09:55:00.285Z"}
+{"level":"warn","message":"Event: legion, Status: false","timestamp":"2023-07-21T09:55:00.286Z"}
+{"level":"info","message":"running chronEvent chronjob()","timestamp":"2023-07-21T09:56:00.025Z"}
+{"level":"warn","message":"Event: boss, Status: false","timestamp":"2023-07-21T09:56:00.295Z"}
+{"level":"warn","message":"Event: helltide, Status: false","timestamp":"2023-07-21T09:56:00.295Z"}
+{"level":"warn","message":"Event: legion, Status: false","timestamp":"2023-07-21T09:56:00.296Z"}
+{"level":"info","message":"running chronEvent chronjob()","timestamp":"2023-07-21T09:57:00.003Z"}
+{"level":"warn","message":"Event: boss, Status: false","timestamp":"2023-07-21T09:57:00.280Z"}
+{"level":"warn","message":"Event: helltide, Status: false","timestamp":"2023-07-21T09:57:00.281Z"}
+{"level":"warn","message":"Event: legion, Status: false","timestamp":"2023-07-21T09:57:00.282Z"}
+{"level":"info","message":"running chronEvent chronjob()","timestamp":"2023-07-21T09:58:00.015Z"}
+{"level":"warn","message":"Event: boss, Status: false","timestamp":"2023-07-21T09:58:00.286Z"}
+{"level":"warn","message":"Event: helltide, Status: false","timestamp":"2023-07-21T09:58:00.286Z"}
+{"level":"warn","message":"Event: legion, Status: false","timestamp":"2023-07-21T09:58:00.287Z"}
+{"level":"info","message":"running chronEvent chronjob()","timestamp":"2023-07-21T09:59:00.036Z"}
+{"level":"warn","message":"Event: boss, Status: false","timestamp":"2023-07-21T09:59:00.298Z"}
+{"level":"warn","message":"Event: helltide, Status: false","timestamp":"2023-07-21T09:59:00.298Z"}
+{"level":"warn","message":"Event: legion, Status: false","timestamp":"2023-07-21T09:59:00.298Z"}
+{"level":"info","message":"running chronEvent chronjob()","timestamp":"2023-07-21T10:00:00.016Z"}
+{"level":"warn","message":"Event: boss, Status: false","timestamp":"2023-07-21T10:00:00.301Z"}
+{"level":"warn","message":"Event: helltide, Status: false","timestamp":"2023-07-21T10:00:00.301Z"}
+{"level":"warn","message":"Event: legion, Status: false","timestamp":"2023-07-21T10:00:00.302Z"}
+{"level":"info","message":"running chronEvent chronjob()","timestamp":"2023-07-21T10:01:00.034Z"}
+{"level":"warn","message":"Event: boss, Status: false","timestamp":"2023-07-21T10:01:00.324Z"}
+{"level":"warn","message":"Event: helltide, Status: false","timestamp":"2023-07-21T10:01:00.325Z"}
+{"level":"warn","message":"Event: legion, Status: false","timestamp":"2023-07-21T10:01:00.326Z"}
+{"level":"info","message":"running chronEvent chronjob()","timestamp":"2023-07-21T10:02:00.011Z"}
+{"level":"warn","message":"Event: boss, Status: false","timestamp":"2023-07-21T10:02:00.281Z"}
+{"level":"warn","message":"Event: helltide, Status: false","timestamp":"2023-07-21T10:02:00.282Z"}
+{"level":"warn","message":"Event: legion, Status: false","timestamp":"2023-07-21T10:02:00.282Z"}
+{"level":"info","message":"running chronEvent chronjob()","timestamp":"2023-07-21T10:03:00.027Z"}
+{"level":"warn","message":"Event: boss, Status: false","timestamp":"2023-07-21T10:03:00.298Z"}
+{"level":"warn","message":"Event: helltide, Status: false","timestamp":"2023-07-21T10:03:00.298Z"}
+{"level":"info","message":"legion events has started! Event time: 5 minutes","timestamp":"2023-07-21T10:03:00.299Z"}
+{"level":"warn","message":"Event: legion, Status: true","timestamp":"2023-07-21T10:03:00.301Z"}
+{"level":"info","message":"Received message: @here Legion event will start in zone: Fractured Peaks <t:1689934034:R>","timestamp":"2023-07-21T10:03:00.560Z"}
+{"level":"info","message":"running chronEvent chronjob()","timestamp":"2023-07-21T10:04:00.007Z"}
+{"level":"warn","message":"Event: boss, Status: false","timestamp":"2023-07-21T10:04:00.269Z"}
+{"level":"warn","message":"Event: helltide, Status: false","timestamp":"2023-07-21T10:04:00.269Z"}
+{"level":"warn","message":"Event: legion, Status: true","timestamp":"2023-07-21T10:04:00.270Z"}
+{"level":"info","message":"running chronEvent chronjob()","timestamp":"2023-07-21T10:05:00.024Z"}
+{"level":"warn","message":"Event: boss, Status: false","timestamp":"2023-07-21T10:05:00.281Z"}
+{"level":"warn","message":"Event: helltide, Status: false","timestamp":"2023-07-21T10:05:00.281Z"}
+{"level":"warn","message":"Event: legion, Status: true","timestamp":"2023-07-21T10:05:00.281Z"}
+{"level":"info","message":"running chronEvent chronjob()","timestamp":"2023-07-21T10:06:00.004Z"}
+{"level":"warn","message":"Event: boss, Status: false","timestamp":"2023-07-21T10:06:00.282Z"}
+{"level":"warn","message":"Event: helltide, Status: false","timestamp":"2023-07-21T10:06:00.283Z"}
+{"level":"warn","message":"Event: legion, Status: true","timestamp":"2023-07-21T10:06:00.284Z"}
+{"level":"info","message":"running chronEvent chronjob()","timestamp":"2023-07-21T10:07:00.019Z"}
+{"level":"warn","message":"Event: boss, Status: false","timestamp":"2023-07-21T10:07:00.285Z"}
+{"level":"warn","message":"Event: helltide, Status: false","timestamp":"2023-07-21T10:07:00.286Z"}
+{"level":"warn","message":"Event: legion, Status: true","timestamp":"2023-07-21T10:07:00.287Z"}
+{"level":"info","message":"running chronEvent chronjob()","timestamp":"2023-07-21T10:08:00.031Z"}
+{"level":"warn","message":"Event: boss, Status: false","timestamp":"2023-07-21T10:08:00.303Z"}
+{"level":"warn","message":"Event: helltide, Status: false","timestamp":"2023-07-21T10:08:00.304Z"}
+{"level":"warn","message":"Event: legion, Status: false","timestamp":"2023-07-21T10:08:00.304Z"}
+{"level":"info","message":"running chronEvent chronjob()","timestamp":"2023-07-21T10:09:00.015Z"}
+{"level":"warn","message":"Event: boss, Status: false","timestamp":"2023-07-21T10:09:00.276Z"}
+{"level":"warn","message":"Event: helltide, Status: false","timestamp":"2023-07-21T10:09:00.277Z"}
+{"level":"warn","message":"Event: legion, Status: false","timestamp":"2023-07-21T10:09:00.277Z"}
+{"level":"info","message":"running chronEvent chronjob()","timestamp":"2023-07-21T10:10:00.038Z"}
+{"level":"warn","message":"Event: boss, Status: false","timestamp":"2023-07-21T10:10:00.294Z"}
+{"level":"warn","message":"Event: helltide, Status: false","timestamp":"2023-07-21T10:10:00.294Z"}
+{"level":"warn","message":"Event: legion, Status: false","timestamp":"2023-07-21T10:10:00.295Z"}
+{"level":"info","message":"running chronEvent chronjob()","timestamp":"2023-07-21T10:11:00.016Z"}
+{"level":"warn","message":"Event: boss, Status: false","timestamp":"2023-07-21T10:11:00.253Z"}
+{"level":"warn","message":"Event: helltide, Status: false","timestamp":"2023-07-21T10:11:00.253Z"}
+{"level":"warn","message":"Event: legion, Status: false","timestamp":"2023-07-21T10:11:00.253Z"}
+{"level":"info","message":"running chronEvent chronjob()","timestamp":"2023-07-21T10:12:00.031Z"}
+{"level":"warn","message":"Event: boss, Status: false","timestamp":"2023-07-21T10:12:00.275Z"}
+{"level":"warn","message":"Event: helltide, Status: false","timestamp":"2023-07-21T10:12:00.276Z"}
+{"level":"warn","message":"Event: legion, Status: false","timestamp":"2023-07-21T10:12:00.277Z"}
+{"level":"info","message":"running chronEvent chronjob()","timestamp":"2023-07-21T10:13:00.011Z"}
+{"level":"warn","message":"Event: boss, Status: false","timestamp":"2023-07-21T10:13:00.255Z"}
+{"level":"warn","message":"Event: helltide, Status: false","timestamp":"2023-07-21T10:13:00.256Z"}
+{"level":"warn","message":"Event: legion, Status: false","timestamp":"2023-07-21T10:13:00.256Z"}
+{"level":"info","message":"running chronEvent chronjob()","timestamp":"2023-07-21T10:14:00.027Z"}
+{"level":"warn","message":"Event: boss, Status: false","timestamp":"2023-07-21T10:14:00.281Z"}
+{"level":"warn","message":"Event: helltide, Status: false","timestamp":"2023-07-21T10:14:00.282Z"}
+{"level":"warn","message":"Event: legion, Status: false","timestamp":"2023-07-21T10:14:00.282Z"}
+{"level":"info","message":"running chronEvent chronjob()","timestamp":"2023-07-21T10:15:00.007Z"}
+{"level":"warn","message":"Event: boss, Status: false","timestamp":"2023-07-21T10:15:00.255Z"}
+{"level":"warn","message":"Event: helltide, Status: false","timestamp":"2023-07-21T10:15:00.256Z"}
+{"level":"warn","message":"Event: legion, Status: false","timestamp":"2023-07-21T10:15:00.256Z"}
+{"level":"info","message":"running chronEvent chronjob()","timestamp":"2023-07-21T10:16:00.023Z"}
+{"level":"warn","message":"Event: boss, Status: false","timestamp":"2023-07-21T10:16:00.283Z"}
+{"level":"warn","message":"Event: helltide, Status: false","timestamp":"2023-07-21T10:16:00.284Z"}
+{"level":"warn","message":"Event: legion, Status: false","timestamp":"2023-07-21T10:16:00.284Z"}
+{"level":"info","message":"running chronEvent chronjob()","timestamp":"2023-07-21T10:17:00.003Z"}
+{"level":"warn","message":"Event: boss, Status: false","timestamp":"2023-07-21T10:17:00.303Z"}
+{"level":"warn","message":"Event: helltide, Status: false","timestamp":"2023-07-21T10:17:00.304Z"}
+{"level":"warn","message":"Event: legion, Status: false","timestamp":"2023-07-21T10:17:00.305Z"}
+{"level":"info","message":"running chronEvent chronjob()","timestamp":"2023-07-21T10:18:00.022Z"}
+{"level":"warn","message":"Event: boss, Status: false","timestamp":"2023-07-21T10:18:00.275Z"}
+{"level":"warn","message":"Event: helltide, Status: false","timestamp":"2023-07-21T10:18:00.275Z"}
+{"level":"warn","message":"Event: legion, Status: false","timestamp":"2023-07-21T10:18:00.275Z"}
+{"level":"info","message":"running chronEvent chronjob()","timestamp":"2023-07-21T10:19:00.039Z"}
+{"level":"warn","message":"Event: boss, Status: false","timestamp":"2023-07-21T10:19:00.298Z"}
+{"level":"warn","message":"Event: helltide, Status: false","timestamp":"2023-07-21T10:19:00.299Z"}
+{"level":"warn","message":"Event: legion, Status: false","timestamp":"2023-07-21T10:19:00.300Z"}
+{"level":"info","message":"running chronEvent chronjob()","timestamp":"2023-07-21T10:20:00.016Z"}
+{"level":"warn","message":"Event: boss, Status: false","timestamp":"2023-07-21T10:20:00.265Z"}
+{"level":"warn","message":"Event: helltide, Status: false","timestamp":"2023-07-21T10:20:00.265Z"}
+{"level":"warn","message":"Event: legion, Status: false","timestamp":"2023-07-21T10:20:00.266Z"}
+{"level":"info","message":"running chronEvent chronjob()","timestamp":"2023-07-21T10:21:00.037Z"}
+{"level":"warn","message":"Event: boss, Status: false","timestamp":"2023-07-21T10:21:00.284Z"}
+{"level":"warn","message":"Event: helltide, Status: false","timestamp":"2023-07-21T10:21:00.284Z"}
+{"level":"warn","message":"Event: legion, Status: false","timestamp":"2023-07-21T10:21:00.285Z"}
+{"level":"info","message":"running chronEvent chronjob()","timestamp":"2023-07-21T10:22:00.015Z"}
+{"level":"warn","message":"Event: boss, Status: false","timestamp":"2023-07-21T10:22:00.261Z"}
+{"level":"warn","message":"Event: helltide, Status: false","timestamp":"2023-07-21T10:22:00.261Z"}
+{"level":"warn","message":"Event: legion, Status: false","timestamp":"2023-07-21T10:22:00.261Z"}
+{"level":"info","message":"running chronEvent chronjob()","timestamp":"2023-07-21T10:23:00.033Z"}
+{"level":"warn","message":"Event: boss, Status: false","timestamp":"2023-07-21T10:23:00.277Z"}
+{"level":"warn","message":"Event: helltide, Status: false","timestamp":"2023-07-21T10:23:00.278Z"}
+{"level":"warn","message":"Event: legion, Status: false","timestamp":"2023-07-21T10:23:00.278Z"}
+{"level":"info","message":"running chronEvent chronjob()","timestamp":"2023-07-21T10:24:00.007Z"}
+{"level":"warn","message":"Event: boss, Status: false","timestamp":"2023-07-21T10:24:00.255Z"}
+{"level":"warn","message":"Event: helltide, Status: false","timestamp":"2023-07-21T10:24:00.255Z"}
+{"level":"warn","message":"Event: legion, Status: false","timestamp":"2023-07-21T10:24:00.255Z"}
+{"level":"info","message":"running chronEvent chronjob()","timestamp":"2023-07-21T10:25:00.028Z"}
+{"level":"warn","message":"Event: boss, Status: false","timestamp":"2023-07-21T10:25:00.306Z"}
+{"level":"warn","message":"Event: helltide, Status: false","timestamp":"2023-07-21T10:25:00.306Z"}
+{"level":"warn","message":"Event: legion, Status: false","timestamp":"2023-07-21T10:25:00.306Z"}
+{"level":"info","message":"running chronEvent chronjob()","timestamp":"2023-07-21T10:26:00.007Z"}
+{"level":"warn","message":"Event: boss, Status: false","timestamp":"2023-07-21T10:26:00.266Z"}
+{"level":"warn","message":"Event: helltide, Status: false","timestamp":"2023-07-21T10:26:00.266Z"}
+{"level":"warn","message":"Event: legion, Status: false","timestamp":"2023-07-21T10:26:00.267Z"}
+{"level":"info","message":"running chronEvent chronjob()","timestamp":"2023-07-21T10:27:00.025Z"}
+{"level":"warn","message":"Event: boss, Status: false","timestamp":"2023-07-21T10:27:00.272Z"}
+{"level":"warn","message":"Event: helltide, Status: false","timestamp":"2023-07-21T10:27:00.273Z"}
+{"level":"warn","message":"Event: legion, Status: false","timestamp":"2023-07-21T10:27:00.274Z"}
+{"level":"info","message":"running chronEvent chronjob()","timestamp":"2023-07-21T10:28:00.003Z"}
+{"level":"warn","message":"Event: boss, Status: false","timestamp":"2023-07-21T10:28:00.249Z"}
+{"level":"warn","message":"Event: helltide, Status: false","timestamp":"2023-07-21T10:28:00.250Z"}
+{"level":"warn","message":"Event: legion, Status: false","timestamp":"2023-07-21T10:28:00.251Z"}
+{"level":"info","message":"running chronEvent chronjob()","timestamp":"2023-07-21T10:29:00.021Z"}
+{"level":"warn","message":"Event: boss, Status: false","timestamp":"2023-07-21T10:29:00.270Z"}
+{"level":"warn","message":"Event: helltide, Status: false","timestamp":"2023-07-21T10:29:00.270Z"}
+{"level":"warn","message":"Event: legion, Status: false","timestamp":"2023-07-21T10:29:00.271Z"}
+{"level":"info","message":"running chronEvent chronjob()","timestamp":"2023-07-21T10:30:00.040Z"}
+{"level":"warn","message":"Event: boss, Status: false","timestamp":"2023-07-21T10:30:00.287Z"}
+{"level":"warn","message":"Event: helltide, Status: false","timestamp":"2023-07-21T10:30:00.288Z"}
+{"level":"warn","message":"Event: legion, Status: false","timestamp":"2023-07-21T10:30:00.288Z"}
+{"level":"info","message":"running chronEvent chronjob()","timestamp":"2023-07-21T10:31:00.015Z"}
+{"level":"warn","message":"Event: boss, Status: false","timestamp":"2023-07-21T10:31:00.259Z"}
+{"level":"warn","message":"Event: helltide, Status: false","timestamp":"2023-07-21T10:31:00.260Z"}
+{"level":"info","message":"legion events has started! Event time: 5 minutes","timestamp":"2023-07-21T10:31:00.261Z"}
+{"level":"warn","message":"Event: legion, Status: true","timestamp":"2023-07-21T10:31:00.262Z"}
+{"level":"info","message":"Received message: @here Legion event will start in zone: Hawezar <t:1689935744:R>","timestamp":"2023-07-21T10:31:00.706Z"}
+{"level":"info","message":"running chronEvent chronjob()","timestamp":"2023-07-21T10:32:00.035Z"}
+{"level":"warn","message":"Event: boss, Status: false","timestamp":"2023-07-21T10:32:00.285Z"}
+{"level":"warn","message":"Event: helltide, Status: false","timestamp":"2023-07-21T10:32:00.285Z"}
+{"level":"warn","message":"Event: legion, Status: true","timestamp":"2023-07-21T10:32:00.285Z"}
+{"level":"info","message":"running chronEvent chronjob()","timestamp":"2023-07-21T10:33:00.013Z"}
+{"level":"warn","message":"Event: boss, Status: false","timestamp":"2023-07-21T10:33:00.261Z"}
+{"level":"warn","message":"Event: helltide, Status: false","timestamp":"2023-07-21T10:33:00.261Z"}
+{"level":"warn","message":"Event: legion, Status: true","timestamp":"2023-07-21T10:33:00.262Z"}
+{"level":"info","message":"running chronEvent chronjob()","timestamp":"2023-07-21T10:34:00.032Z"}
+{"level":"warn","message":"Event: boss, Status: false","timestamp":"2023-07-21T10:34:00.409Z"}
+{"level":"warn","message":"Event: helltide, Status: false","timestamp":"2023-07-21T10:34:00.410Z"}
+{"level":"warn","message":"Event: legion, Status: true","timestamp":"2023-07-21T10:34:00.410Z"}
+{"level":"info","message":"running chronEvent chronjob()","timestamp":"2023-07-21T10:35:00.008Z"}
+{"level":"warn","message":"Event: boss, Status: false","timestamp":"2023-07-21T10:35:00.251Z"}
+{"level":"warn","message":"Event: helltide, Status: false","timestamp":"2023-07-21T10:35:00.252Z"}
+{"level":"warn","message":"Event: legion, Status: true","timestamp":"2023-07-21T10:35:00.252Z"}
+{"level":"info","message":"running chronEvent chronjob()","timestamp":"2023-07-21T10:36:00.002Z"}
+{"level":"warn","message":"Event: boss, Status: false","timestamp":"2023-07-21T10:36:00.247Z"}
+{"level":"warn","message":"Event: helltide, Status: false","timestamp":"2023-07-21T10:36:00.248Z"}
+{"level":"warn","message":"Event: legion, Status: false","timestamp":"2023-07-21T10:36:00.249Z"}
+{"level":"info","message":"running chronEvent chronjob()","timestamp":"2023-07-21T10:37:00.008Z"}
+{"level":"warn","message":"Event: boss, Status: false","timestamp":"2023-07-21T10:37:00.374Z"}
+{"level":"warn","message":"Event: helltide, Status: false","timestamp":"2023-07-21T10:37:00.375Z"}
+{"level":"warn","message":"Event: legion, Status: false","timestamp":"2023-07-21T10:37:00.375Z"}
+{"level":"info","message":"running chronEvent chronjob()","timestamp":"2023-07-21T10:38:00.023Z"}
+{"level":"warn","message":"Event: boss, Status: false","timestamp":"2023-07-21T10:38:00.284Z"}
+{"level":"warn","message":"Event: helltide, Status: false","timestamp":"2023-07-21T10:38:00.285Z"}
+{"level":"warn","message":"Event: legion, Status: false","timestamp":"2023-07-21T10:38:00.285Z"}
+{"level":"info","message":"running chronEvent chronjob()","timestamp":"2023-07-21T10:39:00.003Z"}
+{"level":"warn","message":"Event: boss, Status: false","timestamp":"2023-07-21T10:39:00.259Z"}
+{"level":"warn","message":"Event: helltide, Status: false","timestamp":"2023-07-21T10:39:00.259Z"}
+{"level":"warn","message":"Event: legion, Status: false","timestamp":"2023-07-21T10:39:00.259Z"}
+{"level":"info","message":"running chronEvent chronjob()","timestamp":"2023-07-21T10:40:00.021Z"}
+{"level":"warn","message":"Event: boss, Status: false","timestamp":"2023-07-21T10:40:00.280Z"}
+{"level":"warn","message":"Event: helltide, Status: false","timestamp":"2023-07-21T10:40:00.280Z"}
+{"level":"warn","message":"Event: legion, Status: false","timestamp":"2023-07-21T10:40:00.281Z"}
+{"level":"info","message":"running chronEvent chronjob()","timestamp":"2023-07-21T10:41:00.043Z"}
+{"level":"warn","message":"Event: boss, Status: false","timestamp":"2023-07-21T10:41:00.298Z"}
+{"level":"warn","message":"Event: helltide, Status: false","timestamp":"2023-07-21T10:41:00.298Z"}
+{"level":"warn","message":"Event: legion, Status: false","timestamp":"2023-07-21T10:41:00.299Z"}
+{"level":"info","message":"running chronEvent chronjob()","timestamp":"2023-07-21T10:42:00.017Z"}
+{"level":"warn","message":"Event: boss, Status: false","timestamp":"2023-07-21T10:42:00.277Z"}
+{"level":"warn","message":"Event: helltide, Status: false","timestamp":"2023-07-21T10:42:00.277Z"}
+{"level":"warn","message":"Event: legion, Status: false","timestamp":"2023-07-21T10:42:00.277Z"}
+{"level":"info","message":"running chronEvent chronjob()","timestamp":"2023-07-21T10:43:00.037Z"}
+{"level":"warn","message":"Event: boss, Status: false","timestamp":"2023-07-21T10:43:00.296Z"}
+{"level":"warn","message":"Event: helltide, Status: false","timestamp":"2023-07-21T10:43:00.297Z"}
+{"level":"warn","message":"Event: legion, Status: false","timestamp":"2023-07-21T10:43:00.297Z"}
+{"level":"info","message":"running chronEvent chronjob()","timestamp":"2023-07-21T10:44:00.013Z"}
+{"level":"warn","message":"Event: boss, Status: false","timestamp":"2023-07-21T10:44:00.275Z"}
+{"level":"warn","message":"Event: helltide, Status: false","timestamp":"2023-07-21T10:44:00.275Z"}
+{"level":"warn","message":"Event: legion, Status: false","timestamp":"2023-07-21T10:44:00.276Z"}
+{"level":"info","message":"running chronEvent chronjob()","timestamp":"2023-07-21T10:45:00.034Z"}
+{"level":"warn","message":"Event: boss, Status: false","timestamp":"2023-07-21T10:45:02.362Z"}
+{"level":"info","message":"helltide events has started! Event time: 60 minutes","timestamp":"2023-07-21T10:45:02.362Z"}
+{"level":"warn","message":"Event: helltide, Status: true","timestamp":"2023-07-21T10:45:02.364Z"}
+{"level":"warn","message":"Event: legion, Status: false","timestamp":"2023-07-21T10:45:02.365Z"}
+{"level":"info","message":"Received message: @here Helltide event will end in zone: kehj <t:1689939900:R>","timestamp":"2023-07-21T10:45:02.617Z"}
+{"level":"info","message":"running chronEvent chronjob()","timestamp":"2023-07-21T10:46:00.009Z"}
+{"level":"warn","message":"Event: boss, Status: false","timestamp":"2023-07-21T10:46:00.280Z"}
+{"level":"warn","message":"Event: helltide, Status: true","timestamp":"2023-07-21T10:46:00.281Z"}
+{"level":"warn","message":"Event: legion, Status: false","timestamp":"2023-07-21T10:46:00.281Z"}
+{"level":"info","message":"running chronEvent chronjob()","timestamp":"2023-07-21T10:47:00.028Z"}
+{"level":"warn","message":"Event: boss, Status: false","timestamp":"2023-07-21T10:47:00.269Z"}
+{"level":"warn","message":"Event: helltide, Status: true","timestamp":"2023-07-21T10:47:00.269Z"}
+{"level":"warn","message":"Event: legion, Status: false","timestamp":"2023-07-21T10:47:00.269Z"}
+{"level":"info","message":"running chronEvent chronjob()","timestamp":"2023-07-21T10:48:00.008Z"}
+{"level":"warn","message":"Event: boss, Status: false","timestamp":"2023-07-21T10:48:00.261Z"}
+{"level":"warn","message":"Event: helltide, Status: true","timestamp":"2023-07-21T10:48:00.262Z"}
+{"level":"warn","message":"Event: legion, Status: false","timestamp":"2023-07-21T10:48:00.263Z"}
+{"level":"info","message":"running chronEvent chronjob()","timestamp":"2023-07-21T10:49:00.025Z"}
+{"level":"warn","message":"Event: boss, Status: false","timestamp":"2023-07-21T10:49:00.280Z"}
+{"level":"warn","message":"Event: helltide, Status: true","timestamp":"2023-07-21T10:49:00.280Z"}
+{"level":"warn","message":"Event: legion, Status: false","timestamp":"2023-07-21T10:49:00.281Z"}
+{"level":"info","message":"running chronEvent chronjob()","timestamp":"2023-07-21T10:50:00.004Z"}
+{"level":"warn","message":"Event: boss, Status: false","timestamp":"2023-07-21T10:50:00.250Z"}
+{"level":"warn","message":"Event: helltide, Status: true","timestamp":"2023-07-21T10:50:00.251Z"}
+{"level":"warn","message":"Event: legion, Status: false","timestamp":"2023-07-21T10:50:00.251Z"}
+{"level":"info","message":"running chronEvent chronjob()","timestamp":"2023-07-21T10:51:00.021Z"}
+{"level":"warn","message":"Event: boss, Status: false","timestamp":"2023-07-21T10:51:00.291Z"}
+{"level":"warn","message":"Event: helltide, Status: true","timestamp":"2023-07-21T10:51:00.291Z"}
+{"level":"warn","message":"Event: legion, Status: false","timestamp":"2023-07-21T10:51:00.292Z"}
+{"level":"info","message":"running chronEvent chronjob()","timestamp":"2023-07-21T10:52:00.042Z"}
+{"level":"warn","message":"Event: boss, Status: false","timestamp":"2023-07-21T10:52:00.290Z"}
+{"level":"warn","message":"Event: helltide, Status: true","timestamp":"2023-07-21T10:52:00.291Z"}
+{"level":"warn","message":"Event: legion, Status: false","timestamp":"2023-07-21T10:52:00.292Z"}
+{"level":"info","message":"running chronEvent chronjob()","timestamp":"2023-07-21T10:53:00.015Z"}
+{"level":"warn","message":"Event: boss, Status: false","timestamp":"2023-07-21T10:53:00.269Z"}
+{"level":"warn","message":"Event: helltide, Status: true","timestamp":"2023-07-21T10:53:00.269Z"}
+{"level":"warn","message":"Event: legion, Status: false","timestamp":"2023-07-21T10:53:00.270Z"}
+{"level":"info","message":"running chronEvent chronjob()","timestamp":"2023-07-21T10:54:00.036Z"}
+{"level":"warn","message":"Event: boss, Status: false","timestamp":"2023-07-21T10:54:00.295Z"}
+{"level":"warn","message":"Event: helltide, Status: true","timestamp":"2023-07-21T10:54:00.296Z"}
+{"level":"warn","message":"Event: legion, Status: false","timestamp":"2023-07-21T10:54:00.296Z"}
+{"level":"info","message":"running chronEvent chronjob()","timestamp":"2023-07-21T10:55:00.014Z"}
+{"level":"warn","message":"Event: boss, Status: false","timestamp":"2023-07-21T10:55:00.273Z"}
+{"level":"warn","message":"Event: helltide, Status: true","timestamp":"2023-07-21T10:55:00.274Z"}
+{"level":"warn","message":"Event: legion, Status: false","timestamp":"2023-07-21T10:55:00.274Z"}
+{"level":"info","message":"running chronEvent chronjob()","timestamp":"2023-07-21T10:56:00.033Z"}
+{"level":"warn","message":"Event: boss, Status: false","timestamp":"2023-07-21T10:56:00.284Z"}
+{"level":"warn","message":"Event: helltide, Status: true","timestamp":"2023-07-21T10:56:00.285Z"}
+{"level":"warn","message":"Event: legion, Status: false","timestamp":"2023-07-21T10:56:00.285Z"}
+{"level":"info","message":"running chronEvent chronjob()","timestamp":"2023-07-21T10:57:00.008Z"}
+{"level":"warn","message":"Event: boss, Status: false","timestamp":"2023-07-21T10:57:00.257Z"}
+{"level":"warn","message":"Event: helltide, Status: true","timestamp":"2023-07-21T10:57:00.257Z"}
+{"level":"warn","message":"Event: legion, Status: false","timestamp":"2023-07-21T10:57:00.258Z"}
+{"level":"info","message":"running chronEvent chronjob()","timestamp":"2023-07-21T10:58:00.031Z"}
+{"level":"warn","message":"Event: boss, Status: false","timestamp":"2023-07-21T10:58:00.278Z"}
+{"level":"warn","message":"Event: helltide, Status: true","timestamp":"2023-07-21T10:58:00.278Z"}
+{"level":"warn","message":"Event: legion, Status: false","timestamp":"2023-07-21T10:58:00.278Z"}
+{"level":"info","message":"running chronEvent chronjob()","timestamp":"2023-07-21T10:59:00.006Z"}
+{"level":"warn","message":"Event: boss, Status: false","timestamp":"2023-07-21T10:59:00.259Z"}
+{"level":"warn","message":"Event: helltide, Status: true","timestamp":"2023-07-21T10:59:00.259Z"}
+{"level":"warn","message":"Event: legion, Status: false","timestamp":"2023-07-21T10:59:00.260Z"}
+{"level":"info","message":"running chronEvent chronjob()","timestamp":"2023-07-21T11:00:00.025Z"}
+{"level":"warn","message":"Event: boss, Status: false","timestamp":"2023-07-21T11:00:00.315Z"}
+{"level":"warn","message":"Event: helltide, Status: true","timestamp":"2023-07-21T11:00:00.315Z"}
+{"level":"warn","message":"Event: legion, Status: false","timestamp":"2023-07-21T11:00:00.315Z"}
+{"level":"info","message":"running chronEvent chronjob()","timestamp":"2023-07-21T11:01:00.003Z"}
+{"level":"warn","message":"Event: boss, Status: false","timestamp":"2023-07-21T11:01:00.241Z"}
+{"level":"warn","message":"Event: helltide, Status: true","timestamp":"2023-07-21T11:01:00.241Z"}
+{"level":"info","message":"legion events has started! Event time: 5 minutes","timestamp":"2023-07-21T11:01:00.241Z"}
+{"level":"warn","message":"Event: legion, Status: true","timestamp":"2023-07-21T11:01:00.241Z"}
+{"level":"info","message":"Received message: @here Legion event will start in zone: Fractured Peaks <t:1689937557:R>","timestamp":"2023-07-21T11:01:00.494Z"}
+{"level":"info","message":"running chronEvent chronjob()","timestamp":"2023-07-21T11:02:00.020Z"}
+{"level":"warn","message":"Event: boss, Status: false","timestamp":"2023-07-21T11:02:00.266Z"}
+{"level":"warn","message":"Event: helltide, Status: true","timestamp":"2023-07-21T11:02:00.266Z"}
+{"level":"warn","message":"Event: legion, Status: true","timestamp":"2023-07-21T11:02:00.266Z"}
+{"level":"info","message":"running chronEvent chronjob()","timestamp":"2023-07-21T11:03:00.039Z"}
+{"level":"warn","message":"Event: boss, Status: false","timestamp":"2023-07-21T11:03:00.285Z"}
+{"level":"warn","message":"Event: helltide, Status: true","timestamp":"2023-07-21T11:03:00.286Z"}
+{"level":"warn","message":"Event: legion, Status: true","timestamp":"2023-07-21T11:03:00.286Z"}
+{"level":"info","message":"running chronEvent chronjob()","timestamp":"2023-07-21T11:04:00.016Z"}
+{"level":"warn","message":"Event: boss, Status: false","timestamp":"2023-07-21T11:04:00.261Z"}
+{"level":"warn","message":"Event: helltide, Status: true","timestamp":"2023-07-21T11:04:00.262Z"}
+{"level":"warn","message":"Event: legion, Status: true","timestamp":"2023-07-21T11:04:00.263Z"}
+{"level":"info","message":"running chronEvent chronjob()","timestamp":"2023-07-21T11:05:00.037Z"}
+{"level":"warn","message":"Event: boss, Status: false","timestamp":"2023-07-21T11:05:00.297Z"}
+{"level":"warn","message":"Event: helltide, Status: true","timestamp":"2023-07-21T11:05:00.298Z"}
+{"level":"warn","message":"Event: legion, Status: true","timestamp":"2023-07-21T11:05:00.298Z"}
+{"level":"info","message":"running chronEvent chronjob()","timestamp":"2023-07-21T11:06:00.002Z"}
+{"level":"warn","message":"Event: boss, Status: false","timestamp":"2023-07-21T11:06:00.257Z"}
+{"level":"warn","message":"Event: helltide, Status: true","timestamp":"2023-07-21T11:06:00.258Z"}
+{"level":"warn","message":"Event: legion, Status: false","timestamp":"2023-07-21T11:06:00.258Z"}
+{"level":"info","message":"running chronEvent chronjob()","timestamp":"2023-07-21T11:07:00.034Z"}
+{"level":"warn","message":"Event: boss, Status: false","timestamp":"2023-07-21T11:07:00.286Z"}
+{"level":"warn","message":"Event: helltide, Status: true","timestamp":"2023-07-21T11:07:00.286Z"}
+{"level":"warn","message":"Event: legion, Status: false","timestamp":"2023-07-21T11:07:00.287Z"}
+{"level":"info","message":"running chronEvent chronjob()","timestamp":"2023-07-21T11:08:00.008Z"}
+{"level":"warn","message":"Event: boss, Status: false","timestamp":"2023-07-21T11:08:00.249Z"}
+{"level":"warn","message":"Event: helltide, Status: true","timestamp":"2023-07-21T11:08:00.249Z"}
+{"level":"warn","message":"Event: legion, Status: false","timestamp":"2023-07-21T11:08:00.249Z"}
+{"level":"info","message":"running chronEvent chronjob()","timestamp":"2023-07-21T11:09:00.027Z"}
+{"level":"warn","message":"Event: boss, Status: false","timestamp":"2023-07-21T11:09:00.268Z"}
+{"level":"warn","message":"Event: helltide, Status: true","timestamp":"2023-07-21T11:09:00.269Z"}
+{"level":"warn","message":"Event: legion, Status: false","timestamp":"2023-07-21T11:09:00.269Z"}
+{"level":"info","message":"running chronEvent chronjob()","timestamp":"2023-07-21T11:10:00.003Z"}
+{"level":"warn","message":"Event: boss, Status: false","timestamp":"2023-07-21T11:10:00.272Z"}
+{"level":"warn","message":"Event: helltide, Status: true","timestamp":"2023-07-21T11:10:00.272Z"}
+{"level":"warn","message":"Event: legion, Status: false","timestamp":"2023-07-21T11:10:00.272Z"}
+{"level":"info","message":"running chronEvent chronjob()","timestamp":"2023-07-21T11:11:00.023Z"}
+{"level":"warn","message":"Event: boss, Status: false","timestamp":"2023-07-21T11:11:00.265Z"}
+{"level":"warn","message":"Event: helltide, Status: true","timestamp":"2023-07-21T11:11:00.265Z"}
+{"level":"warn","message":"Event: legion, Status: false","timestamp":"2023-07-21T11:11:00.265Z"}
+{"level":"info","message":"running chronEvent chronjob()","timestamp":"2023-07-21T11:12:00.002Z"}
+{"level":"warn","message":"Event: boss, Status: false","timestamp":"2023-07-21T11:12:00.258Z"}
+{"level":"warn","message":"Event: helltide, Status: true","timestamp":"2023-07-21T11:12:00.258Z"}
+{"level":"warn","message":"Event: legion, Status: false","timestamp":"2023-07-21T11:12:00.259Z"}
+{"level":"info","message":"running chronEvent chronjob()","timestamp":"2023-07-21T11:13:00.021Z"}
+{"level":"warn","message":"Event: boss, Status: false","timestamp":"2023-07-21T11:13:00.269Z"}
+{"level":"warn","message":"Event: helltide, Status: true","timestamp":"2023-07-21T11:13:00.269Z"}
+{"level":"warn","message":"Event: legion, Status: false","timestamp":"2023-07-21T11:13:00.269Z"}
+{"level":"info","message":"running chronEvent chronjob()","timestamp":"2023-07-21T11:14:00.038Z"}
+{"level":"warn","message":"Event: boss, Status: false","timestamp":"2023-07-21T11:14:00.282Z"}
+{"level":"warn","message":"Event: helltide, Status: true","timestamp":"2023-07-21T11:14:00.283Z"}
+{"level":"warn","message":"Event: legion, Status: false","timestamp":"2023-07-21T11:14:00.284Z"}
+{"level":"info","message":"running chronEvent chronjob()","timestamp":"2023-07-21T11:15:00.017Z"}
+{"level":"warn","message":"Event: boss, Status: false","timestamp":"2023-07-21T11:15:00.284Z"}
+{"level":"warn","message":"Event: helltide, Status: true","timestamp":"2023-07-21T11:15:00.284Z"}
+{"level":"warn","message":"Event: legion, Status: false","timestamp":"2023-07-21T11:15:00.284Z"}
+{"level":"info","message":"running chronEvent chronjob()","timestamp":"2023-07-21T11:16:00.034Z"}
+{"level":"warn","message":"Event: boss, Status: false","timestamp":"2023-07-21T11:16:00.285Z"}
+{"level":"warn","message":"Event: helltide, Status: true","timestamp":"2023-07-21T11:16:00.286Z"}
+{"level":"warn","message":"Event: legion, Status: false","timestamp":"2023-07-21T11:16:00.286Z"}
+{"level":"info","message":"running chronEvent chronjob()","timestamp":"2023-07-21T11:17:00.011Z"}
+{"level":"warn","message":"Event: boss, Status: false","timestamp":"2023-07-21T11:17:00.255Z"}
+{"level":"warn","message":"Event: helltide, Status: true","timestamp":"2023-07-21T11:17:00.256Z"}
+{"level":"warn","message":"Event: legion, Status: false","timestamp":"2023-07-21T11:17:00.256Z"}
+{"level":"info","message":"running chronEvent chronjob()","timestamp":"2023-07-21T11:18:00.034Z"}
+{"level":"warn","message":"Event: boss, Status: false","timestamp":"2023-07-21T11:18:00.297Z"}
+{"level":"warn","message":"Event: helltide, Status: true","timestamp":"2023-07-21T11:18:00.298Z"}
+{"level":"warn","message":"Event: legion, Status: false","timestamp":"2023-07-21T11:18:00.298Z"}
+{"level":"info","message":"running chronEvent chronjob()","timestamp":"2023-07-21T11:19:00.012Z"}
+{"level":"warn","message":"Event: boss, Status: false","timestamp":"2023-07-21T11:19:00.252Z"}
+{"level":"warn","message":"Event: helltide, Status: true","timestamp":"2023-07-21T11:19:00.252Z"}
+{"level":"warn","message":"Event: legion, Status: false","timestamp":"2023-07-21T11:19:00.253Z"}
+{"level":"info","message":"running chronEvent chronjob()","timestamp":"2023-07-21T11:20:00.030Z"}
+{"level":"warn","message":"Event: boss, Status: false","timestamp":"2023-07-21T11:20:00.288Z"}
+{"level":"warn","message":"Event: helltide, Status: true","timestamp":"2023-07-21T11:20:00.289Z"}
+{"level":"warn","message":"Event: legion, Status: false","timestamp":"2023-07-21T11:20:00.289Z"}
+{"level":"info","message":"running chronEvent chronjob()","timestamp":"2023-07-21T11:21:00.006Z"}
+{"level":"warn","message":"Event: boss, Status: false","timestamp":"2023-07-21T11:21:00.255Z"}
+{"level":"warn","message":"Event: helltide, Status: true","timestamp":"2023-07-21T11:21:00.256Z"}
+{"level":"warn","message":"Event: legion, Status: false","timestamp":"2023-07-21T11:21:00.256Z"}
+{"level":"info","message":"running chronEvent chronjob()","timestamp":"2023-07-21T11:22:00.024Z"}
+{"level":"warn","message":"Event: boss, Status: false","timestamp":"2023-07-21T11:22:00.271Z"}
+{"level":"warn","message":"Event: helltide, Status: true","timestamp":"2023-07-21T11:22:00.271Z"}
+{"level":"warn","message":"Event: legion, Status: false","timestamp":"2023-07-21T11:22:00.271Z"}
+{"level":"info","message":"running chronEvent chronjob()","timestamp":"2023-07-21T11:23:00.002Z"}
+{"level":"warn","message":"Event: boss, Status: false","timestamp":"2023-07-21T11:23:00.254Z"}
+{"level":"warn","message":"Event: helltide, Status: true","timestamp":"2023-07-21T11:23:00.254Z"}
+{"level":"warn","message":"Event: legion, Status: false","timestamp":"2023-07-21T11:23:00.254Z"}
+{"level":"info","message":"running chronEvent chronjob()","timestamp":"2023-07-21T11:24:00.019Z"}
+{"level":"warn","message":"Event: boss, Status: false","timestamp":"2023-07-21T11:24:00.273Z"}
+{"level":"warn","message":"Event: helltide, Status: true","timestamp":"2023-07-21T11:24:00.273Z"}
+{"level":"warn","message":"Event: legion, Status: false","timestamp":"2023-07-21T11:24:00.274Z"}
+{"level":"info","message":"running chronEvent chronjob()","timestamp":"2023-07-21T11:25:00.036Z"}
+{"level":"warn","message":"Event: boss, Status: false","timestamp":"2023-07-21T11:25:00.279Z"}
+{"level":"warn","message":"Event: helltide, Status: true","timestamp":"2023-07-21T11:25:00.279Z"}
+{"level":"warn","message":"Event: legion, Status: false","timestamp":"2023-07-21T11:25:00.279Z"}
+{"level":"info","message":"running chronEvent chronjob()","timestamp":"2023-07-21T11:26:00.015Z"}
+{"level":"warn","message":"Event: boss, Status: false","timestamp":"2023-07-21T11:26:00.268Z"}
+{"level":"warn","message":"Event: helltide, Status: true","timestamp":"2023-07-21T11:26:00.269Z"}
+{"level":"warn","message":"Event: legion, Status: false","timestamp":"2023-07-21T11:26:00.270Z"}
+{"level":"info","message":"running chronEvent chronjob()","timestamp":"2023-07-21T11:27:00.037Z"}
+{"level":"warn","message":"Event: boss, Status: false","timestamp":"2023-07-21T11:27:00.341Z"}
+{"level":"warn","message":"Event: helltide, Status: true","timestamp":"2023-07-21T11:27:00.341Z"}
+{"level":"warn","message":"Event: legion, Status: false","timestamp":"2023-07-21T11:27:00.342Z"}
+{"level":"info","message":"running chronEvent chronjob()","timestamp":"2023-07-21T11:28:00.012Z"}
+{"level":"warn","message":"Event: boss, Status: false","timestamp":"2023-07-21T11:28:00.254Z"}
+{"level":"warn","message":"Event: helltide, Status: true","timestamp":"2023-07-21T11:28:00.254Z"}
+{"level":"warn","message":"Event: legion, Status: false","timestamp":"2023-07-21T11:28:00.255Z"}
+{"level":"info","message":"running chronEvent chronjob()","timestamp":"2023-07-21T11:29:00.032Z"}
+{"level":"warn","message":"Event: boss, Status: false","timestamp":"2023-07-21T11:29:00.283Z"}
+{"level":"warn","message":"Event: helltide, Status: true","timestamp":"2023-07-21T11:29:00.283Z"}
+{"level":"warn","message":"Event: legion, Status: false","timestamp":"2023-07-21T11:29:00.283Z"}
+{"level":"info","message":"running chronEvent chronjob()","timestamp":"2023-07-21T11:30:00.007Z"}
+{"level":"warn","message":"Event: boss, Status: false","timestamp":"2023-07-21T11:30:00.251Z"}
+{"level":"warn","message":"Event: helltide, Status: true","timestamp":"2023-07-21T11:30:00.252Z"}
+{"level":"warn","message":"Event: legion, Status: false","timestamp":"2023-07-21T11:30:00.252Z"}
+{"level":"info","message":"running chronEvent chronjob()","timestamp":"2023-07-21T11:31:00.028Z"}
+{"level":"warn","message":"Event: boss, Status: false","timestamp":"2023-07-21T11:31:00.282Z"}
+{"level":"warn","message":"Event: helltide, Status: true","timestamp":"2023-07-21T11:31:00.282Z"}
+{"level":"warn","message":"Event: legion, Status: false","timestamp":"2023-07-21T11:31:00.285Z"}
+{"level":"info","message":"running chronEvent chronjob()","timestamp":"2023-07-21T11:32:00.003Z"}
+{"level":"warn","message":"Event: boss, Status: false","timestamp":"2023-07-21T11:32:00.243Z"}
+{"level":"warn","message":"Event: helltide, Status: true","timestamp":"2023-07-21T11:32:00.244Z"}
+{"level":"warn","message":"Event: legion, Status: false","timestamp":"2023-07-21T11:32:00.244Z"}
+{"level":"info","message":"running chronEvent chronjob()","timestamp":"2023-07-21T11:33:00.023Z"}
+{"level":"warn","message":"Event: boss, Status: false","timestamp":"2023-07-21T11:33:00.278Z"}
+{"level":"warn","message":"Event: helltide, Status: true","timestamp":"2023-07-21T11:33:00.279Z"}
+{"level":"warn","message":"Event: legion, Status: false","timestamp":"2023-07-21T11:33:00.279Z"}
+{"level":"info","message":"running chronEvent chronjob()","timestamp":"2023-07-21T11:34:00.001Z"}
+{"level":"warn","message":"Event: boss, Status: false","timestamp":"2023-07-21T11:34:00.241Z"}
+{"level":"warn","message":"Event: helltide, Status: true","timestamp":"2023-07-21T11:34:00.241Z"}
+{"level":"warn","message":"Event: legion, Status: false","timestamp":"2023-07-21T11:34:00.241Z"}
+{"level":"info","message":"running chronEvent chronjob()","timestamp":"2023-07-21T11:35:00.018Z"}
+{"level":"warn","message":"Event: boss, Status: false","timestamp":"2023-07-21T11:35:00.276Z"}
+{"level":"warn","message":"Event: helltide, Status: true","timestamp":"2023-07-21T11:35:00.276Z"}
+{"level":"info","message":"legion events has started! Event time: 5 minutes","timestamp":"2023-07-21T11:35:00.277Z"}
+{"level":"warn","message":"Event: legion, Status: true","timestamp":"2023-07-21T11:35:00.278Z"}
+{"level":"info","message":"Received message: @here Legion event will start in zone: Dry Steppes <t:1689939566:R>","timestamp":"2023-07-21T11:35:00.529Z"}
+{"level":"info","message":"running chronEvent chronjob()","timestamp":"2023-07-21T11:36:00.036Z"}
+{"level":"warn","message":"Event: boss, Status: false","timestamp":"2023-07-21T11:36:00.287Z"}
+{"level":"warn","message":"Event: helltide, Status: true","timestamp":"2023-07-21T11:36:00.287Z"}
+{"level":"warn","message":"Event: legion, Status: true","timestamp":"2023-07-21T11:36:00.287Z"}
+{"level":"info","message":"running chronEvent chronjob()","timestamp":"2023-07-21T11:37:00.016Z"}
+{"level":"warn","message":"Event: boss, Status: false","timestamp":"2023-07-21T11:37:00.262Z"}
+{"level":"warn","message":"Event: helltide, Status: true","timestamp":"2023-07-21T11:37:00.263Z"}
+{"level":"warn","message":"Event: legion, Status: true","timestamp":"2023-07-21T11:37:00.263Z"}
+{"level":"info","message":"running chronEvent chronjob()","timestamp":"2023-07-21T11:38:00.032Z"}
+{"level":"warn","message":"Event: boss, Status: false","timestamp":"2023-07-21T11:38:00.281Z"}
+{"level":"warn","message":"Event: helltide, Status: true","timestamp":"2023-07-21T11:38:00.281Z"}
+{"level":"warn","message":"Event: legion, Status: true","timestamp":"2023-07-21T11:38:00.281Z"}
+{"level":"info","message":"running chronEvent chronjob()","timestamp":"2023-07-21T11:39:00.011Z"}
+{"level":"warn","message":"Event: boss, Status: false","timestamp":"2023-07-21T11:39:00.260Z"}
+{"level":"warn","message":"Event: helltide, Status: true","timestamp":"2023-07-21T11:39:00.261Z"}
+{"level":"warn","message":"Event: legion, Status: true","timestamp":"2023-07-21T11:39:00.261Z"}
+{"level":"info","message":"running chronEvent chronjob()","timestamp":"2023-07-21T11:40:00.020Z"}
+{"level":"warn","message":"Event: boss, Status: false","timestamp":"2023-07-21T11:40:00.276Z"}
+{"level":"warn","message":"Event: helltide, Status: true","timestamp":"2023-07-21T11:40:00.277Z"}
+{"level":"warn","message":"Event: legion, Status: false","timestamp":"2023-07-21T11:40:00.277Z"}
+{"level":"info","message":"running chronEvent chronjob()","timestamp":"2023-07-21T11:41:00.008Z"}
+{"level":"warn","message":"Event: boss, Status: false","timestamp":"2023-07-21T11:41:00.259Z"}
+{"level":"warn","message":"Event: helltide, Status: true","timestamp":"2023-07-21T11:41:00.260Z"}
+{"level":"warn","message":"Event: legion, Status: false","timestamp":"2023-07-21T11:41:00.260Z"}
+{"level":"info","message":"running chronEvent chronjob()","timestamp":"2023-07-21T11:42:00.026Z"}
+{"level":"warn","message":"Event: boss, Status: false","timestamp":"2023-07-21T11:42:00.277Z"}
+{"level":"warn","message":"Event: helltide, Status: true","timestamp":"2023-07-21T11:42:00.277Z"}
+{"level":"warn","message":"Event: legion, Status: false","timestamp":"2023-07-21T11:42:00.278Z"}
+{"level":"info","message":"running chronEvent chronjob()","timestamp":"2023-07-21T11:43:00.004Z"}
+{"level":"warn","message":"Event: boss, Status: false","timestamp":"2023-07-21T11:43:00.246Z"}
+{"level":"warn","message":"Event: helltide, Status: true","timestamp":"2023-07-21T11:43:00.246Z"}
+{"level":"warn","message":"Event: legion, Status: false","timestamp":"2023-07-21T11:43:00.247Z"}
+{"level":"info","message":"running chronEvent chronjob()","timestamp":"2023-07-21T11:44:00.025Z"}
+{"level":"warn","message":"Event: boss, Status: false","timestamp":"2023-07-21T11:44:00.279Z"}
+{"level":"warn","message":"Event: helltide, Status: false","timestamp":"2023-07-21T11:44:00.279Z"}
+{"level":"warn","message":"Event: legion, Status: false","timestamp":"2023-07-21T11:44:00.279Z"}
+{"level":"info","message":"running chronEvent chronjob()","timestamp":"2023-07-21T11:45:00.001Z"}
+{"level":"warn","message":"Event: boss, Status: false","timestamp":"2023-07-21T11:45:00.260Z"}
+{"level":"warn","message":"Event: helltide, Status: false","timestamp":"2023-07-21T11:45:00.261Z"}
+{"level":"warn","message":"Event: legion, Status: false","timestamp":"2023-07-21T11:45:00.262Z"}
+{"level":"info","message":"running chronEvent chronjob()","timestamp":"2023-07-21T11:46:00.015Z"}
+{"level":"warn","message":"Event: boss, Status: false","timestamp":"2023-07-21T11:46:00.266Z"}
+{"level":"warn","message":"Event: helltide, Status: false","timestamp":"2023-07-21T11:46:00.266Z"}
+{"level":"warn","message":"Event: legion, Status: false","timestamp":"2023-07-21T11:46:00.266Z"}
+{"level":"info","message":"running chronEvent chronjob()","timestamp":"2023-07-21T11:47:00.035Z"}
+{"level":"warn","message":"Event: boss, Status: false","timestamp":"2023-07-21T11:47:00.294Z"}
+{"level":"warn","message":"Event: helltide, Status: false","timestamp":"2023-07-21T11:47:00.295Z"}
+{"level":"warn","message":"Event: legion, Status: false","timestamp":"2023-07-21T11:47:00.296Z"}
+{"level":"info","message":"running chronEvent chronjob()","timestamp":"2023-07-21T11:48:00.015Z"}
+{"level":"warn","message":"Event: boss, Status: false","timestamp":"2023-07-21T11:48:00.269Z"}
+{"level":"warn","message":"Event: helltide, Status: false","timestamp":"2023-07-21T11:48:00.269Z"}
+{"level":"warn","message":"Event: legion, Status: false","timestamp":"2023-07-21T11:48:00.269Z"}
+{"level":"info","message":"running chronEvent chronjob()","timestamp":"2023-07-21T11:49:00.032Z"}
+{"level":"warn","message":"Event: boss, Status: false","timestamp":"2023-07-21T11:49:00.287Z"}
+{"level":"warn","message":"Event: helltide, Status: false","timestamp":"2023-07-21T11:49:00.287Z"}
+{"level":"warn","message":"Event: legion, Status: false","timestamp":"2023-07-21T11:49:00.288Z"}
+{"level":"info","message":"running chronEvent chronjob()","timestamp":"2023-07-21T11:50:00.011Z"}
+{"level":"warn","message":"Event: boss, Status: false","timestamp":"2023-07-21T11:50:00.263Z"}
+{"level":"warn","message":"Event: helltide, Status: false","timestamp":"2023-07-21T11:50:00.264Z"}
+{"level":"warn","message":"Event: legion, Status: false","timestamp":"2023-07-21T11:50:00.264Z"}
+{"level":"info","message":"running chronEvent chronjob()","timestamp":"2023-07-21T11:51:00.012Z"}
+{"level":"warn","message":"Event: boss, Status: false","timestamp":"2023-07-21T11:51:00.279Z"}
+{"level":"warn","message":"Event: helltide, Status: false","timestamp":"2023-07-21T11:51:00.279Z"}
+{"level":"warn","message":"Event: legion, Status: false","timestamp":"2023-07-21T11:51:00.279Z"}
+{"level":"info","message":"running chronEvent chronjob()","timestamp":"2023-07-21T11:52:00.027Z"}
+{"level":"warn","message":"Event: boss, Status: false","timestamp":"2023-07-21T11:52:00.275Z"}
+{"level":"warn","message":"Event: helltide, Status: false","timestamp":"2023-07-21T11:52:00.275Z"}
+{"level":"warn","message":"Event: legion, Status: false","timestamp":"2023-07-21T11:52:00.275Z"}
+{"level":"info","message":"running chronEvent chronjob()","timestamp":"2023-07-21T11:53:00.008Z"}
+{"level":"warn","message":"Event: boss, Status: false","timestamp":"2023-07-21T11:53:00.800Z"}
+{"level":"warn","message":"Event: helltide, Status: false","timestamp":"2023-07-21T11:53:00.803Z"}
+{"level":"warn","message":"Event: legion, Status: false","timestamp":"2023-07-21T11:53:00.803Z"}
+{"level":"info","message":"running chronEvent chronjob()","timestamp":"2023-07-21T11:54:00.025Z"}
+{"level":"warn","message":"Event: boss, Status: false","timestamp":"2023-07-21T11:54:00.274Z"}
+{"level":"warn","message":"Event: helltide, Status: false","timestamp":"2023-07-21T11:54:00.274Z"}
+{"level":"warn","message":"Event: legion, Status: false","timestamp":"2023-07-21T11:54:00.274Z"}
+{"level":"info","message":"running chronEvent chronjob()","timestamp":"2023-07-21T11:55:00.004Z"}
+{"level":"warn","message":"Event: boss, Status: false","timestamp":"2023-07-21T11:55:00.258Z"}
+{"level":"warn","message":"Event: helltide, Status: false","timestamp":"2023-07-21T11:55:00.259Z"}
+{"level":"warn","message":"Event: legion, Status: false","timestamp":"2023-07-21T11:55:00.260Z"}
+{"level":"info","message":"running chronEvent chronjob()","timestamp":"2023-07-21T11:56:00.019Z"}
+{"level":"warn","message":"Event: boss, Status: false","timestamp":"2023-07-21T11:56:00.273Z"}
+{"level":"warn","message":"Event: helltide, Status: false","timestamp":"2023-07-21T11:56:00.274Z"}
+{"level":"warn","message":"Event: legion, Status: false","timestamp":"2023-07-21T11:56:00.275Z"}
+{"level":"info","message":"running chronEvent chronjob()","timestamp":"2023-07-21T11:57:00.042Z"}
+{"level":"warn","message":"Event: boss, Status: false","timestamp":"2023-07-21T11:57:00.296Z"}
+{"level":"warn","message":"Event: helltide, Status: false","timestamp":"2023-07-21T11:57:00.296Z"}
+{"level":"warn","message":"Event: legion, Status: false","timestamp":"2023-07-21T11:57:00.296Z"}
+{"level":"info","message":"running chronEvent chronjob()","timestamp":"2023-07-21T11:58:00.017Z"}
+{"level":"warn","message":"Event: boss, Status: false","timestamp":"2023-07-21T11:58:00.272Z"}
+{"level":"warn","message":"Event: helltide, Status: false","timestamp":"2023-07-21T11:58:00.273Z"}
+{"level":"warn","message":"Event: legion, Status: false","timestamp":"2023-07-21T11:58:00.273Z"}
+{"level":"info","message":"Event tracking: **❌ Off**","timestamp":"2023-07-21T11:58:30.766Z"}
+{"level":"info","message":"Event tracking: **✅ On**","timestamp":"2023-07-21T12:17:11.949Z"}
+{"level":"info","message":"running chronEvent chronjob()","timestamp":"2023-07-21T12:18:00.021Z"}
+{"level":"info","message":"boss events has started! Event time: 30 minutes","timestamp":"2023-07-21T12:18:00.290Z"}
+{"level":"warn","message":"Event: boss, Status: true","timestamp":"2023-07-21T12:18:00.291Z"}
+{"level":"warn","message":"Event: helltide, Status: false","timestamp":"2023-07-21T12:18:00.291Z"}
+{"level":"warn","message":"Event: legion, Status: false","timestamp":"2023-07-21T12:18:00.291Z"}
+{"level":"info","message":"Received message: @here Ashava Boss event will start in zone: Kehjistan <t:1689942587:R>","timestamp":"2023-07-21T12:18:00.590Z"}
+{"level":"info","message":"running chronEvent chronjob()","timestamp":"2023-07-21T12:19:00.037Z"}
+{"level":"warn","message":"Event: boss, Status: true","timestamp":"2023-07-21T12:19:00.297Z"}
+{"level":"warn","message":"Event: helltide, Status: false","timestamp":"2023-07-21T12:19:00.298Z"}
+{"level":"warn","message":"Event: legion, Status: false","timestamp":"2023-07-21T12:19:00.298Z"}
+{"level":"info","message":"running chronEvent chronjob()","timestamp":"2023-07-21T12:20:00.017Z"}
+{"level":"warn","message":"Event: boss, Status: true","timestamp":"2023-07-21T12:20:00.269Z"}
+{"level":"warn","message":"Event: helltide, Status: false","timestamp":"2023-07-21T12:20:00.270Z"}
+{"level":"warn","message":"Event: legion, Status: false","timestamp":"2023-07-21T12:20:00.271Z"}
+{"level":"info","message":"running chronEvent chronjob()","timestamp":"2023-07-21T12:21:00.037Z"}
+{"level":"warn","message":"Event: boss, Status: true","timestamp":"2023-07-21T12:21:00.282Z"}
+{"level":"warn","message":"Event: helltide, Status: false","timestamp":"2023-07-21T12:21:00.283Z"}
+{"level":"warn","message":"Event: legion, Status: false","timestamp":"2023-07-21T12:21:00.283Z"}
+{"level":"info","message":"running chronEvent chronjob()","timestamp":"2023-07-21T12:22:00.013Z"}
+{"level":"warn","message":"Event: boss, Status: true","timestamp":"2023-07-21T12:22:00.264Z"}
+{"level":"warn","message":"Event: helltide, Status: false","timestamp":"2023-07-21T12:22:00.265Z"}
+{"level":"warn","message":"Event: legion, Status: false","timestamp":"2023-07-21T12:22:00.266Z"}
+{"level":"info","message":"running chronEvent chronjob()","timestamp":"2023-07-21T12:23:00.033Z"}
+{"level":"warn","message":"Event: boss, Status: true","timestamp":"2023-07-21T12:23:00.284Z"}
+{"level":"warn","message":"Event: helltide, Status: false","timestamp":"2023-07-21T12:23:00.285Z"}
+{"level":"warn","message":"Event: legion, Status: false","timestamp":"2023-07-21T12:23:00.285Z"}
+{"level":"info","message":"running chronEvent chronjob()","timestamp":"2023-07-21T12:24:00.009Z"}
+{"level":"warn","message":"Event: boss, Status: true","timestamp":"2023-07-21T12:24:00.268Z"}
+{"level":"warn","message":"Event: helltide, Status: false","timestamp":"2023-07-21T12:24:00.269Z"}
+{"level":"warn","message":"Event: legion, Status: false","timestamp":"2023-07-21T12:24:00.269Z"}
+{"level":"info","message":"running chronEvent chronjob()","timestamp":"2023-07-21T12:25:00.025Z"}
+{"level":"warn","message":"Event: boss, Status: true","timestamp":"2023-07-21T12:25:00.281Z"}
+{"level":"warn","message":"Event: helltide, Status: false","timestamp":"2023-07-21T12:25:00.282Z"}
+{"level":"warn","message":"Event: legion, Status: false","timestamp":"2023-07-21T12:25:00.283Z"}
+{"level":"info","message":"running chronEvent chronjob()","timestamp":"2023-07-21T12:26:00.005Z"}
+{"level":"warn","message":"Event: boss, Status: true","timestamp":"2023-07-21T12:26:00.256Z"}
+{"level":"warn","message":"Event: helltide, Status: false","timestamp":"2023-07-21T12:26:00.257Z"}
+{"level":"warn","message":"Event: legion, Status: false","timestamp":"2023-07-21T12:26:00.258Z"}
+{"level":"info","message":"running chronEvent chronjob()","timestamp":"2023-07-21T12:27:00.025Z"}
+{"level":"warn","message":"Event: boss, Status: true","timestamp":"2023-07-21T12:27:00.296Z"}
+{"level":"warn","message":"Event: helltide, Status: false","timestamp":"2023-07-21T12:27:00.297Z"}
+{"level":"warn","message":"Event: legion, Status: false","timestamp":"2023-07-21T12:27:00.298Z"}
+{"level":"info","message":"running chronEvent chronjob()","timestamp":"2023-07-21T12:28:00.004Z"}
+{"level":"warn","message":"Event: boss, Status: true","timestamp":"2023-07-21T12:28:00.265Z"}
+{"level":"warn","message":"Event: helltide, Status: false","timestamp":"2023-07-21T12:28:00.266Z"}
+{"level":"warn","message":"Event: legion, Status: false","timestamp":"2023-07-21T12:28:00.267Z"}
+{"level":"info","message":"running chronEvent chronjob()","timestamp":"2023-07-21T12:29:00.023Z"}
+{"level":"warn","message":"Event: boss, Status: true","timestamp":"2023-07-21T12:29:00.283Z"}
+{"level":"warn","message":"Event: helltide, Status: false","timestamp":"2023-07-21T12:29:00.283Z"}
+{"level":"warn","message":"Event: legion, Status: false","timestamp":"2023-07-21T12:29:00.284Z"}
+{"level":"info","message":"running chronEvent chronjob()","timestamp":"2023-07-21T12:30:00.009Z"}
+{"level":"warn","message":"Event: boss, Status: false","timestamp":"2023-07-21T12:30:00.264Z"}
+{"level":"warn","message":"Event: helltide, Status: false","timestamp":"2023-07-21T12:30:00.265Z"}
+{"level":"warn","message":"Event: legion, Status: false","timestamp":"2023-07-21T12:30:00.265Z"}
+{"level":"info","message":"running chronEvent chronjob()","timestamp":"2023-07-21T12:31:00.017Z"}
+{"level":"warn","message":"Event: boss, Status: false","timestamp":"2023-07-21T12:31:00.269Z"}
+{"level":"warn","message":"Event: helltide, Status: false","timestamp":"2023-07-21T12:31:00.269Z"}
+{"level":"warn","message":"Event: legion, Status: false","timestamp":"2023-07-21T12:31:00.270Z"}
+{"level":"info","message":"running chronEvent chronjob()","timestamp":"2023-07-21T12:32:00.037Z"}
+{"level":"warn","message":"Event: boss, Status: false","timestamp":"2023-07-21T12:32:00.281Z"}
+{"level":"warn","message":"Event: helltide, Status: false","timestamp":"2023-07-21T12:32:00.281Z"}
+{"level":"warn","message":"Event: legion, Status: false","timestamp":"2023-07-21T12:32:00.282Z"}
+{"level":"info","message":"running chronEvent chronjob()","timestamp":"2023-07-21T12:33:00.013Z"}
+{"level":"warn","message":"Event: boss, Status: false","timestamp":"2023-07-21T12:33:00.265Z"}
+{"level":"warn","message":"Event: helltide, Status: false","timestamp":"2023-07-21T12:33:00.266Z"}
+{"level":"warn","message":"Event: legion, Status: false","timestamp":"2023-07-21T12:33:00.266Z"}
+{"level":"info","message":"running chronEvent chronjob()","timestamp":"2023-07-21T12:34:00.033Z"}
+{"level":"warn","message":"Event: boss, Status: false","timestamp":"2023-07-21T12:34:00.287Z"}
+{"level":"warn","message":"Event: helltide, Status: false","timestamp":"2023-07-21T12:34:00.288Z"}
+{"level":"info","message":"legion events has started! Event time: 5 minutes","timestamp":"2023-07-21T12:34:00.288Z"}
+{"level":"warn","message":"Event: legion, Status: true","timestamp":"2023-07-21T12:34:00.290Z"}
+{"level":"info","message":"Received message: @here Legion event will start in zone: Hawezar <t:1689943089:R>","timestamp":"2023-07-21T12:34:00.705Z"}
+{"level":"info","message":"running chronEvent chronjob()","timestamp":"2023-07-21T12:35:00.003Z"}
+{"level":"warn","message":"Event: boss, Status: false","timestamp":"2023-07-21T12:35:00.261Z"}
+{"level":"warn","message":"Event: helltide, Status: false","timestamp":"2023-07-21T12:35:00.262Z"}
+{"level":"warn","message":"Event: legion, Status: true","timestamp":"2023-07-21T12:35:00.262Z"}
+{"level":"info","message":"running chronEvent chronjob()","timestamp":"2023-07-21T12:36:00.029Z"}
+{"level":"warn","message":"Event: boss, Status: false","timestamp":"2023-07-21T12:36:00.276Z"}
+{"level":"warn","message":"Event: helltide, Status: false","timestamp":"2023-07-21T12:36:00.276Z"}
+{"level":"warn","message":"Event: legion, Status: true","timestamp":"2023-07-21T12:36:00.276Z"}
+{"level":"info","message":"running chronEvent chronjob()","timestamp":"2023-07-21T12:37:00.006Z"}
+{"level":"warn","message":"Event: boss, Status: false","timestamp":"2023-07-21T12:37:00.259Z"}
+{"level":"warn","message":"Event: helltide, Status: false","timestamp":"2023-07-21T12:37:00.259Z"}
+{"level":"warn","message":"Event: legion, Status: true","timestamp":"2023-07-21T12:37:00.260Z"}
+{"level":"info","message":"running chronEvent chronjob()","timestamp":"2023-07-21T12:38:00.023Z"}
+{"level":"warn","message":"Event: boss, Status: false","timestamp":"2023-07-21T12:38:00.293Z"}
+{"level":"warn","message":"Event: helltide, Status: false","timestamp":"2023-07-21T12:38:00.293Z"}
+{"level":"warn","message":"Event: legion, Status: true","timestamp":"2023-07-21T12:38:00.293Z"}
+{"level":"info","message":"running chronEvent chronjob()","timestamp":"2023-07-21T12:39:00.003Z"}
+{"level":"warn","message":"Event: boss, Status: false","timestamp":"2023-07-21T12:39:00.259Z"}
+{"level":"warn","message":"Event: helltide, Status: false","timestamp":"2023-07-21T12:39:00.259Z"}
+{"level":"warn","message":"Event: legion, Status: false","timestamp":"2023-07-21T12:39:00.260Z"}
+{"level":"info","message":"running chronEvent chronjob()","timestamp":"2023-07-21T12:40:00.023Z"}
+{"level":"warn","message":"Event: boss, Status: false","timestamp":"2023-07-21T12:40:00.297Z"}
+{"level":"warn","message":"Event: helltide, Status: false","timestamp":"2023-07-21T12:40:00.298Z"}
+{"level":"warn","message":"Event: legion, Status: false","timestamp":"2023-07-21T12:40:00.299Z"}
+{"level":"info","message":"running chronEvent chronjob()","timestamp":"2023-07-21T12:41:00.037Z"}
+{"level":"warn","message":"Event: boss, Status: false","timestamp":"2023-07-21T12:41:00.283Z"}
+{"level":"warn","message":"Event: helltide, Status: false","timestamp":"2023-07-21T12:41:00.284Z"}
+{"level":"warn","message":"Event: legion, Status: false","timestamp":"2023-07-21T12:41:00.284Z"}
+{"level":"info","message":"running chronEvent chronjob()","timestamp":"2023-07-21T12:42:00.016Z"}
+{"level":"warn","message":"Event: boss, Status: false","timestamp":"2023-07-21T12:42:00.257Z"}
+{"level":"warn","message":"Event: helltide, Status: false","timestamp":"2023-07-21T12:42:00.258Z"}
+{"level":"warn","message":"Event: legion, Status: false","timestamp":"2023-07-21T12:42:00.258Z"}
+{"level":"info","message":"running chronEvent chronjob()","timestamp":"2023-07-21T12:43:00.033Z"}
+{"level":"warn","message":"Event: boss, Status: false","timestamp":"2023-07-21T12:43:00.284Z"}
+{"level":"warn","message":"Event: helltide, Status: false","timestamp":"2023-07-21T12:43:00.284Z"}
+{"level":"warn","message":"Event: legion, Status: false","timestamp":"2023-07-21T12:43:00.285Z"}
+{"level":"info","message":"running chronEvent chronjob()","timestamp":"2023-07-21T12:44:00.013Z"}
+{"level":"warn","message":"Event: boss, Status: false","timestamp":"2023-07-21T12:44:00.270Z"}
+{"level":"warn","message":"Event: helltide, Status: false","timestamp":"2023-07-21T12:44:00.271Z"}
+{"level":"warn","message":"Event: legion, Status: false","timestamp":"2023-07-21T12:44:00.271Z"}
+{"level":"info","message":"running chronEvent chronjob()","timestamp":"2023-07-21T12:45:00.029Z"}
+{"level":"warn","message":"Event: boss, Status: false","timestamp":"2023-07-21T12:45:00.291Z"}
+{"level":"warn","message":"Event: helltide, Status: false","timestamp":"2023-07-21T12:45:00.291Z"}
+{"level":"warn","message":"Event: legion, Status: false","timestamp":"2023-07-21T12:45:00.292Z"}
+{"level":"info","message":"running chronEvent chronjob()","timestamp":"2023-07-21T12:46:00.010Z"}
+{"level":"warn","message":"Event: boss, Status: false","timestamp":"2023-07-21T12:46:00.272Z"}
+{"level":"warn","message":"Event: helltide, Status: false","timestamp":"2023-07-21T12:46:00.273Z"}
+{"level":"warn","message":"Event: legion, Status: false","timestamp":"2023-07-21T12:46:00.274Z"}
+{"level":"info","message":"running chronEvent chronjob()","timestamp":"2023-07-21T12:47:00.026Z"}
+{"level":"warn","message":"Event: boss, Status: false","timestamp":"2023-07-21T12:47:00.283Z"}
+{"level":"warn","message":"Event: helltide, Status: false","timestamp":"2023-07-21T12:47:00.283Z"}
+{"level":"warn","message":"Event: legion, Status: false","timestamp":"2023-07-21T12:47:00.284Z"}
+{"level":"info","message":"running chronEvent chronjob()","timestamp":"2023-07-21T12:48:00.005Z"}
+{"level":"warn","message":"Event: boss, Status: false","timestamp":"2023-07-21T12:48:00.256Z"}
+{"level":"warn","message":"Event: helltide, Status: false","timestamp":"2023-07-21T12:48:00.256Z"}
+{"level":"warn","message":"Event: legion, Status: false","timestamp":"2023-07-21T12:48:00.257Z"}
+{"level":"info","message":"running chronEvent chronjob()","timestamp":"2023-07-21T12:49:00.021Z"}
+{"level":"warn","message":"Event: boss, Status: false","timestamp":"2023-07-21T12:49:00.271Z"}
+{"level":"warn","message":"Event: helltide, Status: false","timestamp":"2023-07-21T12:49:00.272Z"}
+{"level":"warn","message":"Event: legion, Status: false","timestamp":"2023-07-21T12:49:00.272Z"}
+{"level":"info","message":"running chronEvent chronjob()","timestamp":"2023-07-21T12:50:00.001Z"}
+{"level":"warn","message":"Event: boss, Status: false","timestamp":"2023-07-21T12:50:00.242Z"}
+{"level":"warn","message":"Event: helltide, Status: false","timestamp":"2023-07-21T12:50:00.242Z"}
+{"level":"warn","message":"Event: legion, Status: false","timestamp":"2023-07-21T12:50:00.242Z"}
+{"level":"info","message":"running chronEvent chronjob()","timestamp":"2023-07-21T12:51:00.019Z"}
+{"level":"warn","message":"Event: boss, Status: false","timestamp":"2023-07-21T12:51:00.264Z"}
+{"level":"warn","message":"Event: helltide, Status: false","timestamp":"2023-07-21T12:51:00.264Z"}
+{"level":"warn","message":"Event: legion, Status: false","timestamp":"2023-07-21T12:51:00.264Z"}
+{"level":"info","message":"running chronEvent chronjob()","timestamp":"2023-07-21T12:52:00.003Z"}
+{"level":"warn","message":"Event: boss, Status: false","timestamp":"2023-07-21T12:52:00.265Z"}
+{"level":"warn","message":"Event: helltide, Status: false","timestamp":"2023-07-21T12:52:00.266Z"}
+{"level":"warn","message":"Event: legion, Status: false","timestamp":"2023-07-21T12:52:00.266Z"}
+{"level":"info","message":"running chronEvent chronjob()","timestamp":"2023-07-21T12:53:00.005Z"}
+{"level":"warn","message":"Event: boss, Status: false","timestamp":"2023-07-21T12:53:00.256Z"}
+{"level":"warn","message":"Event: helltide, Status: false","timestamp":"2023-07-21T12:53:00.256Z"}
+{"level":"warn","message":"Event: legion, Status: false","timestamp":"2023-07-21T12:53:00.257Z"}
+{"level":"info","message":"running chronEvent chronjob()","timestamp":"2023-07-21T12:54:00.037Z"}
+{"level":"warn","message":"Event: boss, Status: false","timestamp":"2023-07-21T12:54:00.300Z"}
+{"level":"warn","message":"Event: helltide, Status: false","timestamp":"2023-07-21T12:54:00.301Z"}
+{"level":"warn","message":"Event: legion, Status: false","timestamp":"2023-07-21T12:54:00.301Z"}
+{"level":"info","message":"running chronEvent chronjob()","timestamp":"2023-07-21T12:55:00.011Z"}
+{"level":"warn","message":"Event: boss, Status: false","timestamp":"2023-07-21T12:55:00.281Z"}
+{"level":"warn","message":"Event: helltide, Status: false","timestamp":"2023-07-21T12:55:00.281Z"}
+{"level":"warn","message":"Event: legion, Status: false","timestamp":"2023-07-21T12:55:00.281Z"}
+{"level":"info","message":"running chronEvent chronjob()","timestamp":"2023-07-21T12:56:00.031Z"}
+{"level":"warn","message":"Event: boss, Status: false","timestamp":"2023-07-21T12:56:00.272Z"}
+{"level":"warn","message":"Event: helltide, Status: false","timestamp":"2023-07-21T12:56:00.272Z"}
+{"level":"warn","message":"Event: legion, Status: false","timestamp":"2023-07-21T12:56:00.273Z"}
+{"level":"info","message":"starting DiscordService","timestamp":"2023-07-31T11:50:42.517Z"}
+{"level":"info","message":"Bot is ready as: diablo4-events#5025","timestamp":"2023-07-31T11:50:48.922Z"}
+{"level":"info","message":"Event tracking: **✅ On**","timestamp":"2023-07-31T11:51:12.513Z"}
+{"level":"info","message":"running chronEvent chronjob()","timestamp":"2023-07-31T11:52:00.002Z"}
+{"level":"warn","message":"Event: boss, Status: false","timestamp":"2023-07-31T11:52:00.341Z"}
+{"level":"info","message":"helltide events has started! Event time: 60 minutes","timestamp":"2023-07-31T11:52:00.343Z"}
+{"level":"warn","message":"Event: helltide, Status: true","timestamp":"2023-07-31T11:52:00.346Z"}
+{"level":"warn","message":"Event: legion, Status: false","timestamp":"2023-07-31T11:52:00.348Z"}
+{"level":"info","message":"Received message: @here Helltide event will end in zone: frac <t:1690806600:R>","timestamp":"2023-07-31T11:52:00.587Z"}
+{"level":"info","message":"running chronEvent chronjob()","timestamp":"2023-07-31T11:53:00.025Z"}
+{"level":"warn","message":"Event: boss, Status: false","timestamp":"2023-07-31T11:53:00.450Z"}
+{"level":"warn","message":"Event: helltide, Status: true","timestamp":"2023-07-31T11:53:00.451Z"}
+{"level":"warn","message":"Event: legion, Status: false","timestamp":"2023-07-31T11:53:00.453Z"}
+{"level":"info","message":"Event tracking: **❌ Off**","timestamp":"2023-07-31T11:53:40.339Z"}
+{"level":"info","message":"Event tracking: **✅ On**","timestamp":"2023-07-31T11:54:17.948Z"}
+{"level":"info","message":"Event tracking: **❌ Off**","timestamp":"2023-07-31T11:54:20.030Z"}
+{"level":"info","message":"starting DiscordService","timestamp":"2023-07-31T11:56:43.858Z"}
+{"level":"info","message":"Bot is ready as: diablo4-events#5025","timestamp":"2023-07-31T11:56:44.599Z"}
+{"level":"info","message":"Event tracking: **✅ On**","timestamp":"2023-07-31T11:56:46.724Z"}
+{"level":"info","message":"Event tracking: **❌ Off**","timestamp":"2023-07-31T11:56:47.717Z"}
+{"level":"info","message":"starting DiscordService","timestamp":"2023-08-25T04:40:56.837Z"}
+{"level":"info","message":"starting DiscordService","timestamp":"2023-09-04T13:19:37.782Z"}
+{"level":"info","message":"starting DiscordService","timestamp":"2023-09-04T13:19:53.269Z"}
+{"level":"info","message":"starting DiscordService","timestamp":"2023-09-04T13:22:10.148Z"}
+{"level":"info","message":"starting DiscordService","timestamp":"2023-09-04T13:23:59.485Z"}
+{"level":"info","message":"starting DiscordService","timestamp":"2023-09-04T13:24:35.278Z"}
+{"level":"info","message":"Bot is ready as: diablo4-events#5025","timestamp":"2023-09-04T13:24:41.722Z"}
